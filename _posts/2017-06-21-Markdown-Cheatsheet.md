@@ -6,8 +6,6 @@ meta: This is intended as a quick reference and showcase of Markdown syntax.
 
 This is intended as a quick reference and showcase of Markdown syntax.
 
-&nbsp;
-
 ### **1. &nbsp; Headers**
 - - -
 
