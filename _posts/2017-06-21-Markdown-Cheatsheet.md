@@ -10,16 +10,17 @@ This is intended as a quick reference and showcase of Markdown syntax.
 - - -
 
 **Code**
-```
+```markdown
 # H1
 ## H2
 ### H3
 #### H4
 ##### H5
 ###### H6
+```
 
 Alternatively, for H1 and H2, an underline-ish style:
-
+```markdown
 Alt-H1
 ======
 
@@ -35,22 +36,20 @@ Alt-H2
 ##### H5
 ###### H6
 
-Alternatively, for H1 and H2, an underline-ish style:
-
 Alt-H1
 ======
 
 Alt-H2
 ------
 
-&nbsp;
+<br><br>
 
 ### **2. &nbsp; Emphasis**
 - - -
 
 **Code**
-```
-Emphasis (a.k.a. italics): 
+```markdown
+Emphasis (a.k.a. italics):
 *asterisks*, or
 _underscores_
 
@@ -66,7 +65,7 @@ Strikethrough: uses two tildes.
 ```
 
 **Output**  
-Emphasis (a.k.a. italics): 
+Emphasis (a.k.a. italics):
 *asterisks*, or
 _underscores_
 
@@ -80,7 +79,7 @@ Combined emphasis:
 Strikethrough: uses two tildes.
 ~~Scratch this.~~
 
-&nbsp;
+<br><br>
 
 ### **3. &nbsp; Lists**
 - - -
@@ -88,7 +87,7 @@ Strikethrough: uses two tildes.
 **_Note: In this example, leading and trailing spaces are shown with dots._**
 
 **Code**
-```
+```markdown
 1. First ordered list item
 2. Another item
   * Unordered sub-list (two leading spaces)
@@ -128,7 +127,7 @@ Unordered list can use
 - Or minuses
 + Or pluses
 
-&nbsp;
+<br><br>
 
 ### **4. &nbsp; Links**
 - - -
@@ -136,7 +135,7 @@ Unordered list can use
 There are two ways to create links.
 
 **Code**
-```
+```markdown
 [I'm an inline-style link](https://www.google.com)
 
 [I'm an inline-style link with title](https://www.google.com "Google's Homepage")
@@ -149,8 +148,8 @@ There are two ways to create links.
 
 Or leave it empty and use the [link text itself].
 
-URLs and URLs in angle brackets will automatically get turned into links. 
-http://www.example.com or <http://www.example.com> and sometimes 
+URLs and URLs in angle brackets will automatically get turned into links.
+http://www.example.com or <http://www.example.com> and sometimes
 example.com (but not on Github, for example).
 
 Some text to show that the reference links can follow later.
@@ -173,8 +172,8 @@ Some text to show that the reference links can follow later.
 
 Or leave it empty and use the [link text itself].
 
-URLs and URLs in angle brackets will automatically get turned into links. 
-http://www.example.com or <http://www.example.com> and sometimes 
+URLs and URLs in angle brackets will automatically get turned into links.
+http://www.example.com or <http://www.example.com> and sometimes
 example.com (but not on Github, for example).
 
 Some text to show that the reference links can follow later.
@@ -183,13 +182,13 @@ Some text to show that the reference links can follow later.
 [1]: http://slashdot.org
 [link text itself]: http://www.reddit.com
 
-&nbsp;
+<br><br>
 
 ### **5. &nbsp; Images**
 - - -
 
 **Code**
-```
+```markdown
 Here's our logo (hover to see the title text):
 
 Inline-style:
@@ -212,7 +211,7 @@ Reference-style:
 
 [logo]: https://github.com/shevapato2008/blog/raw/gh-pages/assets/images/posts/2017-06-21/icon1.png "Logo Title Text 2"
 
-&nbsp;
+<br><br>
 
 ### **6. &nbsp; Code and Syntax Highlighting**
 - - -
@@ -224,7 +223,8 @@ To see the complete list, and how to write the language names, see the [highligh
 **(1) Inline Code Highlighting**  
 
 **Code**
-```
+
+```markdown
 Inline `code` has `back-ticks around` it.
 ```
 
@@ -247,8 +247,8 @@ s = "Python syntax highlighting"
 print s
 ```
 
-```
-No language indicated, so no syntax highlighting. 
+```markdown
+No language indicated, so no syntax highlighting.
 But let's throw in a <b>tag</b>.
 ```
 ````
@@ -261,17 +261,17 @@ Instead of using ` ```` `, you can also use `~~~` for highlighting multiple bloc
 var s = "JavaScript syntax highlighting";
 alert(s);
 ```
- 
+
 ```python
 s = "Python syntax highlighting"
 print s
 ```
- 
-```
-No language indicated, so no syntax highlighting in Markdown Here (varies on Github). 
+
+```markdown
+No language indicated, so no syntax highlighting in Markdown Here (varies on Github).
 But let's throw in a <b>tag</b>.
 ```
-&nbsp;
+<br><br>
 
 ### **7. &nbsp; Tables**
 - - -
@@ -280,6 +280,7 @@ Tables aren't part of the core Markdown spec, but they are part of GFM and Markd
 They are an easy way of adding tables to your email -- a task that would otherwise require copy-pasting from another application.
 
 **Code**
+
 ````
 
 | Tables        | Are           | Cool  |
@@ -317,13 +318,13 @@ Markdown | Less | Pretty
 *Still* | `renders` | **nicely**
 1 | 2 | 3
 
-&nbsp;
+<br><br>
 
 ### **8. &nbsp; Blockquotes**
 - - -
 
 **Code**
-```
+```markdown
 > Blockquotes are very handy in email to emulate reply text. **_(two trailing spaces)_**  
 > This line is part of the same quote.
 
@@ -340,7 +341,7 @@ Markdown | Less | Pretty
 
 > This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote.
 
-&nbsp;
+<br><br>
 
 ### **9. &nbsp; Inline HTML**
 - - -
@@ -348,7 +349,8 @@ Markdown | Less | Pretty
 You can also use raw HTML in your Markdown, and it'll mostly work pretty well.
 
 **Code**
-```
+
+```markdown
 <dl>
 	<dt>Definition list</dt>
 	<dd>Is something people use sometimes.</dd>
@@ -364,13 +366,14 @@ You can also use raw HTML in your Markdown, and it'll mostly work pretty well.
 	<dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
 </dl>
 
-&nbsp;
+<br><br>
 
 ### **10. &nbsp; Horizontal Rule**
 - - -
 
 **Code**
-```
+
+```markdown
 Three or more...
 + Hyphens `-`
 + Asterisks `*`
@@ -392,7 +395,7 @@ Three or more...
 ***
 ___
 
-&nbsp;
+<br><br>
 
 ### **11. &nbsp; Line Breaks**
 - - -
@@ -404,27 +407,27 @@ see what happens. You'll soon learn to get what you want. "Markdown Toggle" is y
 Here are some things to try out:
 
 **Code**
-```
-Here's a line for us to start with.</br></br>
+
+```markdown
+Here's a line for us to start with.<br><br>
 This line is separated from the one above by two newlines, so it will be a *separate paragraph*.
 
-This line is also a separate paragraph, but...</br>
+This line is also a separate paragraph, but...<br>
 This line is only separated by a single newline, so it's a separate line in the *same paragraph*.
 ```
 
 **Output**  
-Here's a line for us to start with.</br></br>
+Here's a line for us to start with.<br><br>
 This line is separated from the one above by two newlines, so it will be a *separate paragraph*.
 
-This line is also a separate paragraph, but...</br>
+This line is also a separate paragraph, but...<br>
 This line is only separated by a single newline, so it's a separate line in the *same paragraph*.
 
 (Technical note: Markdown Here uses **_GFM line breaks_**, so **_there's no need to use MD's two-space line breaks_**.)
 
-&nbsp;
+<br><br>
 
 ### **12. &nbsp; YouTube Videos**
 - - -
 
 To be continued...
-
