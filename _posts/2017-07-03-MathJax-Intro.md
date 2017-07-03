@@ -20,6 +20,7 @@ There are two ways to access MathJax:
 <br><br>
 
 ## Method 1: Using a Content Delivery Network (CDN) - Recommended!
+---
 
 The **easiest** way to use MathJax is to link directly to a public installation
 available through a Content Distribution Network (CDN). When you use a CDN,
@@ -77,36 +78,10 @@ MathJax.Hub.Config({
 <script type="text/javascript" async src="path-to-mathjax/MathJax.js?config=TeX-AMS_CHTML"></script>
 ```
 
-**Update: the delimiter configuration issue**
-
-Sometimes the so called "default delimiters" do not work properly. For example,
-I tried the 'default 'in-line delimiter `\( ... \)`. It never works... It would
-be safe to specify everything in the `<head>` session to ensure the delimiters
-work properly.
-
-```HTML
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    extensions: ["tex2jax.js"],
-    jax: ["input/TeX", "output/HTML-CSS"],
-    tex2jax: {
-      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
-      displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
-      processEscapes: true
-    },
-    "HTML-CSS": { availableFonts: ["TeX"] }
-  });
-</script>
-<script type="text/javascript"
-  src="path-to-MathJax/MathJax.js">
-</script>
-```
-
-_Note: `path-to-MathJax` in our case is an external url according to the 'CDN' method._
-
 <br><br>
 
 ## Method 2: Installing Your Own Copy of MathJax
+---
 
 ### Step 1: Downloading and Installing MathJax
 
@@ -157,9 +132,40 @@ to load MathJax in your page. For example, your page could look like
 </html>
 ```
 
+<br><br>
+
+## Update on delimiter configuration issue
+---
+Sometimes the so called "default delimiters" do not work properly. For example,
+I tried the 'default 'in-line delimiter `\( ... \)`. It never works... It would
+be safe to specify everything in the `<head>` session to ensure the delimiters
+work properly.
+
+```HTML
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX", "output/HTML-CSS"],
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+      processEscapes: true
+    },
+    "HTML-CSS": { availableFonts: ["TeX"] }
+  });
+</script>
+<script type="text/javascript"
+  src="path-to-MathJax/MathJax.js">
+</script>
+```
+
+_Note: `path-to-MathJax` in our case is an external url according to the 'CDN' method._
+
+<br><br>
+
 ## Reference
 ---
-`[1]` [MathJax Documentation Homepage](http://docs.mathjax.org/en/latest/start.html "MathJax Documentation Homepage")
-`[2]` [Loading and Configuring MathJax](http://docs.mathjax.org/en/latest/configuration.html#loading "Loading and Configuring MathJax")
-`[3]` [tex2jax configuration options](http://docs.mathjax.org/en/latest/options/tex2jax.html#configure-tex2jax "tex2jax configuration options")
-`[4]` [MathJax TeX and LaTeX Support](http://docs.mathjax.org/en/latest/tex.html#tex-support "MathJax TeX and LaTeX Support")
+`[1]` [MathJax Documentation Homepage](http://docs.mathjax.org/en/latest/start.html "MathJax Documentation Homepage") <br>
+`[2]` [Loading and Configuring MathJax](http://docs.mathjax.org/en/latest/configuration.html#loading "Loading and Configuring MathJax") <br>
+`[3]` [tex2jax configuration options](http://docs.mathjax.org/en/latest/options/tex2jax.html#configure-tex2jax "tex2jax configuration options") <br>
+`[4]` [MathJax TeX and LaTeX Support](http://docs.mathjax.org/en/latest/tex.html#tex-support "MathJax TeX and LaTeX Support") <br>
