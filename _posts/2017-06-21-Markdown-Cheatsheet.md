@@ -4,430 +4,542 @@ title: An Introduction to Markdown Syntax
 meta: This is intended as a quick reference and showcase of Markdown syntax.
 ---
 
-This is intended as a quick reference and showcase of Markdown syntax.
 
-### **1. &nbsp; Headers**
-- - -
+This covers the basics of using markdown cells. You can think of markdown cells as documention for your code with extended features.
 
-**Code**
+- [IPython Documentation](http://ipython.readthedocs.io/en/stable/index.html)
+- [nbviewer](http://nbviewer.ipython.org/)
+
+### 1. Headers
+---
+
+#### Code
+
 ```markdown
-# H1
-## H2
-### H3
-#### H4
-##### H5
-###### H6
+# Head 1
+## Head 2
+### Head 3
+#### Head 4
+
+Alt Heading 1
+===
+
+Alt Heading 2
+---
 ```
 
-Alternatively, for H1 and H2, an underline-ish style:
-```markdown
-Alt-H1
-======
+#### Output
 
-Alt-H2
-------
-```
+# Head 1
+## Head 2
+### Head 3
+#### Head 4
 
-**Output**  
-# H1
-## H2
-### H3
-#### H4
-##### H5
-###### H6
+Alt Heading 1
+===
 
-Alt-H1
-======
-
-Alt-H2
-------
+Alt Heading 2
+---
 
 <br><br>
 
-### **2. &nbsp; Emphasis**
-- - -
+### 2. Emphasis
+---
 
-**Code**
+#### Code
+
+(2.1) _Italics_
+
 ```markdown
-Emphasis (a.k.a. italics):
-*asterisks*, or
-_underscores_
-
-Strong emphasis (a.k.a. bold):
-**asterisks**, or
-__underscores__
-
-Combined emphasis:
-**asterisks and _underscores_**.
-
-Strikethrough: uses two tildes.
-~~Scratch this.~~
+- *Italic*
+- _Italic_
 ```
 
-**Output**  
-Emphasis (a.k.a. italics):
-*asterisks*, or
-_underscores_
+(2.2) _Strong_
 
-Strong emphasis (a.k.a. bold):
-**asterisks**, or
-__underscores__
+```markdown
+- **Bold**
+- __Bold__
+```
 
-Combined emphasis:
-**asterisks and _underscores_**.
+(2.3) _Strikethrough_
 
-Strikethrough: uses two tildes.
-~~Scratch this.~~
+```markdown
+- ~~Throught~~
+```
+
+#### Output
+
+(2.1) _Italics_
+ - *Italic*
+ - _Italic_
+
+(2.2) _Strong_
+ - **Bold**
+ - __Bold__
+
+(2.3) _Strikethrough_
+ - ~~Throught~~
 
 <br><br>
 
-### **3. &nbsp; Lists**
-- - -
+### 3. Lists
+---
 
-**_Note: In this example, leading and trailing spaces are shown with dots._**
+#### Code
 
-**Code**
+(3.1) Unordered Lists
+
+Creating simple lists (unordered lists) is done by using plus (+), hyphens (-) or asterisks (*) as list markers. These list markers are interchangeable.
+
 ```markdown
-1. First ordered list item
-2. Another item
-  * Unordered sub-list (two leading spaces)
-1. Actual number doesn't matter, it's just a number.
-  1. Ordered sub-list
-4. And another item.
-
-   You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we'll use three here to also align the raw Markdown).
-
-   To have a line break without a paragraph, you will need to use two trailing spaces. (two trailing spaces here)  
-   **_Note that this is a separate line, but within the same paragraph._** (two trailing spaces here)  
-   (This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)
-
-Unordered list can use
-* asterisks
-- Or minuses
-+ Or pluses
-
+- Item 1
++ Item 2
+* Item 3
 ```
 
-**Output**  
-1. First ordered list item
-2. Another item
-  * Unordered sub-list (two leading spaces)
-1. Actual number doesn't matter, it's just a number.
-  1. Ordered sub-list
-4. And another item.
+(3.2) Ordered List
 
-   You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we'll use three here to also align the raw Markdown).
+Number does not matter.
 
-   To have a line break without a paragraph, you will need to use two trailing spaces. (two trailing spaces here)  
-   **_Note that this is a separate line, but within the same paragraph._** (two trailing spaces here)  
-   (This is contrary to the typical GFM line break behavior, where trailing spaces are not required.)
+```markdown
+1. Item 1
+2. Item 2
+  1. Sub Item 1
+  2. Sub Item 2
+5. Item 3
+10. Item 4
+5. Item 5
+```
 
-Unordered list can use
-* asterisks
-- Or minuses
-+ Or pluses
+(3.3) Nested List
+
+Nest a list requires you to indent by **exactly** four spaces.
+
+```markdown
++ Sub Item 1
+    - Subsub Item 1
+        * Subsubsub Item 1
+        * Subsubsub Item 2
+    - Subsub Item 2
+    - Subsub Item 3
++ Sub Item 2
++ Sub Item 3
+```
+
+(3.4) Mixed List
+
+```markdown
+1. Item 1
+2. Item 2
+ + Sub Item 1
+     - Subsub Item 1
+         * Subsubsub Item 1
+         * Subsubsub Item 2
+     - Subsub Item 2
+     - Subsub Item 3
+ + Sub Item 2
+3. Item 3
+```
+
+#### Output
+
+(3.1) Unordered Lists
+
+Creating simple lists (unordered lists) is done by using plus (+), hyphens (-) or asterisks (*) as list markers. These list markers are interchangeable.
+
+- Item 1
++ Item 2
+* Item 3
+
+(3.2) Ordered List
+
+Number does not matter.
+
+1. Item 1
+2. Item 2
+  1. Sub Item 1
+  2. Sub Item 2
+5. Item 3
+10. Item 4
+5. Item 5
+
+(3.3) Nested List
+
+Nest a list requires you to indent by **exactly** four spaces.
+
++ Sub Item 1
+    - Subsub Item 1
+        * Subsubsub Item 1
+        * Subsubsub Item 2
+    - Subsub Item 2
+    - Subsub Item 3
++ Sub Item 2
++ Sub Item 3
+
+(3.4) Mixed List
+
+1. Item 1
+2. Item 2
+ + Sub Item 1
+     - Subsub Item 1
+         * Subsubsub Item 1
+         * Subsubsub Item 2
+     - Subsub Item 2
+     - Subsub Item 3
+ + Sub Item 2
+3. Item 3
 
 <br><br>
 
-### **4. &nbsp; Links**
-- - -
+### 4. Links
+---
 
-There are two ways to create links.
+#### Code
 
-**Code**
+(4.1) Inline
+
 ```markdown
-[I'm an inline-style link](https://www.google.com)
+https://www.google.com
 
-[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
+[Google](https://www.google.com)
 
-[I'm a reference-style link][Arbitrary case-insensitive reference text]
-
-[I'm a relative reference to a repository file](../blob/master/LICENSE)
-
-[You can use numbers for reference-style link definitions][1]
-
-Or leave it empty and use the [link text itself].
-
-URLs and URLs in angle brackets will automatically get turned into links.
-http://www.example.com or <http://www.example.com> and sometimes
-example.com (but not on Github, for example).
-
-Some text to show that the reference links can follow later.
-
-[arbitrary case-insensitive reference text]: https://www.mozilla.org
-[1]: http://slashdot.org
-[link text itself]: http://www.reddit.com
+[Google with title (hover)](https://www.google.com "Google's Homepage")
 ```
 
-**Output**  
-[I'm an inline-style link](https://www.google.com)
+(4.2) Reference
 
-[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
+```markdown
+This is a guide on [Markdown][1].
 
-[I'm a reference-style link][Arbitrary case-insensitive reference text]
+[1]: http://en.wikipedia.org/wiki/Markdown        "Markdown in Wikipedia"
+```
 
-[I'm a relative reference to a repository file](../blob/master/LICENSE)
+#### Output
 
-[You can use numbers for reference-style link definitions][1]
+(4.1) Inline
 
-Or leave it empty and use the [link text itself].
+https://www.google.com
 
-URLs and URLs in angle brackets will automatically get turned into links.
-http://www.example.com or <http://www.example.com> and sometimes
-example.com (but not on Github, for example).
+[Google](https://www.google.com)
 
-Some text to show that the reference links can follow later.
+[Google with title (hover)](https://www.google.com "Google's Homepage")
 
-[arbitrary case-insensitive reference text]: https://www.mozilla.org
-[1]: http://slashdot.org
-[link text itself]: http://www.reddit.com
+
+(4.2) Reference
+
+This is a guide on [Markdown][1].
+
+[1]: http://en.wikipedia.org/wiki/Markdown        "Markdown in Wikipedia"
 
 <br><br>
 
-### **5. &nbsp; Images**
-- - -
+### 5. Blockquotes
+---
 
-**Code**
+#### Code
+
 ```markdown
-Here's our logo (hover to see the title text):
-
-Inline-style:
-![alt text](https://github.com/shevapato2008/blog/raw/gh-pages/assets/images/posts/2017-06-21/icon1.png "Logo Title Text 1")
-
-Reference-style:
-![alt text][logo]
-
-[logo]: https://github.com/shevapato2008/blog/raw/gh-pages/assets/images/posts/2017-06-21/icon1.png "Logo Title Text 2"
+> This is blockquoted text.
+>
+> This is a second paragraph within the blockquoted text.
 ```
 
-**Output**  
-Here's our logo (hover to see the title text):
-
-Inline-style:
-![alt text](https://github.com/shevapato2008/blog/raw/gh-pages/assets/images/posts/2017-06-21/icon1.png "Logo Title Text 1")
-
-Reference-style:
-![alt text][logo]
-
-[logo]: https://github.com/shevapato2008/blog/raw/gh-pages/assets/images/posts/2017-06-21/icon1.png "Logo Title Text 2"
+#### Output
+> This is blockquoted text.
+>
+> This is a second paragraph within the blockquoted text.
 
 <br><br>
 
-### **6. &nbsp; Code and Syntax Highlighting**
-- - -
+### 6. Line Return / Line Break
+---
 
-Code blocks are part of the Markdown spec, but syntax highlighting isn't. However, many renderers -- like Github's and _Markdown Here_ -- support syntax highlighting. Which languages are supported and how those language names should be written will vary from renderer to renderer. _Markdown Here_ supports highlighting for dozens of languages (and not-really-languages, like diffs and HTTP headers).  
+#### Code
 
-To see the complete list, and how to write the language names, see the [highlight.js demo page](https://highlightjs.org/static/demo/).
-
-**(1) Inline Code Highlighting**  
-
-**Code**
+(6.1) Press Enter
 
 ```markdown
-Inline `code` has `back-ticks around` it.
+Forcing a line-break
+Next line in the list
 ```
 
-**Output**  
-Inline `code` has `back-ticks around` it.
+(6.2) Press Enter twice
 
-**(2) Code Block Highlighting**  
+```markdown
+Forcing a line-break
 
-Blocks of code are either fenced by lines with three back-ticks ```, or are indented with four spaces. I recommend only using the fenced code blocks -- they're easier and only they support syntax highlighting.
+Next line in the list
+```
 
-**Code**
+(6.3) Add HTML br tag
+
+```markdown
+Forcing a line-break <br>
+Next line in the list
+```
+
+#### Output
+
+(6.1) Press Enter
+
+Forcing a line-break
+Next line in the list
+
+(6.2) Press Enter twice
+
+Forcing a line-break
+
+Next line in the list
+
+(6.3) Add HTML br tag
+
+Forcing a line-break <br>
+Next line in the list
+
+<br><br>
+
+### 7. Horizontal Rules
+---
+
+You can create a horizontal rule by placing **3 or more** asterisks (*), hyphens (-), or underscores (_) on a single line. Spaces between them is allowed.
+
+##### Code
+
+(7.1) Asterisks
+
+```markdown
+***
+(Line break)
+* * *
+(Line break)
+**********
+```
+
+(7.2) Hyphens
+
+```markdown
+---
+(Line break)
+- - -
+(Line break)
+----------
+```
+
+(7.3) Underscores
+
+```markdown
+___
+(Line break)
+_ _ _
+(Line break)
+__________
+```
+
+#### Output
+
+(7.1) Asterisks
+
+***
+
+* * *
+
+**********
+
+
+(7.2) Hyphens
+
+---
+
+- - -
+
+----------
+
+
+(7.3) Underscores
+
+___
+
+_ _ _
+
+__________
+
+<br><br>
+
+
+### 8. Images
+---
+
+#### Code
+
+```markdown
+![Alt Text](http://www.google.com/logos/2012/turing-doodle-static.jpg "Alan Turing's 100th Birthday")
+```
+
+#### Output
+
+![Alt Text](http://www.google.com/logos/2012/turing-doodle-static.jpg "Alan Turing's 100th Birthday")
+
+<br><br>
+
+### 9. Code and Syntax Highlighting
+---
+
+#### Code
+
 ````
-```javascript
-var s = "JavaScript syntax highlighting";
-alert(s);
-```
-
 ```python
 s = "Python syntax highlighting"
 print s
 ```
 
-```markdown
+```javascript
+var s = "JavaScript syntax highlighting";
+alert(s);
+```
+
+```
 No language indicated, so no syntax highlighting.
 But let's throw in a <b>tag</b>.
 ```
 ````
 
-Instead of using ` ```` `, you can also use `~~~` for highlighting multiple blocks of code. Please refer to the following post.  
-[How do I escape three backticks surrounded by a codeblock in markdown?](https://stackoverflow.com/questions/31825237/how-do-i-escape-three-backticks-surrounded-by-a-codeblock-in-markdown "StackOverflow")
-
-**Output**  
-```javascript
-var s = "JavaScript syntax highlighting";
-alert(s);
-```
+#### Output
 
 ```python
 s = "Python syntax highlighting"
 print s
 ```
 
-```markdown
-No language indicated, so no syntax highlighting in Markdown Here (varies on Github).
+```javascript
+var s = "JavaScript syntax highlighting";
+alert(s);
+```
+
+```
+No language indicated, so no syntax highlighting.
 But let's throw in a <b>tag</b>.
 ```
-<br><br>
-
-### **7. &nbsp; Tables**
-- - -
-
-Tables aren't part of the core Markdown spec, but they are part of GFM and Markdown Here supports them.
-They are an easy way of adding tables to your email -- a task that would otherwise require copy-pasting from another application.
-
-**Code**
-
-````
-
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
-
-+ Colons `:` can be used to align columns.
-+ There must be at least 3 dashes `---` separating each header cell.
-+ The outer pipes `|` are optional, and you don't need to make the raw Markdown line up prettily.
-+ You can also use inline Markdown.
-
-Markdown | Less | Pretty
---- | --- | ---
-*Still* | `renders` | **nicely**
-1 | 2 | 3
-````
-
-**Output**
-
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
-
-+ Colons `:` can be used to align columns.
-+ There must be at least 3 dashes `---` separating each header cell.
-+ The outer pipes `|` are optional, and you don't need to make the raw Markdown line up prettily.
-+ You can also use inline Markdown.
-
-Markdown | Less | Pretty
---- | --- | ---
-*Still* | `renders` | **nicely**
-1 | 2 | 3
 
 <br><br>
 
-### **8. &nbsp; Blockquotes**
-- - -
-
-**Code**
-```markdown
-> Blockquotes are very handy in email to emulate reply text. **_(two trailing spaces)_**  
-> This line is part of the same quote.
-
-**_Quote break._**
-
-> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote.
-```
-
-**Output**  
-> Blockquotes are very handy in email to emulate reply text. **_(two trailing spaces)_**  
-> This line is part of the same quote.
-
-**_Quote break._**
-
-> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote.
-
-<br><br>
-
-### **9. &nbsp; Inline HTML**
-- - -
-
-You can also use raw HTML in your Markdown, and it'll mostly work pretty well.
-
-**Code**
-
-```markdown
-<dl>
-	<dt>Definition list</dt>
-	<dd>Is something people use sometimes.</dd>
-	<dt>Markdown in HTML</dt>
-	<dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
-</dl>
-```
-**Output**  
-<dl>
-	<dt>Definition list</dt>
-	<dd>Is something people use sometimes.</dd>
-	<dt>Markdown in HTML</dt>
-	<dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
-</dl>
-
-<br><br>
-
-### **10. &nbsp; Horizontal Rule**
-- - -
-
-**Code**
-
-```markdown
-Three or more...
-+ Hyphens `-`
-+ Asterisks `*`
-+ Underscores `_`
-
+### 10. Tables
 ---
-***
-___
 
-```
-
-**Output**  
-Three or more...
-+ Hyphens `-`
-+ Asterisks `*`
-+ Underscores `_`
-
----
-***
-___
-
-<br><br>
-
-### **11. &nbsp; Line Breaks**
-- - -
-
-My basic recommendation for learning how line breaks work is to experiment and discover --
-hit <Enter> once (i.e., insert one newline), then hit it twice (i.e., insert two newlines),
-see what happens. You'll soon learn to get what you want. "Markdown Toggle" is your friend.
-
-Here are some things to try out:
-
-**Code**
+#### Code
 
 ```markdown
-Here's a line for us to start with.<br><br>
-This line is separated from the one above by two newlines, so it will be a *separate paragraph*.
-
-This line is also a separate paragraph, but...<br>
-This line is only separated by a single newline, so it's a separate line in the *same paragraph*.
+| Website   | URL           | Rank |
+| ---------:|:-------------:| ----:|
+| Google    | google.com    | 1    |
+| Facebook  | facebook.com  | 2    |
+| Youtube   | youtube.com   | 3    |
 ```
 
-**Output**  
-Here's a line for us to start with.<br><br>
-This line is separated from the one above by two newlines, so it will be a *separate paragraph*.
 
-This line is also a separate paragraph, but...<br>
-This line is only separated by a single newline, so it's a separate line in the *same paragraph*.
+#### Output
 
-(Technical note: Markdown Here uses **_GFM line breaks_**, so **_there's no need to use MD's two-space line breaks_**.)
+| Website   | URL           | Rank |
+| ---------:|:-------------:| ----:|
+| Google    | google.com    | 1    |
+| Facebook  | facebook.com  | 2    |
+| Youtube   | youtube.com   | 3    |
 
 <br><br>
 
-### **12. &nbsp; YouTube Videos**
-- - -
+### 11. HTML
+---
 
-To be continued...
+#### Code
+
+```markdown
+<hr>
+<p>Almost any <strong>HTML</strong> code will render<br />Just <i>fine</i>.</p>
+```
+
+#### Output
+
+```html
+<hr>
+<p>Almost any <strong>HTML</strong> code will render<br />Just <i>fine</i>.</p>
+```
+
+### 12. Unicode
+---
+
+If you can think of any symbol, it is available in unicode.
+
+#### Code
+
+```markdown
+- ©
+- ®
+- ™
+```
+
+#### Output
+
+- ©
+- ®
+- ™
+
+<br><br>
+
+### 13. YouTube Videos
+---
+
+#### Code
+
+They can't be added directly but you can add an image with a link to the video like below.
+
+(13.1) Use HTML a tag
+
+```html
+Format:
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE
+" target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg"
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+
+Example:
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=R6Sh58B3cOE
+" target="_blank"><img src="http://img.youtube.com/vi/R6Sh58B3cOE/0.jpg"
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+```
+
+(13.2) Use Markdown but at the cost of image sizing and border:
+
+```markdown
+Format:
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
+
+Example:
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/R6Sh58B3cOE/0.jpg)](https://www.youtube.com/watch?v=R6Sh58B3cOE)
+```
+
+**_Note:_** Youtube Video ID:
+
+![ALT TEXT](https://docs.joeworkman.net/assets/rapidweaver/stacks/youtube/youtube-faq.png "Youtube Video ID")
+
+#### Output
+
+(13.1) Use HTML a tag
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=R6Sh58B3cOE
+" target="_blank"><img src="http://img.youtube.com/vi/R6Sh58B3cOE/0.jpg"
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+
+(13.2) Use Markdown
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/R6Sh58B3cOE/0.jpg)](https://www.youtube.com/watch?v=R6Sh58B3cOE)
+
+<br><br>
+
+
+### Reference
+---
+
+Some good references for Markdown Syntax:
+* [Markdown Guide - Basics](http://markdown-guide.readthedocs.io/en/latest/basics.html "Markdown Guide - Basics")
+* [Adam Pritchard's Summary](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet "Github ")
+
+<br><br>
