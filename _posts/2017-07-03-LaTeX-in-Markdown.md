@@ -1,6 +1,6 @@
 ---
 layout: post
-title: LaTex in MarkDown
+title: $\LaTeX$ in MarkDown
 meta: This post introduces some simple $\LaTeX$ syntax in Markdown environment.
 ---
 
@@ -8,7 +8,7 @@ This post introduces some simple $\LaTeX$ syntax in Markdown environment.
 
 Latex is a language to represent mathematical formula using text.
 
-For Latex documentation please check the wiki: <br>
+For $\LaTeX$ documentation please check the wiki: <br>
 http://en.wikibooks.org/wiki/LaTeX/Mathematics
 
 ### 1. Inline and Block $\LaTeX$
