@@ -127,5 +127,6 @@ to load MathJax in your page. For example, your page could look like
 
 ## Reference
 ---
-`[1]` [tex2jax configuration options](http://docs.mathjax.org/en/latest/options/tex2jax.html#configure-tex2jax "tex2jax configuration options")
-`[2]` [MathJax TeX and LaTeX Support](http://docs.mathjax.org/en/latest/tex.html#tex-support "MathJax TeX and LaTeX Support")
+`[1]` [MathJax Documentation Homepage](http://docs.mathjax.org/en/latest/start.html "MathJax Documentation Homepage")
+`[2]` [tex2jax configuration options](http://docs.mathjax.org/en/latest/options/tex2jax.html#configure-tex2jax "tex2jax configuration options")
+`[3]` [MathJax TeX and LaTeX Support](http://docs.mathjax.org/en/latest/tex.html#tex-support "MathJax TeX and LaTeX Support")
