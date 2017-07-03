@@ -48,21 +48,21 @@ Alt Heading 2
 
 #### Code
 
-(2.1) _Italics_
+(2.1) Italics
 
 ```markdown
 - *Italic*
 - _Italic_
 ```
 
-(2.2) _Strong_
+(2.2) Strong
 
 ```markdown
 - **Bold**
 - __Bold__
 ```
 
-(2.3) _Strikethrough_
+(2.3) Strikethrough
 
 ```markdown
 - ~~Throught~~
@@ -70,15 +70,15 @@ Alt Heading 2
 
 #### Output
 
-(2.1) _Italics_
+(2.1) Italics
  - *Italic*
  - _Italic_
 
-(2.2) _Strong_
+(2.2) Strong
  - **Bold**
  - __Bold__
 
-(2.3) _Strikethrough_
+(2.3) Strikethrough
  - ~~Throught~~
 
 <br><br>
