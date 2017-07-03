@@ -16,15 +16,33 @@ http://en.wikibooks.org/wiki/LaTeX/Mathematics
 
 #### Code
 
-Inline Formula: `$x=y$`
+(1.1) **In-Line Mathematics**:
 
-Block Formula: `$$x=y$$`
+Ones that _occur within a paragraph_
+
+```LaTeX
+* $x = y$
+* \\(x = y\\)
+```
+
+(1.2) **Displayed Mathematics**:
+
+Larger equations that _appear separated from the rest of the text on lines by themselves_
+
+```LaTeX
+* $$x = y$$
+* \\[x = y\\]
+```
 
 #### Output
 
-Inline Formula: $x=y$
+(1.1) In-Line Mathematics:
+* $x = y$
+* \\(x = y\\)
 
-Block Formula: $$x=y$$
+(1.2) Displayed Mathematics:
+* $$x = y$$
+* \\[x = y\\]
 
 <br><br>
 
@@ -64,7 +82,7 @@ Block Formula: $$x=y$$
 
 #### Code
 
-```markdown
+```LaTeX
 $y = x + 5$
 $y = x - 5$
 $y = 5x$
@@ -89,7 +107,7 @@ $y = x \div 5$
 
 #### Code
 
-```markdown
+```LaTeX
 $y_n = x_n - x_{n-1}$
 $y = x^2 - 2x^{x-1}$
 ```
@@ -107,14 +125,14 @@ $y = x^2 - 2x^{x-1}$
 
 #### Code
 
-```markdown
+```LaTeX
 - $^1/_2$
 - $\frac{1}{2}$
 ```
 
 #### Output
 
-- $^1/_2$
+- $()^{1}/_{2}$
 - $\frac{1}{2}$
 
 <br><br>
@@ -124,7 +142,7 @@ $y = x^2 - 2x^{x-1}$
 
 #### Code
 
-```markdown
+```LaTeX
 $\sqrt{\frac{1}{3}}$
 $\sqrt[3]{2x}$
 ```
@@ -141,7 +159,7 @@ $\sqrt[3]{2x}$
 
 #### Code
 
-```markdown
+```LaTeX
 (7.1) Sums
 
 * $\sum\limits_{i = 1}^{10} t_i x_i$

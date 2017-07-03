@@ -77,6 +77,33 @@ MathJax.Hub.Config({
 <script type="text/javascript" async src="path-to-mathjax/MathJax.js?config=TeX-AMS_CHTML"></script>
 ```
 
+**Update: the delimiter configuration issue**
+
+Sometimes the so called "default delimiters" do not work properly. For example,
+I tried the 'default 'in-line delimiter `\( ... \)`. It never works... It would
+be safe to specify everything in the `<head>` session to ensure the delimiters
+work properly.
+
+```HTML
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX", "output/HTML-CSS"],
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+      processEscapes: true
+    },
+    "HTML-CSS": { availableFonts: ["TeX"] }
+  });
+</script>
+<script type="text/javascript"
+  src="path-to-MathJax/MathJax.js">
+</script>
+```
+
+_Note: `path-to-MathJax` in our case is an external url according to the 'CDN' method._
+
 <br><br>
 
 ## Method 2: Installing Your Own Copy of MathJax
@@ -103,6 +130,11 @@ You can include MathJax in your web page by putting the following code in your d
 <script type="text/javascript" async src="path-to-MathJax/MathJax.js?config=TeX-MML-AM_CHTML"></script>
 ```
 
+It is also possible to load MathJax into the `<body>` section, if needed.
+If you do this, load it as early as possible, as MathJax will begin to load
+its components as soon as it is included in the page, and that will help speed
+up the processing of the mathematics on your page.
+
 Here, `path-to-MathJax` should be replaced by the URL for the main MathJax
 directory, so if you have put the `MathJax` directory at the top level of you
 server’s web site, you could use
@@ -128,5 +160,6 @@ to load MathJax in your page. For example, your page could look like
 ## Reference
 ---
 `[1]` [MathJax Documentation Homepage](http://docs.mathjax.org/en/latest/start.html "MathJax Documentation Homepage")
-`[2]` [tex2jax configuration options](http://docs.mathjax.org/en/latest/options/tex2jax.html#configure-tex2jax "tex2jax configuration options")
-`[3]` [MathJax TeX and LaTeX Support](http://docs.mathjax.org/en/latest/tex.html#tex-support "MathJax TeX and LaTeX Support")
+`[2]` [Loading and Configuring MathJax](http://docs.mathjax.org/en/latest/configuration.html#loading "Loading and Configuring MathJax")
+`[3]` [tex2jax configuration options](http://docs.mathjax.org/en/latest/options/tex2jax.html#configure-tex2jax "tex2jax configuration options")
+`[4]` [MathJax TeX and LaTeX Support](http://docs.mathjax.org/en/latest/tex.html#tex-support "MathJax TeX and LaTeX Support")
