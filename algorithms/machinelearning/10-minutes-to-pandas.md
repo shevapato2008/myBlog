@@ -1,6 +1,7 @@
 ---
 layout: algorithm
 title: 10 minutes to pandas
+comments: true
 ---
 
 ## {{page.title}}
