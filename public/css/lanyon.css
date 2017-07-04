@@ -121,7 +121,8 @@ pre {
   font-family: 'Great Vibes', Helvetica, sans-serif;
   color: #c0c0c0;
   letter-spacing: 0;
-  margin-left: 3rem;
+  margin-left: 1.5rem;
+  margin-right: 0.5rem;
 }
 
 @media (max-width: 48em) {
@@ -344,8 +345,8 @@ a.sidebar-nav-item:focus {
 /* Navigation bar below post title */
 
 .current {
-	background-color: #000531;
-	color: #fff;
+	background-color: #c8c8c8;
+	color: #000000;
 }
 
 .nav-alg {
@@ -356,6 +357,7 @@ a.sidebar-nav-item:focus {
 
 .nav-alg > li {
   margin-right: 1rem;
+  font-size: 1.25rem;
 	display: inline-block;
 }
 
