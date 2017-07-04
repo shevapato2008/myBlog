@@ -1,0 +1,27 @@
+---
+layout: default
+comments: true
+---
+
+<h1>Algorithms</h1>
+
+<header>
+  <nav>
+    <ul class="nav-alg">
+      <li>
+        <a href="{{site.baseurl}}/algorithms/leetcode/" {% if page.url contains 'algorithms/leetcode' %}class="current"{% endif %}>
+          LeetCode
+        </a>
+      </li>
+      <li>
+        <a href="{{site.baseurl}}/algorithms/machinelearning/" {% if page.url contains 'algorithms/machinelearning' %}class="current"{% endif %}>
+          Machine Learning
+        </a>
+      </li>
+    </ul>
+  </nav>
+</header>
+
+<br>
+
+{{content}}
