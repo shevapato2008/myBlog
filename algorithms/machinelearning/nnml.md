@@ -9,7 +9,7 @@ by Professor Geoffrey Hinton, University of Toronto
 
 <br>
 
-## Week 1: Introduction
+## Week 1 - Introduction
 
 [Slides]({{site.baseurl}}/algorithms/machinelearning/nnml/Week1.pdf "Week 1: Introduction")
 
