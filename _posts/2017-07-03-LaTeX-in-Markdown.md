@@ -187,6 +187,39 @@ $\sqrt[3]{2x}$
 
 <br><br>
 
+### 8. Conditional Functions
+---
+
+#### Code
+
+```LaTeX
+$$
+f(z) =
+\left\{
+  \begin{array}{rcl}
+    \overline{\overline{z^2}+\cos z} & \mbox{for} & |z|<3 \\
+    0 & \mbox{for} & 3\leq|z|\leq5 \\
+    \sin\overline{z} & \mbox{for} & |z|>5
+  \end{array}
+\right.
+$$
+```
+
+#### Output
+
+$$
+f(z) =
+\left\{
+  \begin{array}{rcl}
+    \overline{\overline{z^2}+\cos z} & \mbox{for} & |z|<3 \\
+    0 & \mbox{for} & 3\leq|z|\leq5 \\
+    \sin\overline{z} & \mbox{for} & |z|>5
+  \end{array}
+\right.
+$$
+
+<br><br>
+
 ### Reference
 ---
 
