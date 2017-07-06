@@ -9,6 +9,11 @@
   font-style: normal;
 }
 
+/*
+ * mastheadicon: icons on the mastheadicon
+ * icomoon: icons elsewhere
+ */
+i.mastheadicon,
 i.icomoon {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
@@ -24,7 +29,8 @@ i.icomoon {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icomoon {
+/* icons on the masthead have actions */
+.mastheadicon {
   -o-transition: .5s;
   -ms-transition: .5s;
   -moz-transition: .5s;
@@ -33,29 +39,184 @@ i.icomoon {
   background-color: #ffffff;
 }
 
-.icomoon:hover {
+.mastheadicon:hover {
   background-color: #000000;
   border-radius: 5px;
   color: white;
 }
 
-.icomoon-home:before {
-  content: "\e902";
-}
-.icomoon-about:before {
-  content: "\e976";
-}
-.icomoon-blog:before {
-  content: "\e901";
-}
-.icomoon-algorithm:before {
+.icomoon-position:before {
   content: "\e900";
 }
-.icomoon-contact:before {
+.icomoon-pin2:before {
+  content: "\e901";
+}
+.icomoon-mail-envelope-open:before {
+  content: "\e902";
+}
+.icomoon-mail-envelope-open2:before {
+  content: "\e903";
+}
+.icomoon-mail-envelope:before {
+  content: "\e904";
+}
+.icomoon-mail-envelope2:before {
+  content: "\e905";
+}
+.icomoon-location:before {
+  content: "\e906";
+}
+.icomoon-map:before {
+  content: "\e906";
+}
+.icomoon-compass:before {
+  content: "\e906";
+}
+.icomoon-direction:before {
+  content: "\e906";
+}
+.icomoon-location2:before {
+  content: "\e908";
+}
+.icomoon-map-marker:before {
+  content: "\e908";
+}
+.icomoon-marker:before {
+  content: "\e908";
+}
+.icomoon-pin:before {
+  content: "\e908";
+}
+.icomoon-lock-stroke:before {
+  content: "\e90c";
+}
+.icomoon-lock-fill:before {
+  content: "\e90d";
+}
+.icomoon-unlock-stroke:before {
+  content: "\e90e";
+}
+.icomoon-unlock-fill:before {
+  content: "\e90f";
+}
+.icomoon-tag-stroke:before {
+  content: "\e910";
+}
+.icomoon-tag-fill:before {
+  content: "\e911";
+}
+.icomoon-quill:before {
+  content: "\e907";
+}
+.icomoon-envelop:before {
   content: "\e945";
 }
+.icomoon-user:before {
+  content: "\e971";
+}
+.icomoon-user-tie:before {
+  content: "\e976";
+}
+.icomoon-mail3:before {
+  content: "\ea85";
+}
+.icomoon-google-plus:before {
+  content: "\ea8b";
+}
+.icomoon-google-plus2:before {
+  content: "\ea8c";
+}
+.icomoon-twitter2:before {
+  content: "\ea96";
+}
+.icomoon-github:before {
+  content: "\eab0";
+}
+.icomoon-linkedin2:before {
+  content: "\eac9";
+}
+.icomoon-linkedin22:before {
+  content: "\eaca";
+}
+.icomoon-user-circle-o:before {
+  content: "\e909";
+}
+.icomoon-user-circle:before {
+  content: "\e90a";
+}
+.icomoon-map-signs:before {
+  content: "\e90b";
+}
+.icomoon-wechat:before {
+  content: "\e912";
+}
+.icomoon-twitter-square:before {
+  content: "\e913";
+}
+.icomoon-brand4:before {
+  content: "\e914";
+  color: #dc4e41;
+}
+.icomoon-brand5:before {
+  content: "\e915";
+  color: #7bb32e;
+}
+.icomoon-brand2:before {
+  content: "\e916";
+  color: #1da1f2;
+}
+.icomoon-twitter:before {
+  content: "\e916";
+  color: #1da1f2;
+}
+.icomoon-brand:before {
+  content: "\e917";
+  color: #0077b5;
+}
+.icomoon-linkedin:before {
+  content: "\e917";
+  color: #0077b5;
+}
+.icomoon-brand3:before {
+  content: "\e918";
+  color: #d14836;
+}
+.icomoon-gmail:before {
+  content: "\e918";
+  color: #d14836;
+}
+.icomoon-algorithm:before {
+  content: "\e919";
+}
+.icomoon-blog1:before {
+  content: "\e91a";
+}
+.icomoon-blog2:before {
+  content: "\e91b";
+}
+.icomoon-blog3:before {
+  content: "\e91c";
+}
+.icomoon-blog4:before {
+  content: "\e91d";
+}
+.icomoon-blog5:before {
+  content: "\e91e";
+}
+.icomoon-github1:before {
+  content: "\e91f";
+}
+.icomoon-github2:before {
+  content: "\e920";
+}
+.icomoon-github3:before {
+  content: "\e921";
+}
 .icomoon-glasses:before {
-  content: "\e903";
+  content: "\e922";
+}
+.icomoon-home:before {
+  content: "\e923";
 }
 
 
