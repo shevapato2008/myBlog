@@ -3,6 +3,7 @@ layout: post
 title: Get Started with MathJax
 meta: This post introduces how to include mathematics in your web pages using MathJax.
 comments: true
+mathjax: true
 ---
 
 ## Overview

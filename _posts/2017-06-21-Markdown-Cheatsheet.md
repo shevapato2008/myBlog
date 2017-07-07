@@ -3,6 +3,7 @@ layout: post
 title: An Introduction to Markdown Syntax
 meta: This is intended as a quick reference and showcase of Markdown syntax.
 comments: true
+mathjax: true
 ---
 
 

@@ -2,6 +2,7 @@
 layout: post
 title: Example content
 comments: true
+mathjax: false
 ---
 
 

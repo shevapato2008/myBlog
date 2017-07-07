@@ -3,6 +3,7 @@ layout: post
 title: Jekyll Installation on Ubuntu 16.04
 meta: Go over the commands for Jekyll 3.5 installation on Ubuntu 16.04.
 comments: true
+mathjax: false
 ---
 
 This post goes over the commands for Jekyll 3.5 installation on Ubuntu 16.04.

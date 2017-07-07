@@ -2,6 +2,7 @@
 layout: algorithm
 title: Neural Networks for Machine Learning (Geoffrey Hinton, University of Toronto)
 comments: true
+mathjax: true
 ---
 
 ## Week 2 - The Perceptron learning procedure
@@ -15,7 +16,7 @@ comments: true
   + number of hidden layers >= 2 => **deep neural networks**
   + The activities of the neurons in each layer are a **non-linear** function of the activities in the layer below
 
-<img src="{{site.baseurl}}/algorithms/machinelearning/nnml/2.1_feed-forward-nn.png" alt="[Image] Feed-Forward Neural Network" style="width: 300px; margin: auto;"/>
+<img src="{{site.baseurl}}/algorithms/machinelearning/nnml/image/2.1_feed-forward-nn.png" alt="[Image] Feed-Forward Neural Network" style="width: 300px; margin: auto;"/>
 <p style="text-align: center">Figure 2-1: Feed-Forward Neural Network</p>
 
 **`2.` Recurrent Neural Networks (RNN)**
@@ -24,7 +25,7 @@ comments: true
   + complicated dynamics => more difficult to train
   + more biologically realistic
 
-<img src="{{site.baseurl}}/algorithms/machinelearning/nnml/2.2_recurrent-nn.png" alt="[Image] Recurrent Neural Network" style="width: 200px; margin: auto;"/>
+<img src="{{site.baseurl}}/algorithms/machinelearning/nnml/image/2.2_recurrent-nn.png" alt="[Image] Recurrent Neural Network" style="width: 200px; margin: auto;"/>
 <p style="text-align: center">Figure 2-2: Recurrent Neural Network</p>
 
   Recurrent NN for modeling sequences
@@ -57,7 +58,7 @@ comments: true
   2. learn to weight each feature activation => a scalar
   3. compare scalar with a threshold and decide if input vector is a positive example of target class
 
-<img src="{{site.baseurl}}/algorithms/machinelearning/nnml/2.3_perceptron-architecture.png" alt="[Image] Perceptron Architecture" style="width: 250px; margin: auto;"/>
+<img src="{{site.baseurl}}/algorithms/machinelearning/nnml/image/2.3_perceptron-architecture.png" alt="[Image] Perceptron Architecture" style="width: 250px; margin: auto;"/>
 <p style="text-align: center">Figure 2-3: Perceptron Architecture</p>
 
 **History of Perceptrons**
@@ -104,13 +105,13 @@ $$
     - the plane goes through the origin and is perpendicular to the **_input vector_**
     - on one side of the plane the output is wrong because the scalar product of the weight vector with input vector has the wrong sign
 
-<img src="{{site.baseurl}}/algorithms/machinelearning/nnml/2.4_weight-space-1.png" alt="[Image] Weight Space 1" style="width: 300px; margin: auto;"/>
+<img src="{{site.baseurl}}/algorithms/machinelearning/nnml/image/2.4_weight-space-1.png" alt="[Image] Weight Space 1" style="width: 300px; margin: auto;"/>
 <p style="text-align: center">Figure 2-4: Weight Space of Perceptrons - 1st input vector</p>
 
-<img src="{{site.baseurl}}/algorithms/machinelearning/nnml/2.5_weight-space-2.png" alt="[Image] Weight Space 1" style="width: 300px; margin: auto;"/>
+<img src="{{site.baseurl}}/algorithms/machinelearning/nnml/image/2.5_weight-space-2.png" alt="[Image] Weight Space 1" style="width: 300px; margin: auto;"/>
 <p style="text-align: center">Figure 2-5: Weight Space of Perceptrons - 2nd input vector</p>
 
-<img src="{{site.baseurl}}/algorithms/machinelearning/nnml/2.6_weight-space-3.png" alt="[Image] Weight Space 1" style="width: 300px; margin: auto;"/>
+<img src="{{site.baseurl}}/algorithms/machinelearning/nnml/image/2.6_weight-space-3.png" alt="[Image] Weight Space 1" style="width: 300px; margin: auto;"/>
 <p style="text-align: center">Figure 2-6: Weight Space of Perceptrons - combined effect</p>
 
   + to get all training cases right we need to find a point on the right side of all the planes
@@ -128,7 +129,7 @@ $$
   + So consider “generously feasible” weight vectors that lie within the feasible region by a margin at least as great as the length of the input vector that defines each constraint plane.
     - Every time the perceptron makes a mistake, the squared distance to all of these generously feasible weight vectors is always decreased by at least the squared length of the update vector.
 
-<img src="{{site.baseurl}}/algorithms/machinelearning/nnml/2.7_why-learning-works.png" alt="[Image] Why Learning Works" style="width: 300px; margin: auto;"/>
+<img src="{{site.baseurl}}/algorithms/machinelearning/nnml/image/2.7_why-learning-works.png" alt="[Image] Why Learning Works" style="width: 300px; margin: auto;"/>
 <p style="text-align: center">Figure 2-7: Why Learning Procedure Works</p>
 
 **Informal Sketch of Proof of Convergence**
@@ -152,7 +153,7 @@ $$
     - A _**weight vector**_ defines _**a plane**_ in data-space.
     - The weight plane is perpendicular to the weight vector and misses the origin by a distance equal to the threshold.
 
-<img src="{{site.baseurl}}/algorithms/machinelearning/nnml/2.8_limitation-of-binary-threshold.png" alt="[Image] Limitation of Binary Threshold Neurons" style="width: 300px; margin: auto;"/>
+<img src="{{site.baseurl}}/algorithms/machinelearning/nnml/image/2.8_limitation-of-binary-threshold.png" alt="[Image] Limitation of Binary Threshold Neurons" style="width: 300px; margin: auto;"/>
 <p style="text-align: center">Figure 2-8: Limitation of Binary Threshold Neurons</p>
 
 **Discriminating Simple Patterns Under Translation With Wrap-Around**
@@ -160,7 +161,7 @@ $$
   + Can a binary threshold unit discriminate between different patterns that have the same number of on pixels?
     - <span style="color: red;">Not if the patterns can translate with wrap-around!</span>
 
-<img src="{{site.baseurl}}/algorithms/machinelearning/nnml/2.9_patterns-with-wrap-around.png" alt="[Image] Patterns With Wrap-Around" style="width: 300px; margin: auto;"/>
+<img src="{{site.baseurl}}/algorithms/machinelearning/nnml/image/2.9_patterns-with-wrap-around.png" alt="[Image] Patterns With Wrap-Around" style="width: 300px; margin: auto;"/>
 <p style="text-align: center">Figure 2-9: Patterns With Wrap-Around</p>
 
 **Why This Result Is Devastating for Perceptrons**

@@ -1,5 +1,6 @@
 ---
 layout: algorithm
+mathjax: true
 ---
 
 This is LeetCode homepage.

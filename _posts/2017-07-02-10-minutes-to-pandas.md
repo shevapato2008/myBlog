@@ -3,6 +3,7 @@ layout: post
 title: 10 minutes to pandas
 meta: An elementary tutorial on pandas library.
 comments: true
+mathjax: false
 ---
 
 ```python

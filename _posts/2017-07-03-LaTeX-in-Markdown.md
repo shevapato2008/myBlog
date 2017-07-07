@@ -3,6 +3,7 @@ layout: post
 title: $\LaTeX$ in MarkDown
 meta: This post introduces some simple $\LaTeX$ syntax in Markdown environment.
 comments: true
+mathjax: true
 ---
 
 This post introduces some simple $\LaTeX$ syntax in Markdown environment.
