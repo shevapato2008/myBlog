@@ -18,7 +18,9 @@ by Professor Geoffrey Hinton, University of Toronto
 ## [Week 2 - The Perceptron learning procedure]({{site.baseurl}}/algorithms/machinelearning/nnml/week2 "Week 2")<br>
 a. An Overview of the Main Types of Neural Network Architecture<br>
 b. Perceptrons: The First Generation of Neural Networks<br>
-
+c. A Geometrical View of Perceptrons<br>
+d. Why the Learning Works?<br>
+e. What Perceptrons Can't Do?
 
 [Slides]({{site.baseurl}}/algorithms/machinelearning/nnml/Week2.pdf "Week 2 - The Perceptron learning procedure")
 
