@@ -117,21 +117,20 @@ $$
 \Delta w_{i} = - \epsilon \cdot \frac{\partial E}{\partial w_{i}} = \sum_{n} \epsilon \cdot x_{i}^{n} \cdot (t^{n} - y^{n})
 $$
 
-My own derivation:
-
+Derivation: <br>
 Assuming that there are<br>
-(1) $m$ data points in the training set;<br>
-(2) $p$ dimensions for each data point;
+``-`` $m$ data points in the training set;<br>
+``-`` $p$ dimensions for each data point;
 > $$
-> \begin{align}
-> E &= \frac{1}{2} \sum_{i=1}^{m} E^{(i)} = \frac{1}{2} \sum_{i=1}^{m} (t^{(i)} - y^{(i)})^{2} \\
-> \frac{\partial E}{\partial w_{j}} &= \frac{1}{2} \sum_{i=1}^{m} \frac{\partial E^{(i)}}{\partial w_{j}} \qquad &&\text{for} \ j = 1, 2, ..., p \\
-> &= \frac{1}{2} \sum_{i=1}^{m} \frac{\partial E^{(i)}}{\partial y^{(i)}} \cdot \frac{\partial y^{(i)}}{\partial w_{j}} &&\text{(chain rule)}\\
-> &= \frac{1}{2} \sum_{i=1}^{m} 2 (t^{(i)} - y^{(i)}) (-1) \cdot x_{j}^{(i)} &&(\text{since} \ \frac{\partial y^{(i)}}{\partial w_{j}} = \frac{\partial \sum_{j=1}^{p} w_{j} x_{j}^{(i)}}{\partial w_{j}}) \\
-> &= - \sum_{i=1}^{m} x_{j}^{(i)} \cdot (t^{(i)} - y^{(i)}) \\
-> \Delta w_{j} &= - \epsilon \cdot \frac{\partial E}{\partial w_{j}} = \sum_{i=1}^{m} \epsilon \cdot x_{j}^{(i)} \cdot (t^{(i)} - y^{(i)}) &&\text{for} \ j = 1, 2, ..., p \\
-> \end{align}
-> $$
+\begin{align}
+  E &= \frac{1}{2} \sum_{i=1}^{m} E^{(i)} = \frac{1}{2} \sum_{i=1}^{m} (t^{(i)} - y^{(i)})^{2} \\
+  \frac{\partial E}{\partial w_{j}} &= \frac{1}{2} \sum_{i=1}^{m} \frac{\partial E^{(i)}}{\partial w_{j}} \qquad &&\text{for} \ j = 1, 2, ..., p \\
+  &= \frac{1}{2} \sum_{i=1}^{m} \frac{\partial E^{(i)}}{\partial y^{(i)}} \cdot \frac{\partial y^{(i)}}{\partial w_{j}} &&\text{(chain rule)}\\
+  &= \frac{1}{2} \sum_{i=1}^{m} 2 (t^{(i)} - y^{(i)}) (-1) \cdot x_{j}^{(i)} &&(\text{since} \ \frac{\partial y^{(i)}}{\partial w_{j}} = \frac{\partial \sum_{j=1}^{p} w_{j} x_{j}^{(i)}}{\partial w_{j}}) \\
+  &= - \sum_{i=1}^{m} x_{j}^{(i)} \cdot (t^{(i)} - y^{(i)}) \\
+  \Delta w_{j} &= - \epsilon \cdot \frac{\partial E}{\partial w_{j}} = \sum_{i=1}^{m} \epsilon \cdot x_{j}^{(i)} \cdot (t^{(i)} - y^{(i)}) &&\text{for} \ j = 1, 2, ..., p \\
+\end{align}
+$$
 
 **Behavior of the Iterative Learning Procedure**
   + Does the learning procedure eventually get the right answer?
@@ -148,7 +147,9 @@ Assuming that there are<br>
     - So we have to choose a learning rate. This is annoying.
 
 $$
-\Delta w_{j} = \sum_{i=1}^{m} \epsilon \cdot x_{j}^{(i)} \cdot (t^{(i)} - y^{(i)}) \qquad \text{for} \ j = 1, 2, ..., p
+\boxed{
+  \Delta w_{j} = \sum_{i=1}^{m} \epsilon \cdot x_{j}^{(i)} \cdot (t^{(i)} - y^{(i)}) \qquad \text{for} \ j = 1, 2, ..., p
+}
 $$
 
 <br>
@@ -195,7 +196,196 @@ $$
 
 ### c. Learning the Weights of a Logistic Output Neuron
 
+**Logistic Neurons**
+  + These give a _real-valued output_ that is a _smooth_ and _bounded_ function of their total input.
+  + nice derivatives --> make learning easy
 
+$$
+\begin{align}
+z &= b + \sum_{i} x_{i} w_{i} \\
+y &= \frac{1}{1 + e^{-z}}
+\end{align}
+$$
+
+**The Derivatives of a Logistic Neuron**
+  + The derivatives of the logit, $z$, with respect to the inputs and the weights are very simple:
+
+$$
+  \frac{\partial z}{\partial w_{i}} = x_{i} \qquad
+  \frac{\partial z}{\partial x_{i}} = w_{i}
+$$
+
+  + The derivative of the output with respect to the logit is simple if you express it in terms of the output:
+
+$$
+\begin{align}
+  y &= \frac{1}{1 + e^{-z}} \\
+  \frac{dy}{dz} &= y(1 - y)
+\end{align}
+$$
+
+Derivation:
+> <img src="{{site.baseurl}}/algorithms/machinelearning/nnml/image/3.101_logistic-neuron-derivative.png" alt="[Image] Derivation" style="width: 500px; margin: auto;"/>
+
+**The Weights of a Logistic Unit**
+
+Assuming that we have<br>
+`-` $m$ data points<br>
+`-` $p$ weights
+
+$$
+\boxed{
+  \frac{\partial E}{\partial w_{j}} = - \sum_{i=1}^{m} x_{j}^{(i)} y^{(i)} (1 - y^{(i)}) (t^{i} - y^{(i)}) \qquad \text{for} \ j = 1, 2, ..., p
+}
+$$
+
+Derivation:<br>
+> $$
+\begin{align}
+  \frac{\partial y}{\partial w_{j}} &= \frac{\partial z}{\partial w_{j}} \cdot \frac{dy}{dz} = x_{j} \cdot y(1 - y) \\
+  \frac{\partial E}{\partial w_{j}} &= \sum_{i=1}^{m} \frac{\partial E^{(i)}}{\partial w_{j}} \\
+  &= \sum_{i=1}^{m} \frac{\partial E^{(i)}}{\partial y^{(i)}} \cdot \frac{\partial y^{(i)}}{\partial w_{j}} \qquad \text{(Chain Rule)} \\
+  &= \sum_{i=1}^{m} - (t^{(i)} - y^{(i)}) \cdot x_{j}^{(i)} y^{(i)}(1 - y^{(i)}) \\
+  &= - \sum_{i=1}^{m} x_{j}^{(i)} y^{(i)} (1 - y^{(i)}) (t^{(i)} - y^{(i)})
+\end{align}
+$$
+
+<br>
+
+### d. The Backpropagation Algorithm
+---
+
+**Learning with Hidden Units (Again)**
+  + NN without hidden units:
+    - very limited in the input-output mappings they can model.
+  + NN with a layer of hand-coded features (as in a perceptron):
+    - pro: much more powerful
+    - con: hard bit is designing the features
+  + Goal: _automate the loop of designing features_ for a particular task and seeing how well they work.
+
+**Learning by Perturbing Weights**
+  + Randomly <span style="color:red;">perturb one weight</span> and see if it improves performance. If so, save the change.
+    - a form of reinforcement learning
+    - Pros:
+      * an intuitive method
+    - Cons:
+      * very inefficient: We need to do multiple forward passes on a representative set of training cases just to change one weight. Backpropagation is much better.
+      * Towards the end of learning, large weight perturbations will nearly always make things worse, because the weights need to have the right relative values.
+
+  + Randomly <span style="color:red;">perturb all the weights in parallel</span> and correlate the performance gain with the weight changes
+    - Not any better because we need lots of trials on each training case to “see” the effect of changing one weight through the noise created by all the changes to other weights.
+
+  + A better idea: Randomly perturb the activities of the hidden units.
+    - Once we know how we want a hidden activity to change on a given training case, we can compute how to change the weights.
+    - There are fewer activities than weights, but backpropagation still wins by a factor of the number of neurons.
+
+**The Idea Behind Backpropagation**
+  + We don’t know what the hidden units ought to do, but we can compute how fast the error changes as we change a hidden activity.
+    -  Instead of using desired activities to train the hidden units, use <span style="color:red;">error derivatives w.r.t. hidden activities</span>.
+    - Each hidden activity can affect many output units and can therefore have many separate effects on the error. These effects must be combined.
+  + We can compute error derivatives for all the hidden units efficiently at the same time.
+    - Once we have the error derivatives for the hidden activities, its easy to get the error derivatives for the weights going into a hidden unit.
+
+**Sketch of the Backpropagation Algorithm on a Single Case**
+  + First convert the discrepancy between each output and its target value into an error derivative $\frac{\partial E}{\partial y_j}$.
+
+$$
+\begin{align}
+  E &= \frac{1}{2} \sum_{j \in output} (t_{j} - y_{j})^{2} \\
+  \frac{\partial E}{\partial y_j} &= - (t_j - y_j)
+\end{align}
+$$
+
+  + Then compute error derivatives in each hidden layer $\frac{\partial E}{\partial y_j}$ from error derivatives in the layer above $\frac{\partial E}{\partial y_i}$.
+
+  + Then use error derivatives w.r.t. activities to get error derivatives w.r.t. the incoming weights.
+
+<img src="{{site.baseurl}}/algorithms/machinelearning/nnml/image/3.6_backpropagation-single-case.png" alt="[Image] Backpropagation on a Single Case" style="width: 300px; margin: auto;"/>
+<p style="text-align: center">Figure 3-6: Backpropagation on a Single Case</p>
+
+**Backpropagating dE/dy**
+
+<img src="{{site.baseurl}}/algorithms/machinelearning/nnml/image/3.7-backpropagating-dEdy.png" alt="[Image] Backpropagating dE/dy" style="width: 250px; margin: auto;"/>
+<p style="text-align: center">Figure 3-7: Backpropagating dE/dy</p>
+
+Assume<br>
+`-` logistic neurons, we therefore have
+
+$$
+\frac{dy}{dz} = y(1 - y)
+$$
+
+`-` $y_{j}$ = output of neuron $j$ <br>
+`-` $y_{i}$ = output of neuron $i$ <br>
+`-` $z_{j}$ = sum of all the input to node $j$ <br>
+`-` $w_{ij}$ = weight between node $i$ and node $j$
+
+$$
+\boxed{
+  \begin{align}
+    \frac{\partial E}{\partial z_{j}} &= y_{j}(1 - y_{j}) \frac{\partial E}{\partial y_{j}} \\
+    \frac{\partial E}{\partial y_{i}} &= \sum_{j} w_{ij} \frac{\partial E}{\partial z_{j}} \\
+    \frac{\partial E}{\partial w_{ij}} &= y_{i} \frac{\partial E}{\partial z_{j}}
+  \end{align}
+}
+$$
+
+Derivation: <br>
+> $$
+\begin{align}
+  \frac{\partial E}{\partial z_{j}} &= \frac{d y_{j}}{d z_{j}} \cdot \frac{\partial E}{\partial y_j} \qquad &&\text{(chain rule)} \\
+  &= y_{j} (1 - y_{j}) \cdot \frac{\partial E}{\partial y_j} &&\text{(node } j \text{ is a logistic neuron)} \\
+  \frac{\partial E}{\partial y_{i}} &= \sum_{j} \frac{d z_{j}}{d y_{i}} \cdot \frac{\partial E}{\partial z_{j}} &&\text{(sum over all nodes on node } j \text{'s layer)} \\
+  &= \sum_{j} w_{ij} \cdot \frac{\partial E}{\partial z_{j}} &&\text{(since } z_{j} = \sum_{k} w_{kj} y_{k} \text{)} \\
+  \frac{\partial E}{\partial w_{ij}} &= \frac{\partial z_{j}}{\partial{w_{ij}}} \cdot \frac{\partial{E}}{\partial{z_{j}}} \\
+  &= y_{i} \cdot \frac{\partial E}{\partial z_{j}} &&\text{(since } z_{j} = \sum_{k} w_{kj} y_{k} \text{)}
+\end{align}
+$$
+
+<br>
+
+### e. How to Use the Derivatives Computed by the Backpropagation Algorithm
+---
+
+**Converting Error Derivatives into a Learning Procedure**
+  + The backpropagation algorithm is an <span style="color:red;">efficient</span> way of computing the error derivative dE/dw for every weight on a single training case.
+  + To get a fully specified learning procedure, we still need to make a lot of other decisions about how to use these error derivatives:
+    - <span style="color:blue;">Optimization issues</span>: How do we use the error derivatives on individual cases to discover a good set of weights? <span style="color:blue;">(lecture 6)</span>
+    - <span style="color:blue;">Generalization issues</span>: How do we ensure that the learned weights work well for cases we did not see during training? <span style="color:blue;">(lecture 7)</span>
+  + We now have a very brief overview of these two sets of issues.
+
+**Optimization Issues in Using the Weight Derivatives**
+  + How often to update the weights
+    - **Online**: after each training case.
+    - **Full batch**: after a full sweep through the training data.
+    - **Mini-batch**: after a small sample of training cases.
+  + How much to update (discussed further in lecture 6)
+    - Use a fixed learning rate?
+    - Adapt the global learning rate?
+    - Adapt the learning rate on each connection separately?
+    - Don’t use steepest descent?
+
+**Overfitting: The Downside of Using Powerful Models**
+  + The training data contains information about the regularities in the mapping from input to output. But it also contains two types of noise.
+    - The target values may be unreliable (usually only a minor worry).
+    - There is **sampling error**. There will be accidental regularities just because of the particular training cases that were chosen.
+  + When we fit the model, it cannot tell which regularities are real and which are caused by sampling error.
+    - So it fits both kinds of regularity.
+    - If the model is very flexible it can model the sampling error really well. <span style="color:red;">This is a disaster</span>.
+
+**A Simple Example of Overfitting**
+Skipped.
+
+**Ways to Reduce Overfitting**
+  + A large number of different methods have been developed.
+    - Weight-decay
+    - Weight-sharing
+    - Early stopping
+    - Model averaging
+    - Bayesian fitting of neural nets
+    - Dropout
+    - Generative pre-training
+  + Many of these methods will be described in <span style="color:blue;">lecture 7</span>.
 
 <br>
 
