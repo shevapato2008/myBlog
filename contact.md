@@ -24,7 +24,7 @@ comments: false
     <td>shevapato2008@gmail.com</td>
   </tr>
   <tr>
-    <td align="center"><i class="icomoon icomoon-linkedin" title="Linkedin"></i></td>
+    <td align="center"><i class="icomoon icomoon-linkedin" title="LinkedIn"></i></td>
     <td><a href="https://www.linkedin.com/in/fan-yang-bbb919b1/" title="Linkedin Profile">https://www.linkedin.com/in/fan-yang-bbb919b1/</a></td>
   </tr>
 </table>
