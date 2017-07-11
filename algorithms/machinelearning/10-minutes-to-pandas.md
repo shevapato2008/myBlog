@@ -2,6 +2,7 @@
 layout: algorithm
 title: 10 minutes to pandas
 comments: true
+mathjax: true
 ---
 
 ## {{page.title}}
