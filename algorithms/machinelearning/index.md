@@ -4,10 +4,10 @@ layout: algorithm
 
 This is machine learning homepage.
 
-## Python Basics
+## Python
 ---
-
-[10 Minutes to Pandas]({{site.baseurl}}/algorithms/machinelearning/10-minutes-to-pandas "10 Minutes to Pandas")
+[Python Basics]({{site.baseurl}}/algorithms/machinelearning/python_basics/ "Python Basics") <br>
+[10 Minutes to Pandas]({{site.baseurl}}/algorithms/machinelearning/10-minutes-to-pandas "10 Minutes to Pandas") <br>
 
 <br>
 
