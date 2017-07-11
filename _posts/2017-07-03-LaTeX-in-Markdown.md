@@ -225,4 +225,6 @@ $$
 ---
 
 `[1]` [LaTeX commands to display the Greek alphabet](https://www.latex-tutorial.com/symbols/greek-alphabet/ "LaTeX commands to display the Greek alphabet")<br>
-`[2]` [A simple guide to LaTeX - Step by Step](https://www.latex-tutorial.com/tutorials/ "A simple guide to LaTeX - Step by Step")
+`[2]` [A simple guide to LaTeX - Step by Step](https://www.latex-tutorial.com/tutorials/ "A simple guide to LaTeX - Step by Step")<br>
+`[3]` [Latex Cheat Sheet]({{site.baseurl}}/public/files/latex_cheat_sheet.pdf "Latex Cheat Sheet")<br>
+`[4]` [Latex Mathematical Symbols]({{site.baseurl}}/public/files/latex_mathematical_symbols.pdf "Latex Mathematical Symbols")<br>
