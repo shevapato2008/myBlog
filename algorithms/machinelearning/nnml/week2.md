@@ -184,6 +184,6 @@ $$
 
 ### Reading
 ---
-[Week 2 Slides]({{site.baseurl}}/algorithms/machinelearning/nnml/Week2.pdf "Week 2 - The Perceptron learning procedure")
+[Week 2 Slides]({{site.baseurl}}/algorithms/machinelearning/nnml/slides/Week2.pdf "Week 2 - The Perceptron learning procedure")
 
 <br>

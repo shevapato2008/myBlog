@@ -305,7 +305,7 @@ $$
 
 **Backpropagating dE/dy**
 
-<img src="{{site.baseurl}}/algorithms/machinelearning/nnml/image/3.7-backpropagating-dEdy.png" alt="[Image] Backpropagating dE/dy" style="width: 250px; margin: auto;"/>
+<img src="{{site.baseurl}}/algorithms/machinelearning/nnml/image/3.7_backpropagating-dEdy.png" alt="[Image] Backpropagating dE/dy" style="width: 250px; margin: auto;"/>
 <p style="text-align: center">Figure 3-7: Backpropagating dE/dy</p>
 
 Assume<br>
@@ -391,7 +391,7 @@ Skipped.
 
 ### Reading
 ---
-+ [Week 3 Slides]({{site.baseurl}}/algorithms/machinelearning/nnml/Week3.pdf "Week 3 - The Perceptron learning procedure") <br>
-+ Rumelhart, D. E., Hinton, G. E. & Williams, R. J. in _Parallel Distributed Processing: Explorations in the Microstructure of Cognition._ Vol. 1: _Foundations_ (eds Rumelhart, D. E. & McClelland, J. L.) 318−362 (MIT, Cambridge, 1986). [[pdf]({{site.baseurl}}/algorithms/machinelearning/nnml/Chap8_PDP86.pdf)]
++ [Week 3 Slides]({{site.baseurl}}/algorithms/machinelearning/nnml/slides/Week3.pdf "Week 3 - The Perceptron learning procedure") <br>
++ Rumelhart, D. E., Hinton, G. E. & Williams, R. J. in _Parallel Distributed Processing: Explorations in the Microstructure of Cognition._ Vol. 1: _Foundations_ (eds Rumelhart, D. E. & McClelland, J. L.) 318−362 (MIT, Cambridge, 1986). [[pdf]({{site.baseurl}}/algorithms/machinelearning/nnml/supplement/Chap8_PDP86.pdf)]
 
 <br>
