@@ -29,7 +29,7 @@ e. What Perceptrons Can't Do?
 a. Learning the Weights of A Linear Neuron<br>
 b. The Error Surface for A Linear Neuron<br>
 c. Learning the Weights of a Logistic Output Neuron<br>
-d. The Backpropagation Algorithm
+d. The Backpropagation Algorithm<br>
 e. How to Use the Derivatives Computed by the Backpropagation Algorithm
 
 [Slides]({{site.baseurl}}/algorithms/machinelearning/nnml/Week3.pdf "Week 3 Slides")
