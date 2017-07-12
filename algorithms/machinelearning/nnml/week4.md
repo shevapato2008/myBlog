@@ -129,35 +129,45 @@ mathjax: true
 
 **<span style="color:blue;">Softmax</span>**
 
++ Definition: <br>
+In mathematics, the **softmax function**, or **normalized exponential function**, is <span style="color:blue">a generalization of the logistic function</span> that "squashes" a $K$-dimensional vector $\boldsymbol{z}$ of arbitrary real values to a $K$-dimensional vector $\sigma (\boldsymbol{z})$ of real values in the range $[0, 1]$ that add up to $1$. [[Wikipedia](https://en.wikipedia.org/wiki/Softmax_function "Softmax function")]
+
 <img src="{{site.baseurl}}/algorithms/machinelearning/nnml/image/4.4_softmax.png" alt="[Image] Softmax" style="width: 300px; margin: auto;"/>
 <p style="text-align: center">Figure 4-4: Softmax</p>
 
-Formula:
++ Softmax function
+
+$$
+y_{i} = \frac{e^{z_{i}}}{\sum\limits_{j \in group} e^{z_{j}}}
+$$
+
++ Derivatives of softmax function:
 
 $$
 \boxed{
   \begin{align}
-    y_{i} &= \frac{e^{z_{i}}}{\sum\limits_{j \in group} e^{z_{j}}} \\
-    \frac{\partial y_{i}}{\partial z_{i}} &= y_{i}(1 - y_{i})
+    \text{if } i = j: \qquad \frac{\partial y_{i}}{\partial z_{i}} &= y_{i}(1 - y_{i}) \\
+    \text{if } i \neq j: \qquad \frac{\partial y_{i}}{\partial z_{j}} &= - y_{i}y_{j}
   \end{align}
 }
 $$
 
-Derivation:
+Derivation
 
 > $$
 \begin{align}
-  \frac{\partial y_{i}}{\partial z_{i}} &= \frac{e^{z_{i}} \cdot \sum\limits_{j \in group} e^{z_{j}} - e^{z_{i}} \cdot e^{z_{i}}}{\bigg( \sum\limits_{j \in group} e^{z_{j}} \bigg)^2} \\
-  &= \frac{e^{z_{i}}}{\sum\limits_{j \in group} e^{z_{j}}} - \bigg( \frac{e^{z_{i}}}{\sum\limits_{j \in group} e^{z_{j}}} \bigg)^{2} \\
-  &= y_{i} - (y_{i})^{2} \\
-  &= y_{i}(1 - y_{i})
+  \text{if } i = j: \qquad \frac{\partial y_{i}}{\partial z_{i}}
+  &= \frac{e^{z_{i}} \cdot \sum\limits_{j \in group} e^{z_{j}} - e^{z_{i}} \cdot e^{z_{i}}}{\bigg( \sum\limits_{j \in group} e^{z_{j}} \bigg)^2} \\
+  &= y_{i}(1 - y_{i}) \\
+  \text{if } i \neq j: \qquad \frac{\partial y_{i}}{\partial z_{j}}
+  &= \frac{0 - e^{z_{i}} \cdot e^{z_{j}}}{\bigg( \sum\limits_{j \in group} e^{z_{j}} \bigg)^2} \\
+  &= - y_{i}y_{j}
 \end{align}
 $$
 
 <br>
 
-**Cross-Entropy: the Right Cost Function to Use with Softmax**
-  + The right cost function
++ **Cross-Entropy**: the Right Cost Function to Use with Softmax
 
 $$
 \boxed{
@@ -169,11 +179,25 @@ $$
 }
 $$
 
-  + C has a very big gradient when the target value is 1 and the output is almost 0.
++ Derivatives of cross-entropy cost function for softmax function
 
+$$
+\boxed{
+  \frac{\partial C}{\partial z_{i}} = y_{i} - t_{i}
+}
+$$
 
+Derivation
 
-
+> $$
+\begin{align}
+  \frac{\partial C}{\partial z_{i}} &= \frac{\partial}{\partial z_{i}} \bigg( - t_{i} \log y_{i} - \sum\limits_{j \neq i} t_{j} \log y_{j} \bigg) \\
+  &= - t_{i} \cdot \frac{1}{y_{i}} \cdot \frac{\partial y_{i}}{\partial z_{i}} - \sum\limits_{j \neq i} t_{j} \cdot \frac{1}{y_j} \cdot \frac{\partial y_{j}}{\partial z_{i}} \\
+  &= - t_{i} (1 - y_{i}) + \sum\limits_{j \neq i} t_{j} y_{i} \\
+  &= - t_{i} + y_{i} \sum\limits_{j} t_{j} \\
+  &= y_{i} - t_{i}  \qquad (\text{since} \ \sum\limits_{j} t_{j} = 1)
+\end{align}
+$$
 
 
 
@@ -186,6 +210,8 @@ $$
 [[pdf]({{site.baseurl}}/algorithms/machinelearning/nnml/supplement/A Neural Probabilistic Language Model.pdf)]<br>
 
 **More**
++ Softmax Function
+  - [Softmax Function (Wikipedia)](https://en.wikipedia.org/wiki/Softmax_function "Softmax function")
 + Activation Function
   - http://www.cs.toronto.edu/~guerzhoy/411/lec/W04/activationfn.pdf
   - https://www.youtube.com/watch?v=9vB5nzrL4hY
