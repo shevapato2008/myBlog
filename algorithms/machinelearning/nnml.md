@@ -11,7 +11,7 @@ by Professor Geoffrey Hinton, University of Toronto
 
 ## Week 1 - Introduction
 
-[Slides]({{site.baseurl}}/algorithms/machinelearning/nnml/slides/Week1.pdf "Week 1: Introduction")
+[Slides 01]({{site.baseurl}}/algorithms/machinelearning/nnml/slides/Week1.pdf "Week 1: Introduction")
 
 <br>
 
@@ -22,7 +22,9 @@ c. A Geometrical View of Perceptrons<br>
 d. Why the Learning Works?<br>
 e. What Perceptrons Can't Do?<br>
 
-[Slides]({{site.baseurl}}/algorithms/machinelearning/nnml/slides/Week2.pdf "Week 2 Slides")
+[Slides 02]({{site.baseurl}}/algorithms/machinelearning/nnml/slides/Week2.pdf "Week 2 Slides")
+
+<br>
 
 ## Week 3 - [The Backpropagation Learning Procedure]({{site.baseurl}}/algorithms/machinelearning/nnml/week3)<br>
 
@@ -32,7 +34,14 @@ c. Learning the Weights of a Logistic Output Neuron<br>
 d. The Backpropagation Algorithm<br>
 e. How to Use the Derivatives Computed by the Backpropagation Algorithm<br>
 
-[Slides]({{site.baseurl}}/algorithms/machinelearning/nnml/slides/Week3.pdf "Week 3 Slides")
+[Slides 03]({{site.baseurl}}/algorithms/machinelearning/nnml/slides/Week3.pdf "Week 3 Slides"),
+[Quiz 03]({{site.baseurl}}/algorithms/machinelearning/nnml/quizzes/quiz03.pdf "Quiz 3"),
+[
+  [Assignment 01]({{site.baseurl}}/algorithms/machinelearning/nnml/assignments/Assignment1/assign1.pdf "Assignment 1"),
+  [Code & Data]({{site.baseurl}}/algorithms/machinelearning/nnml/assignments/Assignment1/ "Code & Data for Assignment 1")
+]
+
+<br>
 
 ## Week 4 - [Learning Feature Vectors for Words]({{site.baseurl}}/algorithms/machinelearning/nnml/week4)<br>
 
@@ -42,8 +51,9 @@ c. Another Diversion: The Softmax Output Function<br>
 d. Neuro-Probabilistic Language Models<br>
 e. Ways to Deal with the Large Number of Possible Outputs<br>
 
-[Slides]({{site.baseurl}}/algorithms/machinelearning/nnml/slides/Week4.pdf "Week 4 Slides")
+[Slides 04]({{site.baseurl}}/algorithms/machinelearning/nnml/slides/Week4.pdf "Week 4 Slides")
 
+<br>
 
 
 <br><br>
