@@ -34,12 +34,11 @@ c. Learning the Weights of a Logistic Output Neuron<br>
 d. The Backpropagation Algorithm<br>
 e. How to Use the Derivatives Computed by the Backpropagation Algorithm<br>
 
-[Slides 03]({{site.baseurl}}/algorithms/machinelearning/nnml/slides/Week3.pdf "Week 3 Slides"),
-[Quiz 03]({{site.baseurl}}/algorithms/machinelearning/nnml/quizzes/quiz03.pdf "Quiz 3"),
-[
-  [Assignment 01]({{site.baseurl}}/algorithms/machinelearning/nnml/assignments/Assignment1/assign1.pdf "Assignment 1"),
-  [Code & Data]({{site.baseurl}}/algorithms/machinelearning/nnml/assignments/Assignment1/ "Code & Data for Assignment 1")
-]
+[Slides 03]({{site.baseurl}}/algorithms/machinelearning/nnml/slides/Week3.pdf "Week 3 Slides")<br>
+[Quiz 03]({{site.baseurl}}/algorithms/machinelearning/nnml/quizzes/quiz03 "Quiz 3")
+[[zip]({{site.baseurl}}/algorithms/machinelearning/nnml/quizzes/quiz03/quiz03.zip "quiz03.zip")]<br>
+[Assignment 01]({{site.baseurl}}/algorithms/machinelearning/nnml/assignments/Assignment1/assign1.pdf "Assignment 1")
+[[Code & Data]({{site.baseurl}}/algorithms/machinelearning/nnml/assignments/Assignment1/ "Code & Data for Assignment 1")]
 
 <br>
 
@@ -51,7 +50,9 @@ c. Another Diversion: The Softmax Output Function<br>
 d. Neuro-Probabilistic Language Models<br>
 e. Ways to Deal with the Large Number of Possible Outputs<br>
 
-[Slides 04]({{site.baseurl}}/algorithms/machinelearning/nnml/slides/Week4.pdf "Week 4 Slides")
+[Slides 04]({{site.baseurl}}/algorithms/machinelearning/nnml/slides/Week4.pdf "Week 4 Slides")<br>
+[Quiz 04]({{site.baseurl}}/algorithms/machinelearning/nnml/quizzes/quiz04 "Quiz 4")
+[[zip]({{site.baseurl}}/algorithms/machinelearning/nnml/quizzes/quiz04/quiz04.zip "quiz04.zip")]<br>
 
 <br>
 
