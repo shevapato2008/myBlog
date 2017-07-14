@@ -5,7 +5,7 @@ comments: true
 mathjax: true
 ---
 
-## Week 4 - The Backpropagation Learning Procedure
+## Week 4 - Learning Feature Vectors for Words
 
 ### a. Learning to Predict the Next Word
 ---
