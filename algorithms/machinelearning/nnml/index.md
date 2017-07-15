@@ -9,7 +9,11 @@ by Professor Geoffrey Hinton, University of Toronto
 
 <br>
 
-## Week 1 - Introduction<br>
+## Syllabus
+
+<br>
+
+**Week 1 - Introduction**<br>
 a. Why do We Need Machine Learning?<br>
 b. What are Neural Networks?<br>
 c. Some Simple Models of Neurons<br>
@@ -22,7 +26,7 @@ e. Three Types of Learning<br>
 
 <br>
 
-## Week 2 - [The Perceptron Learning Procedure]({{site.baseurl}}/algorithms/machinelearning/nnml/week2)<br>
+**Week 2 - [The Perceptron Learning Procedure]({{site.baseurl}}/algorithms/machinelearning/nnml/week2)**<br>
 a. An Overview of the Main Types of Neural Network Architecture<br>
 b. Perceptrons: The First Generation of Neural Networks<br>
 c. A Geometrical View of Perceptrons<br>
@@ -33,8 +37,7 @@ e. What Perceptrons Can't Do?<br>
 
 <br>
 
-## Week 3 - [The Backpropagation Learning Procedure]({{site.baseurl}}/algorithms/machinelearning/nnml/week3)<br>
-
+**Week 3 - [The Backpropagation Learning Procedure]({{site.baseurl}}/algorithms/machinelearning/nnml/week3)**<br>
 a. Learning the Weights of A Linear Neuron<br>
 b. The Error Surface for A Linear Neuron<br>
 c. Learning the Weights of a Logistic Output Neuron<br>
@@ -49,8 +52,7 @@ e. How to Use the Derivatives Computed by the Backpropagation Algorithm<br>
 
 <br>
 
-## Week 4 - [Learning Feature Vectors for Words]({{site.baseurl}}/algorithms/machinelearning/nnml/week4)<br>
-
+**Week 4 - [Learning Feature Vectors for Words]({{site.baseurl}}/algorithms/machinelearning/nnml/week4)**<br>
 a. Learning to Predict the Next Word<br>
 b. A Brief Diversion into Cognitive Science<br>
 c. Another Diversion: The Softmax Output Function<br>
