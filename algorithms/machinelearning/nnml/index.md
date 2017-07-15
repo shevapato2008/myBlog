@@ -9,9 +9,16 @@ by Professor Geoffrey Hinton, University of Toronto
 
 <br>
 
-## Week 1 - Introduction
+## Week 1 - Introduction<br>
+a. Why do We Need Machine Learning?<br>
+b. What are Neural Networks?<br>
+c. Some Simple Models of Neurons<br>
+d. A Simple Example of Learning<br>
+e. Three Types of Learning<br>
 
-[Slides 01]({{site.baseurl}}/algorithms/machinelearning/nnml/slides/Week1.pdf "Week 1: Introduction")
+[Slides 01]({{site.baseurl}}/algorithms/machinelearning/nnml/slides/Week1.pdf "Week 1: Introduction")<br>
+[Quiz 01]({{site.baseurl}}/algorithms/machinelearning/nnml/quizzes/quiz01 "Quiz 1")
+[[zip]({{site.baseurl}}/algorithms/machinelearning/nnml/quizzes/quiz01/quiz01.zip "quiz01.zip")]<br>
 
 <br>
 
