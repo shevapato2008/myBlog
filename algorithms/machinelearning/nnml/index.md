@@ -65,5 +65,13 @@ e. Ways to Deal with the Large Number of Possible Outputs<br>
 
 <br>
 
+**Week 5 - [Object Recognition with Neural Nets]({{site.baseurl}}/algorithms/machinelearning/nnml/week5)**<br>
+a. Things that Make it Hard to Recognize Objects<br>
+b. Ways to Achieve Viewpoint Invariance<br>
+c. Convolutional Neural Networks for Hand-Written Digit Recognition<br>
+d. Convolutional Neural Networks for Object Recognition<br>
+
+[Slides 05]({{site.baseurl}}/algorithms/machinelearning/nnml/slides/Week5.pdf "Week 5 Slides")<br>
+
 
 <br><br>
