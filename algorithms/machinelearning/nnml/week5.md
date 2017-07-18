@@ -271,8 +271,12 @@ $$
 ### Reading
 ---
 + [Week 5 Slides]({{site.baseurl}}/algorithms/machinelearning/nnml/slides/Week5.pdf "Week 5 - Object Recognition with Neural Nets") <br>
++ Yann Le Cun, Léon Bottou, Yoshua Bengio and Patrick Haffner: Gradient Based Learning Applied to Document Recognition, _Proceedings of IEEE_, 86(11):2278-2324, 1998. [[pdf]({{site.baseurl}}/algorithms/machinelearning/nnml/supplement/Gradient-Based Learning Applied to Document Recognition.pdf)]<br>
++ Lecun, Y., & Bengio, Y. (1995). Convolutional networks for images, speech, and time-series. In M. A. Arbib (Ed.), _The handbook of brain theory and neural networks_ MIT Press. [[pdf]({{site.baseurl}}/algorithms/machinelearning/nnml/supplement/Convolutional Network for Image, Speech, and Time Series.pdf)]<br>
 
 **More**
 + Alex Krizhevsky, Ilya Sutskever, Geoffrey E. Hinton: ImageNet Classification with Deep Convolutional Neural Networks. _NIPS_ 2012: 1106-1114 [[pdf]({{site.baseurl}}/algorithms/machinelearning/nnml/supplement/ImageNet Classification with Deep Convolutional Neural Networks.pdf)]<br>
++ Dan Claudiu Ciresan, Ueli Meier, Luca Maria Gambardella, Jürgen Schmidhuber: Deep, Big, Simple Neural Nets for Handwritten Digit Recognition. _Neural Computation_ 22(12): 3207-3220 (2010) [[pdf]({{site.baseurl}}/algorithms/machinelearning/nnml/supplement/Deep, Big, Simple Neural Nets for Handwritten Digit Recognition.pdf)]<br>
++ Volodymyr Mnih, Geoffrey E. Hinton: Learning to Label Aerial Images from Noisy Data. _ICML_ 2012 [[pdf]({{site.baseurl}}/algorithms/machinelearning/nnml/supplement/Learning to Label Aerial Images from Noisy Data.pdf)]<br>
 
 <br><br>
