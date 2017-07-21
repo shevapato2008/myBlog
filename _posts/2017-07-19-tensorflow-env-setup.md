@@ -16,12 +16,18 @@ If you have not installed Anaconda, please download [Anaconda](https://www.conti
 ---
 For python 2.7,
 ```shell
-$ conda create -n tensorflow2 python=2
+$ conda create -n tensorflow2 python=2 anaconda
 ```
 
-You may create another TensorFlow environment for python 3.6 as follows.
+It's pretty straightforward.
++ **`conda create`** makes the new environment,
++ **`-n tensorflow2`** is the name of the environment,
++ **`python=2`** specifies the python version, i.e. 2.x, and
++ **`anaconda`** says that you want this environment to have access to all packages in the anaconda distribution.
+
+You may create another TensorFlow environment for python 3.x as follows.
 ```shell
-$ conda create -n tensorflow3 python=3
+$ conda create -n tensorflow3 python=3 anaconda
 ```
 
 We will omit the python 3 part below to avoid redundancy.
@@ -43,7 +49,8 @@ $ source activate tensorflow2
 ```
 where `tfBinaryURL` is the [URL of the TensorFlow Python package](https://www.tensorflow.org/install/install_linux#the_url_of_the_tensorflow_python_package "TensorFlow Python packages"). For example, the following command installs the CPU-only version of TensorFlow for Python 2.7:
 ```shell
-(tensorflow) [..]$ https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-1.2.1-cp27-none-linux_x86_64.whl
+(tensorflow) [..]$ pip install --ignore-installed --upgrade \
+https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-1.2.1-cp27-none-linux_x86_64.whl
 ```
 
 <br>
@@ -116,3 +123,4 @@ conda remove --name [Environment Name] --all
 + [StackOverflow] [Trouble with TensorFlow in Jupyter Notebook](https://stackoverflow.com/questions/37061089/trouble-with-tensorflow-in-jupyter-notebook)
 + [StackOverflow] [HOW TO: Import TensorFlow in Jupyter Notebook from Conda with GPU support?](https://stackoverflow.com/questions/38233996/how-to-import-tensorflow-in-jupyter-notebook-from-conda-with-gpu-support)
 + [StackOverflow] [Can I installed tensorflow for python 2.7 and 3.5 on my machine simultaneously?](https://stackoverflow.com/questions/37863377/can-i-installed-tensorflow-for-python-2-7-and-3-5-on-my-machine-simultaneously)
++ [Reddit] [Installing Anaconda2 & Anaconda3 concurrently](https://www.reddit.com/r/Python/comments/4pqc61/installing_anaconda2_anaconda3_concurrently/)
