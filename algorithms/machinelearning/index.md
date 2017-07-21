@@ -23,3 +23,13 @@ This is machine learning homepage.
     <br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; by Geoffrey Hinton, University of Toronto
   </span>
 </div>
+
+<div style="display: flex; align-items: center;">
+  <a href="{{site.baseurl}}/algorithms/machinelearning/dltf">
+    <img src="{{site.baseurl}}/algorithms/machinelearning/dltf/image/dltf_ibm.jpg" alt="nnml cover" width="200" height="100" style="vertical-align: middle; border: 0; margin-right: 30px">
+  </a>
+  <span>
+    <a href="{{site.baseurl}}/algorithms/machinelearning/dltf">Deep Learning with TensorFlow</a>
+    <br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; IBM Cognitive Class ML0120EN
+  </span>
+</div>
