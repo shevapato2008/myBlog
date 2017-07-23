@@ -7,7 +7,15 @@ This is machine learning homepage.
 ## Python
 ---
 [Python Basics]({{site.baseurl}}/algorithms/machinelearning/python_basics/ "Python Basics") <br>
-[10 Minutes to Pandas]({{site.baseurl}}/algorithms/machinelearning/10-minutes-to-pandas "10 Minutes to Pandas") <br>
+
+### Pandas
++ [10 Minutes to Pandas]({{site.baseurl}}/algorithms/machinelearning/10-minutes-to-pandas "10 Minutes to Pandas") &nbsp;
+[[Online Doc](https://pandas.pydata.org/pandas-docs/stable/10min.html)] &nbsp;
+[[nbviewer](http://nbviewer.jupyter.org/github/shevapato2008/PandasTutorial/blob/master/10%20minutes%20to%20pandas.ipynb)]
++ Pandas Cookbook &nbsp;
+[[Online Doc](https://pandas.pydata.org/pandas-docs/stable/cookbook.html)] &nbsp;
+[[nbviewer]({{site.baseurl}}/algorithms/machinelearning/pandas-cookbook)]<br>
+
 
 <br>
 
