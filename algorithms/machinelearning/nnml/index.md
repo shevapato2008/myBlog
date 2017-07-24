@@ -33,7 +33,9 @@ c. A Geometrical View of Perceptrons<br>
 d. Why the Learning Works?<br>
 e. What Perceptrons Can't Do?<br>
 
-[Slides 02]({{site.baseurl}}/algorithms/machinelearning/nnml/slides/Week2.pdf "Week 2 Slides")
+[Slides 02]({{site.baseurl}}/algorithms/machinelearning/nnml/slides/Week2.pdf "Week 2 Slides")<br>
+[Quiz 02]({{site.baseurl}}/algorithms/machinelearning/nnml/quizzes/quiz02 "Quiz 2")
+[[zip]({{site.baseurl}}/algorithms/machinelearning/nnml/quizzes/quiz02/quiz02.zip "quiz02.zip")]<br>
 
 <br>
 
