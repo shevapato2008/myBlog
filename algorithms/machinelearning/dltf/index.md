@@ -8,6 +8,8 @@ mathjax: true
 ## {{page.title}}
 IBM Cognitive Class ML0120EN
 
+<br>
+
 ### Module $\boldsymbol{1}$ - Introduction to TensorFlow
 + Review: TensorFlow's Hello World
 &nbsp; [[nbviewer](http://nbviewer.jupyter.org/github/shevapato2008/IBM_ML0120EN/blob/master/ML0120EN-1.1-Review-TensorFlowHelloWorld.ipynb)]
@@ -21,5 +23,13 @@ IBM Cognitive Class ML0120EN
 &nbsp; [[nbviewer](http://nbviewer.jupyter.org/github/shevapato2008/IBM_ML0120EN/blob/master/ML0120EN-1.1-Exercise-TensorFlowHelloWorld.ipynb)]
 + Exercise: Linear Regression with TensorFlow
 &nbsp; [[nbviewer](http://nbviewer.jupyter.org/github/shevapato2008/IBM_ML0120EN/blob/master/ML0120EN-1.2-Exercise-LinearRegression.ipynb)]
+
+<br>
+
+### Module $\boldsymbol{2}$ - Convolutional Networks
++ Introduction to Convolutional Networks &nbsp; [[slides]({{site.baseurl}}/algorithms/machinelearning/dltf/2-1 "Introduction to Convolutional Networks")]
++ Review: Understanding Convolutions &nbsp;
++ Review: CNN with MNIST Dataset &nbsp;
++ Exercise: Convolution on Images Using TensorFlow &nbsp;
 
 <br><br>
