@@ -18,3 +18,5 @@ mathjax: true
 <img src="{{site.baseurl}}/algorithms/machinelearning/nnml/quizzes/quiz04/6.png" alt="[Image] quiz image" style="width: 800px; margin: auto;"/>
 <img src="{{site.baseurl}}/algorithms/machinelearning/nnml/quizzes/quiz04/7.1.png" alt="[Image] quiz image" style="width: 800px; margin: auto;"/>
 <img src="{{site.baseurl}}/algorithms/machinelearning/nnml/quizzes/quiz04/7.2.png" alt="[Image] quiz image" style="width: 800px; margin: auto;"/>
+
+<br><br>
