@@ -75,5 +75,17 @@ d. Convolutional Neural Networks for Object Recognition<br>
 
 [Slides 05]({{site.baseurl}}/algorithms/machinelearning/nnml/slides/Week5.pdf "Week 5 Slides")<br>
 
+<br>
+
+**Week 6 - [Optimization: How to Make the Learning Go Faster]({{site.baseurl}}/algorithms/machinelearning/nnml/week6)**<br>
+a. Overview of Mini-Batch Gradient Descent<br>
+b. A Bag of Tricks for Mini-Batch Gradient Descent<br>
+c. The Momentum Method<br>
+d. Adaptive Learning Rates for Each Connection<br>
+e. Rmsprop: Divide the Gradient by a Running Average of Its Recent Magnitude<br>
+
+[Slides 06]({{site.baseurl}}/algorithms/machinelearning/nnml/slides/Week6.pdf "Week 6 Slides")<br>
+
+
 
 <br><br>
