@@ -74,6 +74,8 @@ c. Convolutional Neural Networks for Hand-Written Digit Recognition<br>
 d. Convolutional Neural Networks for Object Recognition<br>
 
 [Slides 05]({{site.baseurl}}/algorithms/machinelearning/nnml/slides/Week5.pdf "Week 5 Slides")<br>
+[Quiz 05]({{site.baseurl}}/algorithms/machinelearning/nnml/quizzes/quiz05 "Quiz 5")
+[[zip]({{site.baseurl}}/algorithms/machinelearning/nnml/quizzes/quiz05/quiz05.zip "quiz05.zip")]<br>
 
 <br>
 
