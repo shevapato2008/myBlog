@@ -74,6 +74,7 @@ mathjax: true
 
 ### Reading
 ---
++ [Week 6 Slides]({{site.baseurl}}/algorithms/machinelearning/nnml/slides/Week6.pdf "Week 6 - Optimization: How to Make the Learning Go Faster") <br>
 + I. Sutskever, J. Martens, G. E. Dahl, and G. E. Hinton. On the importance of initialization and momentum in deep learning. In _ICML_, volume 28 of _JMLR Proceedings_, pages 1139–1147. JMLR.org, 2013. [[pdf]({{site.baseurl}}/algorithms/machinelearning/nnml/supplement/sutskever13.pdf)]<br>
 
 <br><br>

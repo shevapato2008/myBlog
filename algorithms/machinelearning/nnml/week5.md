@@ -97,6 +97,7 @@ mathjax: true
   + compute the gradients as usual => modify the gradients to satisfy the constraints
 
 <div style="background-color: #ffffc8;">
+<br>
 $$
 \begin{align}
   &\text{To constrain:} \qquad && \ \ \ w_{1} = w_{2} \\
@@ -105,6 +106,7 @@ $$
   &\text{Use} \ \frac{\partial E}{\partial w_{1}} + \frac{\partial E}{\partial w_{2}} \ \text{for} \ w_{1} \ \text{and} \ w_{2}
 \end{align}
 $$
+<br>
 </div>
 
 <br>
