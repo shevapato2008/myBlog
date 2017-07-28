@@ -96,8 +96,7 @@ mathjax: true
   + easy to modify Backpropagation algorithm to incorporate linear constraints between the weights
   + compute the gradients as usual => modify the gradients to satisfy the constraints
 
-<div style="background-color: #ffffc8;">
-<br>
+<div style="background-color: #ffffc8; padding: 2px;">
 $$
 \begin{align}
   &\text{To constrain:} \qquad && \ \ \ w_{1} = w_{2} \\
@@ -106,7 +105,6 @@ $$
   &\text{Use} \ \frac{\partial E}{\partial w_{1}} + \frac{\partial E}{\partial w_{2}} \ \text{for} \ w_{1} \ \text{and} \ w_{2}
 \end{align}
 $$
-<br>
 </div>
 
 <br>
