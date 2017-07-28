@@ -87,7 +87,8 @@ d. Adaptive Learning Rates for Each Connection<br>
 e. Rmsprop: Divide the Gradient by a Running Average of Its Recent Magnitude<br>
 
 [Slides 06]({{site.baseurl}}/algorithms/machinelearning/nnml/slides/Week6.pdf "Week 6 Slides")<br>
-
+[Quiz 06]({{site.baseurl}}/algorithms/machinelearning/nnml/quizzes/quiz06 "Quiz 6")
+[[zip]({{site.baseurl}}/algorithms/machinelearning/nnml/quizzes/quiz06/quiz06.zip "quiz06.zip")]<br>
 
 
 <br><br>
