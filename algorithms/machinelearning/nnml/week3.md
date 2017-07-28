@@ -146,11 +146,11 @@ $$
   + Online Delta-Rule: we increment or decrement the weight vector by the input vector <span style="color:blue;">$x^{(i)}$</span> <span style="color:red;">scaled by</span> the residual error <span style="color:red;">$(t^{(i)} - y^{(i)})$</span> and the learning rate <span style="color:red;">$\epsilon$</span>.
     - So we have to choose a learning rate. This is annoying.
 
+<div style="background-color: #ffffc8; padding: 2px;">
 $$
-\boxed{
-  \Delta w_{j} = \sum_{i=1}^{m} \epsilon \cdot x_{j}^{(i)} \cdot (t^{(i)} - y^{(i)}) \qquad \text{for} \ j = 1, 2, ..., p
-}
+\Delta w_{j} = \sum_{i=1}^{m} \epsilon \cdot x_{j}^{(i)} \cdot (t^{(i)} - y^{(i)}) \qquad \text{for} \ j = 1, 2, ..., p
 $$
+</div>
 
 <br>
 
@@ -233,11 +233,13 @@ Assuming that we have<br>
 `-` $m$ data points<br>
 `-` $p$ weights
 
+<div style="background-color: #ffffc8; padding: 2px;">
 $$
-\boxed{
-  \frac{\partial E}{\partial w_{j}} = - \sum_{i=1}^{m} x_{j}^{(i)} y^{(i)} (1 - y^{(i)}) (t^{i} - y^{(i)}) \qquad \text{for} \ j = 1, 2, ..., p
-}
+\frac{\partial E}{\partial w_{j}} = - \sum_{i=1}^{m} x_{j}^{(i)} y^{(i)} (1 - y^{(i)}) (t^{i} - y^{(i)}) \qquad \text{for} \ j = 1, 2, ..., p
 $$
+</div>
+
+<br>
 
 Derivation:<br>
 > $$
@@ -320,15 +322,17 @@ $$
 `-` $z_{j}$ = sum of all the input to node $j$ <br>
 `-` $w_{ij}$ = weight between node $i$ and node $j$
 
+<div style="background-color: #ffffc8; padding: 2px;">
 $$
-\boxed{
-  \begin{align}
-    \frac{\partial E}{\partial z_{j}} &= y_{j}(1 - y_{j}) \frac{\partial E}{\partial y_{j}} \\
-    \frac{\partial E}{\partial y_{i}} &= \sum_{j} w_{ij} \frac{\partial E}{\partial z_{j}} \\
-    \frac{\partial E}{\partial w_{ij}} &= y_{i} \frac{\partial E}{\partial z_{j}}
-  \end{align}
-}
+\begin{align}
+  \frac{\partial E}{\partial z_{j}} &= y_{j}(1 - y_{j}) \frac{\partial E}{\partial y_{j}} \\
+  \frac{\partial E}{\partial y_{i}} &= \sum_{j} w_{ij} \frac{\partial E}{\partial z_{j}} \\
+  \frac{\partial E}{\partial w_{ij}} &= y_{i} \frac{\partial E}{\partial z_{j}}
+\end{align}
 $$
+</div>
+
+<br>
 
 Derivation: <br>
 > $$
@@ -373,7 +377,7 @@ $$
     - So it fits both kinds of regularity.
     - If the model is very flexible it can model the sampling error really well. <span style="color:red;">This is a disaster</span>.
 
-**A Simple Example of Overfitting**
+**A Simple Example of Overfitting**<br>
 Skipped.
 
 **Ways to Reduce Overfitting**
@@ -392,6 +396,11 @@ Skipped.
 ### Reading
 ---
 + [Week 3 Slides]({{site.baseurl}}/algorithms/machinelearning/nnml/slides/Week3.pdf "Week 3 - The Perceptron learning procedure") <br>
-+ Rumelhart, D. E., Hinton, G. E. & Williams, R. J. in _Parallel Distributed Processing: Explorations in the Microstructure of Cognition._ Vol. 1: _Foundations_ (eds Rumelhart, D. E. & McClelland, J. L.) 318−362 (MIT, Cambridge, 1986). [[pdf]({{site.baseurl}}/algorithms/machinelearning/nnml/supplement/Chap8_PDP86.pdf)]
++ Rumelhart, D. E., Hinton, G. E. & Williams, R. J. in _Parallel Distributed Processing: Explorations in the Microstructure of Cognition._ Vol. 1: _Foundations_ (eds Rumelhart, D. E. & McClelland, J. L.) 318−362 (MIT, Cambridge, 1986). [[pdf]({{site.baseurl}}/algorithms/machinelearning/nnml/supplement/Chap8_PDP86.pdf)]<br>
+
+**More**
++ Demos on backpropagation algorithm:<br>
+[http://home.agh.edu.pl/~vlsi/AI/backp_t_en/backprop.html](http://home.agh.edu.pl/~vlsi/AI/backp_t_en/backprop.html) <br>
+[https://mattmazur.com/2015/03/17/a-step-by-step-backpropagation-example/](https://mattmazur.com/2015/03/17/a-step-by-step-backpropagation-example/)<br>
 
 <br>
