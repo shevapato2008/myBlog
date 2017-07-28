@@ -30,7 +30,7 @@ _IBM Cognitive Class ML0120EN_
 + Introduction to Convolutional Networks &nbsp; [[slides]({{site.baseurl}}/algorithms/machinelearning/dltf/2-1 "Introduction to Convolutional Networks")]
 + Review: Understanding Convolutions &nbsp; [[ipynb](http://nbviewer.jupyter.org/github/shevapato2008/IBM_ML0120EN/blob/master/ML0120EN-2.1-Review-UnderstandingConvolutions.ipynb)]
 + Review: CNN with MNIST Dataset &nbsp; [[ipynb](http://nbviewer.jupyter.org/github/shevapato2008/IBM_ML0120EN/blob/master/ML0120EN-2.2-Review-CNN-MNIST-Dataset.ipynb)]
-+ Exercise: Convolution on Images Using TensorFlow &nbsp;
++ Exercise: Convolution on Images Using TensorFlow &nbsp; [[ipynb](http://nbviewer.jupyter.org/github/shevapato2008/IBM_ML0120EN/blob/master/ML0120EN-2.1-Exercise-ConvolutiononImagesusingTensorFlow.ipynb)]
 
 
 
