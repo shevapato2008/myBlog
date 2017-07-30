@@ -90,5 +90,15 @@ e. Rmsprop: Divide the Gradient by a Running Average of Its Recent Magnitude<br>
 [Quiz 06]({{site.baseurl}}/algorithms/machinelearning/nnml/quizzes/quiz06 "Quiz 6")
 [[zip]({{site.baseurl}}/algorithms/machinelearning/nnml/quizzes/quiz06/quiz06.zip "quiz06.zip")]<br>
 
+<br>
+
+**Week 7 - [Recurrent Neural Networks]({{site.baseurl}}/algorithms/machinelearning/nnml/week7)**<br>
+a. Modeling Sequences: A Brief Overview<br>
+b. Training RNNs with Backpropagation<br>
+c. A Toy Example of Training An RNN<br>
+d. Why it is Difficult to Train an RNN<br>
+e. Long-Term Short-Term Memory<br>
+
+
 
 <br><br>
