@@ -96,5 +96,7 @@ d. Why it is Difficult to Train an RNN<br>
 e. Long-Term Short-Term Memory<br>
 
 [Slides 07]({{site.baseurl}}/algorithms/machinelearning/nnml/slides/Week7.pdf "Week 7 Slides")<br>
+[Quiz 07]({{site.baseurl}}/algorithms/machinelearning/nnml/quizzes/quiz07 "Quiz 7")
+[[zip]({{site.baseurl}}/algorithms/machinelearning/nnml/quizzes/quiz07/quiz07.zip "quiz07.zip")]<br>
 
 <br><br>
