@@ -99,6 +99,6 @@ c. A Toy Example of Training An RNN<br>
 d. Why it is Difficult to Train an RNN<br>
 e. Long-Term Short-Term Memory<br>
 
-
+[Slides 07]({{site.baseurl}}/algorithms/machinelearning/nnml/slides/Week7.pdf "Week 7 Slides")<br>
 
 <br><br>

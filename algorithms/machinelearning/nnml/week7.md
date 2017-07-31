@@ -44,17 +44,38 @@ mathjax: true
 
 <br>
 
+<img src="{{site.baseurl}}/algorithms/machinelearning/nnml/image/7.18.png" alt="[Image] quiz image" style="width: 800px; margin: 10px; border: 1px solid black;"/>
+<img src="{{site.baseurl}}/algorithms/machinelearning/nnml/image/7.19.png" alt="[Image] quiz image" style="width: 800px; margin: 10px; border: 1px solid black;"/>
+<img src="{{site.baseurl}}/algorithms/machinelearning/nnml/image/7.20.png" alt="[Image] quiz image" style="width: 800px; margin: 10px; border: 1px solid black;"/>
+<img src="{{site.baseurl}}/algorithms/machinelearning/nnml/image/7.21.png" alt="[Image] quiz image" style="width: 800px; margin: 10px; border: 1px solid black;"/>
+<img src="{{site.baseurl}}/algorithms/machinelearning/nnml/image/7.22.png" alt="[Image] quiz image" style="width: 800px; margin: 10px; border: 1px solid black;"/>
+<img src="{{site.baseurl}}/algorithms/machinelearning/nnml/image/7.23.png" alt="[Image] quiz image" style="width: 800px; margin: 10px; border: 1px solid black;"/>
+<img src="{{site.baseurl}}/algorithms/machinelearning/nnml/image/7.24.png" alt="[Image] quiz image" style="width: 800px; margin: 10px; border: 1px solid black;"/>
+
 <br>
 
 ### d. Why it is Difficult to Train an RNN
 
 <br>
 
+<img src="{{site.baseurl}}/algorithms/machinelearning/nnml/image/7.25.png" alt="[Image] quiz image" style="width: 800px; margin: 10px; border: 1px solid black;"/>
+<img src="{{site.baseurl}}/algorithms/machinelearning/nnml/image/7.26.png" alt="[Image] quiz image" style="width: 800px; margin: 10px; border: 1px solid black;"/>
+<img src="{{site.baseurl}}/algorithms/machinelearning/nnml/image/7.27.png" alt="[Image] quiz image" style="width: 800px; margin: 10px; border: 1px solid black;"/>
+<img src="{{site.baseurl}}/algorithms/machinelearning/nnml/image/7.28.png" alt="[Image] quiz image" style="width: 800px; margin: 10px; border: 1px solid black;"/>
+<img src="{{site.baseurl}}/algorithms/machinelearning/nnml/image/7.29.png" alt="[Image] quiz image" style="width: 800px; margin: 10px; border: 1px solid black;"/>
+
 <br>
 
 ### e. Long-Term Short-Term Memory
 
 <br>
+
+<img src="{{site.baseurl}}/algorithms/machinelearning/nnml/image/7.30.png" alt="[Image] quiz image" style="width: 800px; margin: 10px; border: 1px solid black;"/>
+<img src="{{site.baseurl}}/algorithms/machinelearning/nnml/image/7.31.png" alt="[Image] quiz image" style="width: 800px; margin: 10px; border: 1px solid black;"/>
+<img src="{{site.baseurl}}/algorithms/machinelearning/nnml/image/7.32.png" alt="[Image] quiz image" style="width: 800px; margin: 10px; border: 1px solid black;"/>
+<img src="{{site.baseurl}}/algorithms/machinelearning/nnml/image/7.33.png" alt="[Image] quiz image" style="width: 800px; margin: 10px; border: 1px solid black;"/>
+<img src="{{site.baseurl}}/algorithms/machinelearning/nnml/image/7.34.png" alt="[Image] quiz image" style="width: 800px; margin: 10px; border: 1px solid black;"/>
+<img src="{{site.baseurl}}/algorithms/machinelearning/nnml/image/7.35.png" alt="[Image] quiz image" style="width: 800px; margin: 10px; border: 1px solid black;"/>
 
 <br>
 
