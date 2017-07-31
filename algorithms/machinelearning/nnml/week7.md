@@ -81,6 +81,13 @@ mathjax: true
 
 ### Reading
 ---
++ [Week 7 Slides]({{site.baseurl}}/algorithms/machinelearning/nnml/slides/Week7.pdf "Week 7 - Recurrent Neural Networks") <br>
++ M. Liwicki, A. Graves, S. Fernandez, H. Bunke, and J. Schmidhuber. A novel approach to on-line handwriting recognition based on bidirectional long short-term memory networks. In _Proc. 9th Int. Conf. on Document Analysis and Recognition_, Curitiba, Brazil, Sep. 2007. [[pdf]({{site.baseurl}}/algorithms/machinelearning/nnml/supplement/A Novel Approach to On-Line Handwriting Recognition Based on Bidirectional Long Short-Term Memory Networks.pdf)]<br>
 
+**More**
++ About the HF optimizer<br>
+J. Martens, I. Sutskever, "Learning Recurrent Neural Networks with Hessian-Free Optimization", _Proc. Int'l Conf. Machine Learning_, 2011. [[pdf]({{site.baseurl}}/algorithms/machinelearning/nnml/supplement/Learning Recurrent Neural Networks with Hessian-Free Optimization.pdf)]<br>
++  S. Hochreiter and J. Schmidhuber. Long short-term memory. _Neural computation_, 9(8):1735–1780, 1997.
+[[pdf]({{site.baseurl}}/algorithms/machinelearning/nnml/supplement/lstm.pdf)]<br>
 
 <br><br>
