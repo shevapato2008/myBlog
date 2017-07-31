@@ -1,12 +1,9 @@
 ---
-layout: algorithm
-title: Deep Learning with TensorFlow
+layout: dltf
+title: Deep Learning with TensorFlow (IBM Cognitive Class ML0120EN)
 comments: true
 mathjax: true
 ---
-
-## {{page.title}}
-_IBM Cognitive Class ML0120EN_
 
 <br>
 
@@ -23,6 +20,7 @@ _IBM Cognitive Class ML0120EN_
 &nbsp; [[ipynb](http://nbviewer.jupyter.org/github/shevapato2008/IBM_ML0120EN/blob/master/ML0120EN-1.1-Exercise-TensorFlowHelloWorld.ipynb)]
 + Exercise: Linear Regression with TensorFlow
 &nbsp; [[ipynb](http://nbviewer.jupyter.org/github/shevapato2008/IBM_ML0120EN/blob/master/ML0120EN-1.2-Exercise-LinearRegression.ipynb)]
++ [Review Questions]({{site.baseurl}}/algorithms/machinelearning/dltf/quizzes/quiz01)
 
 <br>
 
@@ -31,7 +29,7 @@ _IBM Cognitive Class ML0120EN_
 + Review: Understanding Convolutions &nbsp; [[ipynb](http://nbviewer.jupyter.org/github/shevapato2008/IBM_ML0120EN/blob/master/ML0120EN-2.1-Review-UnderstandingConvolutions.ipynb)]
 + Review: CNN with MNIST Dataset &nbsp; [[ipynb](http://nbviewer.jupyter.org/github/shevapato2008/IBM_ML0120EN/blob/master/ML0120EN-2.2-Review-CNN-MNIST-Dataset.ipynb)]
 + Exercise: Convolution on Images Using TensorFlow &nbsp; [[ipynb](http://nbviewer.jupyter.org/github/shevapato2008/IBM_ML0120EN/blob/master/ML0120EN-2.1-Exercise-ConvolutiononImagesusingTensorFlow.ipynb)]
-
++ [Review Questions]({{site.baseurl}}/algorithms/machinelearning/dltf/quizzes/quiz02)
 
 
 
