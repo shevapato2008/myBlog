@@ -1,13 +1,9 @@
 ---
-layout: algorithm
+layout: nnml
 title: Neural Networks for Machine Learning (Geoffrey Hinton, University of Toronto)
 comments: true
+mathjax: false
 ---
-
-# Neural Networks for Machine Learning
-by Professor Geoffrey Hinton, University of Toronto
-
-<br>
 
 ## Syllabus
 
