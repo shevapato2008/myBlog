@@ -99,4 +99,13 @@ e. Long-Term Short-Term Memory<br>
 [Quiz 07]({{site.baseurl}}/algorithms/machinelearning/nnml/quizzes/quiz07 "Quiz 7")
 [[zip]({{site.baseurl}}/algorithms/machinelearning/nnml/quizzes/quiz07/quiz07.zip "quiz07.zip")]<br>
 
+<br>
+
+**Week 8 - [More Recurrent Neural Networks]({{site.baseurl}}/algorithms/machinelearning/nnml/week8)**<br>
+a. A Brief Overview of Hessian-Free Optimization<br>
+b. Modeling Character Strings with Multiplicative Connections<br>
+c. Learning to Predict the Next Character Using HF<br>
+d. Echo State<br>
+
+
 <br><br>
