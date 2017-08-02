@@ -35,6 +35,7 @@ mathjax: true
 
 ### Module $\boldsymbol{3}$ - Recurrent Neural Networks
 + The Sequential Problem &nbsp; [[slides]({{site.baseurl}}/algorithms/machinelearning/dltf/3-1 "The Sequential Problem")]
++ The Recurrent Neural Network Model &nbsp; [[slides]({{site.baseurl}}/algorithms/machinelearning/dltf/3-2 "The Recurrent Neural Network Model")]
 
 
 <br><br>
