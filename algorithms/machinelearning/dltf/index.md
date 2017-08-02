@@ -37,5 +37,7 @@ mathjax: true
 + The Sequential Problem &nbsp; [[slides]({{site.baseurl}}/algorithms/machinelearning/dltf/3-1 "The Sequential Problem")]
 + The Recurrent Neural Network Model &nbsp; [[slides]({{site.baseurl}}/algorithms/machinelearning/dltf/3-2 "The Recurrent Neural Network Model")]
 + The Long Short-Term Memory Model &nbsp; [[slides]({{site.baseurl}}/algorithms/machinelearning/dltf/3-3 "The Long Short-Term Memory Model")]
++ Applying Recurrent Networks to Language Modelling &nbsp; [[slides]({{site.baseurl}}/algorithms/machinelearning/dltf/3-4 "Applying Recurrent Networks to Language Modelling")]
+
 
 <br><br>
