@@ -31,7 +31,10 @@ mathjax: true
 + Exercise: Convolution on Images Using TensorFlow &nbsp; [[ipynb](http://nbviewer.jupyter.org/github/shevapato2008/IBM_ML0120EN/blob/master/ML0120EN-2.1-Exercise-ConvolutiononImagesusingTensorFlow.ipynb)]
 + [Review Questions]({{site.baseurl}}/algorithms/machinelearning/dltf/quizzes/quiz02)
 
+<br>
 
+### Module $\boldsymbol{3}$ - Recurrent Neural Networks
++ The Sequential Problem &nbsp; [[slides]({{site.baseurl}}/algorithms/machinelearning/dltf/3-1 "The Sequential Problem")]
 
 
 <br><br>
