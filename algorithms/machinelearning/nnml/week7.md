@@ -90,5 +90,6 @@ J. Martens, I. Sutskever, "Learning Recurrent Neural Networks with Hessian-Free 
 + The original paper for Long Short Term Memory (LSTM):<br>
 S. Hochreiter and J. Schmidhuber. Long short-term memory. _Neural computation_, 9(8):1735–1780, 1997.
 [[pdf]({{site.baseurl}}/algorithms/machinelearning/nnml/supplement/lstm.pdf)]<br>
++ Graves, A., & Schmidhuber, J. (2009). Offline handwriting recognition with multidimensional recurrent neural networks. In _Advances in neural information processing systems (NIPS)_, vol. 21 (pp. 545–552). Cambridge, MA: MIT Press [[pdf]({{site.baseurl}}/algorithms/machinelearning/nnml/supplement/Offline Handwriting Recognition with Multidimensional Recurrent Neural Networks.pdf)]<br>
 
 <br><br>
