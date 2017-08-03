@@ -107,5 +107,12 @@ b. Modeling Character Strings with Multiplicative Connections<br>
 c. Learning to Predict the Next Character Using HF<br>
 d. Echo State Networks<br>
 
+[Slides 08]({{site.baseurl}}/algorithms/machinelearning/nnml/slides/Week8.pdf "Week 8 Slides")<br>
+[Quiz 08]({{site.baseurl}}/algorithms/machinelearning/nnml/quizzes/quiz08 "Quiz 8")
+[[zip]({{site.baseurl}}/algorithms/machinelearning/nnml/quizzes/quiz08/quiz08.zip "quiz08.zip")]<br>
+
+<br>
+
+
 
 <br><br>
