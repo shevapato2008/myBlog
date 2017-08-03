@@ -105,7 +105,7 @@ e. Long-Term Short-Term Memory<br>
 a. A Brief Overview of Hessian-Free Optimization<br>
 b. Modeling Character Strings with Multiplicative Connections<br>
 c. Learning to Predict the Next Character Using HF<br>
-d. Echo State<br>
+d. Echo State Networks<br>
 
 
 <br><br>

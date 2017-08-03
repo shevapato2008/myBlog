@@ -53,7 +53,7 @@ mathjax: true
 
 <br>
 
-### d. Echo State
+### d. Echo State Networks
 
 <br>
 
