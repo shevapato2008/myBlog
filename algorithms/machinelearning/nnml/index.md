@@ -113,6 +113,13 @@ d. Echo State Networks<br>
 
 <br>
 
+**Week 9 - [Ways to Make Neural Networks Generalize Better]({{site.baseurl}}/algorithms/machinelearning/nnml/week9)**<br>
+a. Overview of Ways to Improve Generalization<br>
+b. Limiting the Size of the Weights<br>
+c. Using Noise as a Regularizer<br>
+d. Introduction to the Full Bayesian Approach<br>
+e. The Bayesian Interpretation of Weight Decay<br>
+f. MacKay's Quick and Dirty Method of Setting Weight Costs<br>
 
 
 <br><br>
