@@ -96,16 +96,71 @@ Combining the influence of the first two data points, we get the parabola-shaped
 
 <br>
 
+<img src="{{site.baseurl}}/algorithms/machinelearning/nnml/image/9.28.png" alt="[Image] quiz image" style="width: 800px; margin: 10px; border: 1px solid black;"/>
+<img src="{{site.baseurl}}/algorithms/machinelearning/nnml/image/9.29.png" alt="[Image] quiz image" style="width: 800px; margin: 10px; border: 1px solid black;"/>
+<img src="{{site.baseurl}}/algorithms/machinelearning/nnml/image/9.30.png" alt="[Image] quiz image" style="width: 800px; margin: 10px; border: 1px solid black;"/>
+<img src="{{site.baseurl}}/algorithms/machinelearning/nnml/image/9.31.png" alt="[Image] quiz image" style="width: 800px; margin: 10px; border: 1px solid black;"/>
+<img src="{{site.baseurl}}/algorithms/machinelearning/nnml/image/9.32.png" alt="[Image] quiz image" style="width: 800px; margin: 10px; border: 1px solid black;"/>
+<img src="{{site.baseurl}}/algorithms/machinelearning/nnml/image/9.33.png" alt="[Image] quiz image" style="width: 800px; margin: 10px; border: 1px solid black;"/>
+<img src="{{site.baseurl}}/algorithms/machinelearning/nnml/image/9.34.png" alt="[Image] quiz image" style="width: 800px; margin: 10px; border: 1px solid black;"/>
+<img src="{{site.baseurl}}/algorithms/machinelearning/nnml/image/9.35.png" alt="[Image] quiz image" style="width: 800px; margin: 10px; border: 1px solid black;"/>
+
+Assumption $1$: the model makes a Gaussian prediction.
+
+$$
+\begin{align}
+  D|W &\sim Normal(0, \sigma_{D}^{2}) \\
+  p(D|W) &= \prod\limits_{i} p(t_{i}|W) = \prod\limits_{i} \frac{1}{\sqrt{2 \pi} \sigma_{D}} e^{-\frac{(t_{i} - y_{i})^2}{2 \sigma_{D}^{2}}} \\
+         &= \prod\limits_{i} \frac{1}{\sqrt{2 \pi} \sigma_{D}} e^{-\frac{ \big( t_{i} - f(x_{i}, \ W) \big) ^2}{2 \sigma_{D}^{2}}} \\
+  - \log p(D|W) &= - \sum\limits_{i} \log p(t_{i}|W) = \frac{1}{2 \sigma_{D}^{2}} \sum\limits_{i} (t_{i} - y_{i})^2 + k \\
+                &= \frac{1}{2 \sigma_{D}^{2}} \sum\limits_{i} \big( t_{i} - f(x_{i}, \ W) \big) ^2 + k
+\end{align}
+$$
+
+Assumption $2$: Prior distribution of weights $W$ follows a zero-mean Gaussian distribution.
+
+$$
+\begin{align}
+  W &\sim Normal(0, \sigma_{W}^{2}) \\
+  p(W) &= \prod\limits_{j} p(w_{j}) = \prod\limits_{j} \frac{1}{\sqrt{2 \pi} \sigma_{W}} e^{- \frac{w_{j}^{2}}{2 \sigma_{W}^{2}}} \\
+  - \log p(W) &= - \sum\limits_{j} \log p(w_{j}) = \frac{1}{2 \sigma_{W}^{2}} \sum\limits_{j} w_{j}^{2} + k
+\end{align}
+$$
+
+Posterior distribution:
+
+$$
+p(W|D) = \frac{p(D|W) \cdot p(W)}{p(D)}
+$$
+
+Maximum a Posteriori:
+
+$$
+\begin{align}
+  argmax_{W} \ p(W|D) &= argmin_{W} \ \bigl\{ - \log p(w|D) \bigr\} \\
+  &= argmin_{W} \ \bigl\{ - \log p(D|W) - \log p(W) + \log p(D) \bigr\} \\
+  &= argmin_{W} \ \bigl\{ - \log p(D|W) - \log p(W) \bigr\} \\
+  &= argmin_{W} \ \Bigg\{ \frac{1}{2 \sigma_{D}^{2}} \sum\limits_{i} \big( t_{i} - f(x_{i}, \ W) \big) ^2 + \frac{1}{2 \sigma_{W}^{2}} \sum\limits_{j} w_{j}^{2} \Bigg\} \\
+  &= argmin_{W} \ \Bigg\{ \sum\limits_{i} \big( t_{i} - f(x_{i}, \ W) \big) ^2 + \frac{\sigma_{D}^{2}}{\sigma_{W}^{2}} \sum\limits_{j} w_{j}^{2} \Bigg\} \\
+  &= argmin_{W} \ \Bigg\{ \text{ squared error } + \frac{\sigma_{D}^{2}}{\sigma_{W}^{2}} \sum\limits_{j} w_{j}^{2} \Bigg\} \\
+\end{align}
+$$
+
 <br>
 
 ### f. MacKay's Quick and Dirty Method of Setting Weight Costs
 
 <br>
 
+<img src="{{site.baseurl}}/algorithms/machinelearning/nnml/image/9.36.png" alt="[Image] quiz image" style="width: 800px; margin: 10px; border: 1px solid black;"/>
+<img src="{{site.baseurl}}/algorithms/machinelearning/nnml/image/9.37.png" alt="[Image] quiz image" style="width: 800px; margin: 10px; border: 1px solid black;"/>
+<img src="{{site.baseurl}}/algorithms/machinelearning/nnml/image/9.38.png" alt="[Image] quiz image" style="width: 800px; margin: 10px; border: 1px solid black;"/>
+<img src="{{site.baseurl}}/algorithms/machinelearning/nnml/image/9.39.png" alt="[Image] quiz image" style="width: 800px; margin: 10px; border: 1px solid black;"/>
+
 <br>
 
 ### Reading
 ---
-
++ [Week 9 Slides]({{site.baseurl}}/algorithms/machinelearning/nnml/slides/Week9.pdf "Week 9 - Ways to Make Neural Networks Generalize Better") <br>
 
 <br><br>
