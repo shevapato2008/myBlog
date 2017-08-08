@@ -121,5 +121,6 @@ d. Introduction to the Full Bayesian Approach<br>
 e. The Bayesian Interpretation of Weight Decay<br>
 f. MacKay's Quick and Dirty Method of Setting Weight Costs<br>
 
+[Slides 09]({{site.baseurl}}/algorithms/machinelearning/nnml/slides/Week9.pdf "Week 9 Slides")<br>
 
 <br><br>
