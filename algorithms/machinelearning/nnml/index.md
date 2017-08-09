@@ -122,5 +122,7 @@ e. The Bayesian Interpretation of Weight Decay<br>
 f. MacKay's Quick and Dirty Method of Setting Weight Costs<br>
 
 [Slides 09]({{site.baseurl}}/algorithms/machinelearning/nnml/slides/Week9.pdf "Week 9 Slides")<br>
+[Quiz 09]({{site.baseurl}}/algorithms/machinelearning/nnml/quizzes/quiz09 "Quiz 9")
+[[zip]({{site.baseurl}}/algorithms/machinelearning/nnml/quizzes/quiz09/quiz09.zip "quiz09.zip")]<br>
 
 <br><br>
