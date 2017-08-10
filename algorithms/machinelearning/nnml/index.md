@@ -46,7 +46,7 @@ e. How to Use the Derivatives Computed by the Backpropagation Algorithm<br>
 [Quiz 03]({{site.baseurl}}/algorithms/machinelearning/nnml/quizzes/quiz03 "Quiz 3")
 [[zip]({{site.baseurl}}/algorithms/machinelearning/nnml/quizzes/quiz03/quiz03.zip "quiz03.zip")]<br>
 [Assignment 01]({{site.baseurl}}/algorithms/machinelearning/nnml/assignments/Assignment1/assign1.pdf "Assignment 1")
-[[Code & Data]({{site.baseurl}}/algorithms/machinelearning/nnml/assignments/Assignment1/ "Code & Data for Assignment 1")]
+[[Code & Data](https://github.com/shevapato2008/Coursera_NNML_Hinton/tree/master/Assignments/Assignment1 "Github Repository")]
 
 <br>
 
@@ -72,6 +72,8 @@ d. Convolutional Neural Networks for Object Recognition<br>
 [Slides 05]({{site.baseurl}}/algorithms/machinelearning/nnml/slides/Week5.pdf "Week 5 Slides")<br>
 [Quiz 05]({{site.baseurl}}/algorithms/machinelearning/nnml/quizzes/quiz05 "Quiz 5")
 [[zip]({{site.baseurl}}/algorithms/machinelearning/nnml/quizzes/quiz05/quiz05.zip "quiz05.zip")]<br>
+[Assignment 02]({{site.baseurl}}/algorithms/machinelearning/nnml/assignments/Assignment2/ "Assignment 2")
+[[Code & Data](https://github.com/shevapato2008/Coursera_NNML_Hinton/tree/master/Assignments/Assignment2 "Github Repository")]
 
 <br>
 
