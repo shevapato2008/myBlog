@@ -127,4 +127,13 @@ f. MacKay's Quick and Dirty Method of Setting Weight Costs<br>
 [Quiz 09]({{site.baseurl}}/algorithms/machinelearning/nnml/quizzes/quiz09 "Quiz 9")
 [[zip]({{site.baseurl}}/algorithms/machinelearning/nnml/quizzes/quiz09/quiz09.zip "quiz09.zip")]<br>
 
+<br>
+
+**Week 10 - [Combining Multiple Neural Networks to Improve Generalization]({{site.baseurl}}/algorithms/machinelearning/nnml/week10)**<br>
+a. Why it Helps to Combine Models?<br>
+b. Mixture Experts<br>
+c. The Idea of Full Bayesian Learning<br>
+d. Making Full Bayesian Learning Practical<br>
+e. Dropout<br>
+
 <br><br>
