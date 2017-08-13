@@ -136,4 +136,6 @@ c. The Idea of Full Bayesian Learning<br>
 d. Making Full Bayesian Learning Practical<br>
 e. Dropout<br>
 
+[Slides 10]({{site.baseurl}}/algorithms/machinelearning/nnml/slides/Week10.pdf "Week 10 Slides")<br>
+
 <br><br>
