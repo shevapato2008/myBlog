@@ -22,6 +22,13 @@ mathjax: true
 <img src="{{site.baseurl}}/algorithms/machinelearning/nnml/image/10.7.png" alt="[Image] slide image" style="width: 800px; margin: 10px; border: 1px solid black;"/>
 <img src="{{site.baseurl}}/algorithms/machinelearning/nnml/image/10.8.png" alt="[Image] slide image" style="width: 800px; margin: 10px; border: 1px solid black;"/>
 
+**Bagging vs. Boosting** [**[Quora]**](https://www.quora.com/Whats-the-difference-between-boosting-and-bagging "What's the difference between boosting and bagging?")
+
+Boosting and bagging are similar, in that they are both ensemble methods, where a number of weak learners (classifiers/regressors that are barely better than guessing) combine (through averaging or max vote) to create a strong learner that can make accurate predictions. Bagging means that you take bootstrap samples (with replacement) of your data set and each sample trains a (potentially) weak learner. Boosting, on the other hand, uses all data to train each learner, but instances that were misclassified by the previous learners are given more weight so that subsequent learners give more focus to them during training.
+
++ **Bootstrap Aggregating / Bagging** [**[Wikipedia]**](https://en.wikipedia.org/wiki/Bootstrap_aggregating "Bootstrap Aggregating")
++ **Bootsting** [**[Wikipedia]**](https://en.wikipedia.org/wiki/Boosting_(machine_learning) "Boosting")
+
 <br>
 
 ### b. Mixture Experts
