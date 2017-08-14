@@ -137,5 +137,7 @@ d. Making Full Bayesian Learning Practical<br>
 e. Dropout<br>
 
 [Slides 10]({{site.baseurl}}/algorithms/machinelearning/nnml/slides/Week10.pdf "Week 10 Slides")<br>
+[Quiz 10]({{site.baseurl}}/algorithms/machinelearning/nnml/quizzes/quiz10 "Quiz 10")
+[[zip]({{site.baseurl}}/algorithms/machinelearning/nnml/quizzes/quiz10/quiz10.zip "quiz10.zip")]<br>
 
 <br><br>
