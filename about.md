@@ -3,28 +3,24 @@ layout: page
 title: About
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+<br>
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+## CAREER PROFILE
+I am always an active learner of data science and software development.
+<br><br>
 
-There are currently two themes built on Poole:
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+## EXPERIENCES
+**Research Assistant**<br>
+<span style="color:#97acd5">09/2016 - 10/2017</span><br>
+<span style="color:#97acd5">Dept. of Computer Science, Rutgers University - New Brunswick</span><br>
+I'm currently working in Prof. Michmizos's group. My research focuses on using machine learning techniques to support the intraoperative localization of subthalamic nucleus in people with Parkinson's disease.
+<br><br>
 
-Learn more and contribute on [GitHub](https://github.com/poole).
-
-## Setup
-
-Some fun facts about the setup of this project include:
-
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
+## PROJECTS
+You can list your side projects or open source libraries in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+Velocity - A responsive website template designed to help startups promote, market and sell their products.
+DevStudio - A responsive website template designed to help web developers/designers market their services.
+Tempo - A responsive website template designed to help startups promote their products or services and to attract users & investors
+Atom - A comprehensive website template solution for startups/developers to market their mobile apps.
+Delta - A responsive Bootstrap one page theme designed to help app developers promote their mobile apps
