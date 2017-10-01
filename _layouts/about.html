@@ -1,0 +1,28 @@
+---
+layout: default
+comments: false
+mathjax: true
+---
+
+<h1>About Me</h1>
+
+<header>
+  <nav>
+    <ul class="nav-alg">
+      <li>
+        <a href="{{site.baseurl}}/about/resume" {% if page.url contains 'about/resume' %}class="current"{% endif %}>
+          Resume
+        </a>
+      </li>
+      <li>
+        <a href="{{site.baseurl}}/algorithms/machinelearning/" {% if page.url contains 'algorithms/machinelearning' %}class="current"{% endif %}>
+          简历
+        </a>
+      </li>
+    </ul>
+  </nav>
+</header>
+
+<br>
+
+{{content}}
