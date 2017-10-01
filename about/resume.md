@@ -4,6 +4,9 @@ mathjax: true
 ---
 
 <br>
+Download [[pdf]({{site.baseurl}}/about/pdf/resume_en_0917.pdf "Download Resume")]
+
+<br>
 
 ## CAREER PROFILE
 _$\boldsymbol{\Large{\cdot}}$ MS in Computer Science & MS in Statistics, plus 2 years as a statistician<br>
@@ -18,7 +21,7 @@ $\boldsymbol{\Large{\cdot}}$ Basic knowledge in finance and economics (passed CF
 ## EXPERIENCES
 **Research Assistant**<br>
 <span style="color:#97acd5">09/2016 - 10/2017</span><br>
-<span style="color:#97acd5">Dept. of Computer Science, Rutgers University - New Brunswick</span><br>
+<span style="color:#97acd5">Computational Biomedicine Imaging and Modeling Center (CBIM), Rutgers University - New Brunswick</span><br>
 <span style="color:#97acd5">New Brunswick, NJ</span><br>
 _$\boldsymbol{\Large{\cdot}}$ My research involves modeling of medical signals in Prof. Michmizos’ group._<br>
 
@@ -42,21 +45,25 @@ _$\boldsymbol{\Large{\cdot}}$ Publication: The Effect of Methotrexate on Synovio
 **M.Sc. in Computer Science**<br>
 <span style="color:#97acd5">09/2015 - 05/2017</span><br>
 <span style="color:#97acd5">Rutgers University – New Brunswick &nbsp; GPA 3.7/4.0</span><br>
+<span style="color:#97acd5">New Brunswick, NJ</span><br>
 _$\boldsymbol{\Large{\cdot}}$ Thesis: Localization of Subthalamic Nucleus with K-means Clustering<br>_
 
 **M.Sc. in Statistics**<br>
 <span style="color:#97acd5">09/2011 - 05/2013</span><br>
 <span style="color:#97acd5">Rutgers University – New Brunswick &nbsp; GPA 3.8/4.0</span><br>
+<span style="color:#97acd5">New Brunswick, NJ</span><br>
 _$\boldsymbol{\Large{\cdot}}$ Waived master’s qualifying exam<br>_
 
 **Ph.D. program in Biomedical Sciences, Drop Out**<br>
 <span style="color:#97acd5">09/2009 - 07/2011</span><br>
 <span style="color:#97acd5">Oregon Health & Science University, School of Medicine</span><br>
+<span style="color:#97acd5">Portland, OR</span><br>
 _$\boldsymbol{\Large{\cdot}}$ Activities: Vice President of Chinese Students & Scholars Association<br>_
 
 **B.Eng. in Biotechnology & Bioinformatics**<br>
 <span style="color:#97acd5">09/2004 - 07/2008</span><br>
-<span style="color:#97acd5">Tianjin Medical University, School of Biomedical Engineering</span>
+<span style="color:#97acd5">Tianjin Medical University, School of Biomedical Engineering</span><br>
+<span style="color:#97acd5">Tianjin, China</span>
 <br><br>
 
 ## CERTIFICATES
@@ -87,21 +94,21 @@ $\boldsymbol{\Large{\cdot}}$ GRE General: V 640/800 (91%) + Q 800/800 (94%) + AW
 ## SELECTED PROJECTS
 #### Master Thesis
 $\boldsymbol{\Large{\cdot}}$ **Localization of Subthalamic Nucleus using Modified K-means Clustering**<br>
-<span style="color:#97acd5">Sept. 2016 – Present</span><br>
+<span style="color:#97acd5">09/2016 - 09/2017</span><br>
 <span style="color:#97acd5">Advisor: Prof. Konstantinos Michmizos</span><br>
 <span style="color:#97acd5">Tools: Matlab, Python</span><br>
 _The brain data was collected by microelectrode probes during deep brain stimulation surgeries. We filtered the 53 brain signals, i.e. the microelectrode recordings (MERs), from 24 patients with Parkinson’s disease using a FIR filter with a band-pass between 0.5 kHz and 8 kHz. 18 computational features, either from the literature or from de novo design, were extracted from the filtered signals. After normalizing these features, we fed them into the K-means clustering algorithm and get the four segments corresponding to four regions of the brain on the trajectory of the probe. We further integrated the depth vector with the original feature matrix to lower the noise in the clustering results. Combing with the information in the feature activity maps, the K-means clustering can automatically identify the subthalamic nucleus boundaries on the MERs. Principal component analysis was also applied and reduced the complexity of the model.<br>_
 
 #### Machine Learning
 $\boldsymbol{\Large{\cdot}}$ **Scalable Logistic Regression Classifier Optimized by Stochastic Gradient Descent**<br>
-<span style="color:#97acd5">Oct. 2015 - Dec. 2015</span><br>
+<span style="color:#97acd5">10/2015 - 12/2015</span><br>
 <span style="color:#97acd5">Teammates: Bharath Joginapally, Sanjay Bharadhwaj Vijayaraghava</span><br>
 <span style="color:#97acd5">Tools: Java, Apache Mahout</span><br>
 _We built logistic regression classifiers using Java and Apache Mahout, which were tested on data sets with increasing number of
 observations.<br>_
 
 $\boldsymbol{\Large{\cdot}}$ **Network Intrusion Detection Using Machine Learning Algorithms**<br>
-<span style="color:#97acd5">Mar. 2016 - May. 2016</span><br>
+<span style="color:#97acd5">03/2016 - 05/2016</span><br>
 <span style="color:#97acd5">Teammates: Yang Zheng, Xin Cheng</span><br>
 <span style="color:#97acd5">Tools: Python, NumPy, Pandas, Scikit-Learn, Spark</span><br>
 _We built an effective network intrusion detection system using different supervised learning algorithms, such as Naïve Bayes, decision tree, logistic regression, support vector machine, k-means clustering, and artificial neural networks.<br>
@@ -111,22 +118,24 @@ _We built an effective network intrusion detection system using different superv
 
 #### Big Data Analytics
 $\boldsymbol{\Large{\cdot}}$ **N-Gram based Google Auto-complete System**<br>
-<span style="color:#97acd5">Sept. 2016 - Oct. 2016</span><br>
+<span style="color:#97acd5">09/2016 - 10/2016</span><br>
 <span style="color:#97acd5">Tools: Java, Hadoop, MapReduce, jQuery, PHP, MySQL</span><br>
 _The algorithm for this project involves two consecutive MapReduce processing. An N-Gram library was built from wiki database. On top of the N-Gram library, a language model was established based on the probability of phrase appearance. PHP and MySQL was employed for data query. jQuery and AJAX was used for front end presentation. Real-time auto-complete function was accomplished.<br>_
 
 $\boldsymbol{\Large{\cdot}}$ **Ranking Websites using PageRank Algorithm**<br>
-<span style="color:#97acd5">Oct. 2016 - Nov. 2016</span><br>
+<span style="color:#97acd5">10/2016 - 11/2016</span><br>
 <span style="color:#97acd5">Tools: Java, Hadoop, MapReduce</span><br>
 _Adjacency matrix was used to establish the relationships between different websites. The PageRank for different websites was computed. The convergence of PageRank algorithm led to ranking of websites.<br>_
 
 $\boldsymbol{\Large{\cdot}}$ **Movie Recommender System**<br>
-<span style="color:#97acd5">Nov. 2016 - Dec. 2016</span><br>
+<span style="color:#97acd5">11/2016 - 12/2016</span><br>
 <span style="color:#97acd5">Tools: Python, Hadoop, Amazon EMR</span><br>
 _A movie recommender system is built based on similarity between each user's past movie rating records. This system is capable of giving the most similar movies as top recommendations to each user. Two versions of this recommender system were developed using python: one took advantage of MRJob to work on Amazon Elastic MapReduce, the other was built for Spark. Both were run on a cluster of 20 nodes on the cloud. Results were analyzed and compared. The total number of observations in this project reached 20 million.<br>_
 
 #### Web Development
 $\boldsymbol{\Large{\cdot}}$ **A Spring-Hibernate CRUD Web Application of Student Registration System**<br>
-<span style="color:#97acd5">Dec. 2016 - Jan. 2017</span><br>
+<span style="color:#97acd5">12/2016 - 01/2017</span><br>
 <span style="color:#97acd5">Tools: Spring MVC Framework, Hibernate Framework, HQL, Java EE, JSP, HTML, CSS, XML, Tomcat 8.5</span><br>
 _After initial setup of the development environment, Eclipse Java EE was connected with MySQL database using JDBC. A hibernate student entity class was then created and mapped to a database table in MySQL (Object-to-Relational Mapping). Hibernate session factory was utilized to create, read, update, and delete student objects upon user's request. Data access objective was later injected into controller. Modifications on the database were displayed to the user via a JSP page.<br>_
+
+<br><br><br><br><br>
