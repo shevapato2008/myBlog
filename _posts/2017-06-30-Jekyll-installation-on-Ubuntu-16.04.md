@@ -87,6 +87,17 @@ $ jekyll serve
 
 <br>
 
+## Issues
+---
+
+jekyll-paginate is no longer under active development. Need to install it manually.
+
+```shell
+$ gem install jekyll-paginate
+```
+
+<br>
+
 ## Reference
 ---
 
@@ -96,4 +107,5 @@ $ jekyll serve
 [gcc]: https://packages.ubuntu.com/search?keywords=gcc "gcc package in Ubuntu"
 [gem]: https://rubygems.org/ "rubyGems.org"
 
-[How to Set Up a Jekyll Development Site on Ubuntu 16.04](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-jekyll-development-site-on-ubuntu-16-04#conclusion)
++ [How to Set Up a Jekyll Development Site on Ubuntu 16.04](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-jekyll-development-site-on-ubuntu-16-04#conclusion)
++ [jekyll-paginate on Github](https://github.com/jekyll/jekyll-paginate)
