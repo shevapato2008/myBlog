@@ -13,7 +13,7 @@ This is LeetCode homepage.
 <span style="color:green;">[Easy]</span> &nbsp; [344. Reverse String]({{site.baseurl}}/algorithms/leetcode/344 "344. Reverse String")<br>
 <span style="color:#F0AD4E;">[Medium]</span> &nbsp; [151. Reverse Words in a String]({{site.baseurl}}/algorithms/leetcode/151 "151. Reverse Words in a String")<br>
 <span style="color:#F0AD4E;">[Medium]</span> &nbsp; [6. ZigZag Conversion]({{site.baseurl}}/algorithms/leetcode/6 "6. ZigZag Conversion")<br>
-
+<span style="color:green;">[Easy]</span> &nbsp; [387. First Unique Character in a String]({{site.baseurl}}/algorithms/leetcode/387 "387. First Unique Character in a String")<br>
 <br>
 
 ## 2. Binary Search
