@@ -22,3 +22,10 @@ This is LeetCode homepage.
 ---
 
 [$074$. Search a 2D Matrix]({{site.baseurl}}/algorithms/leetcode/74) &nbsp; <span style="color:#F0AD4E;">[Medium]</span><br>
+[$240$. Search a 2D Matrix II]({{site.baseurl}}/algorithms/leetcode/240) &nbsp; <span style="color:#F0AD4E;">[Medium]</span><br>
+[$035$. Search Insert Position]({{site.baseurl}}/algorithms/leetcode/35) &nbsp; <span style="color:green;">[Easy]</span><br>
+[$034$. Search for a Range II]({{site.baseurl}}/algorithms/leetcode/34) &nbsp; <span style="color:#F0AD4E;">[Medium]</span><br>
+[$278$. First Bad Version]({{site.baseurl}}/algorithms/leetcode/278) &nbsp; <span style="color:green;">[Easy]</span><br>
+[$162$. Find Peak Element]({{site.baseurl}}/algorithms/leetcode/162) &nbsp; <span style="color:#F0AD4E;">[Medium]</span><br>
+[$069$. Sqrt(x)]({{site.baseurl}}/algorithms/leetcode/69) &nbsp; <span style="color:green;">[Easy]</span><br>
+[$050$. Pow(x, n)]({{site.baseurl}}/algorithms/leetcode/50) &nbsp; <span style="color:#F0AD4E;">[Medium]</span><br>
