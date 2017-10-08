@@ -29,3 +29,9 @@ This is LeetCode homepage.
 [$162$. Find Peak Element]({{site.baseurl}}/algorithms/leetcode/162) &nbsp; <span style="color:#F0AD4E;">[Medium]</span><br>
 [$069$. Sqrt(x)]({{site.baseurl}}/algorithms/leetcode/69) &nbsp; <span style="color:green;">[Easy]</span><br>
 [$050$. Pow(x, n)]({{site.baseurl}}/algorithms/leetcode/50) &nbsp; <span style="color:#F0AD4E;">[Medium]</span><br>
+[$153$. Find Minimum in Rotated Sorted Array]({{site.baseurl}}/algorithms/leetcode/153) &nbsp; <span style="color:#F0AD4E;">[Medium]</span><br>
+[$154$. Find Minimum in Rotated Sorted Array II]({{site.baseurl}}/algorithms/leetcode/154) &nbsp; <span style="color:red;">[Hard]</span><br>
+[$033$. Search in Rotated Sorted Array]({{site.baseurl}}/algorithms/leetcode/33) &nbsp; <span style="color:#F0AD4E;">[Medium]</span><br>
+[$081$. Search in Rotated Sorted Array II]({{site.baseurl}}/algorithms/leetcode/81) &nbsp; <span style="color:#F0AD4E;">[Medium]</span><br>
+
+<br><br>
