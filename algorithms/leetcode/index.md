@@ -33,5 +33,12 @@ This is LeetCode homepage.
 [$154$. Find Minimum in Rotated Sorted Array II]({{site.baseurl}}/algorithms/leetcode/154) &nbsp; <span style="color:red;">[Hard]</span><br>
 [$033$. Search in Rotated Sorted Array]({{site.baseurl}}/algorithms/leetcode/33) &nbsp; <span style="color:#F0AD4E;">[Medium]</span><br>
 [$081$. Search in Rotated Sorted Array II]({{site.baseurl}}/algorithms/leetcode/81) &nbsp; <span style="color:#F0AD4E;">[Medium]</span><br>
+[$004$. Median of Two Sorted Arrays]({{site.baseurl}}/algorithms/leetcode/4) &nbsp; <span style="color:red;">[Hard]</span><br>
+<br>
 
+## 3. Binary Tree, Divide & Conquer, Binary Search Tree
+---
+[$144$. Binary Tree Preorder Traversal]({{site.baseurl}}/algorithms/leetcode/144) &nbsp; <span style="color:#F0AD4E;">[Medium]</span><br>
+[$145$. Binary Tree Postorder Traversal]({{site.baseurl}}/algorithms/leetcode/145) &nbsp; <span style="color:red;">[Hard]</span><br>
+[$094$. Binary Tree Inorder Traversal]({{site.baseurl}}/algorithms/leetcode/94) &nbsp; <span style="color:#F0AD4E;">[Medium]</span><br>
 <br><br>
