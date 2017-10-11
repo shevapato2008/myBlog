@@ -62,14 +62,14 @@ $ sudo apt-get install oracle-java9-installer
 ```
 Java 8 and 9 would basically work fine. But [Oracle JDK7 itself is no longer hosted in the PPA because that's not allowed by the new Java license](http://www.webupd8.org/2012/01/install-oracle-java-jdk-7-in-ubuntu-via.html). You will have to find alternative sources to download the corresponding installation package. You might find the following mirrors usable: [Source1](http://ftp.osuosl.org/pub/funtoo/distfiles/oracle-java/ "Mirror hosted by Oregon State University"), [Source2](http://www.360sdn.com/ide-develop-tool/2016/0919/9262.html "360sdn Mirror"). jdk-7u80-linux-x64.tar.gz is the installation file needed for a Ubuntu 16.04 64bit machine.
 
-After manually downloading the JDK tar.gz archive, you can place it under */var/cache/oracle-jdk7-installer* and install it using the previous command.
+After manually downloading the JDK tar.gz archive, you can place it under `/var/cache/oracle-jdk7-installer` and install it using the previous command.
 ```shell
 $ sudo cp /Downloads/jdk-7u80-linux-x64.tar.gz /var/cache/oracle-jdk7-installer
 $ cd /var/cache/oracle-jdk7-installer
 $ tar -xvzf jdk-7u80-linux-x64.tar.gz
 $ sudo apt-get install oracle-java7-installer
 ```
-**Note**: Explanation on file extraction command **`tar -xvzf *.tar.gz`**<br>
+**Note**: Explanation on file extraction command `tar -xvzf *.tar.gz`<br>
 + **`f`**: this must be the last flag of the command, and the tar <span style="font-weight: bold;">f</span>ile must be immediately after. It tells tar the name and path of the compressed file.
 + **`z`**: tells tar to decompress the archive using g<span style="font-weight: bold;">z</span>ip.
 + **`x`**: tar can collect files or e<span style="font-weight: bold;">x</span>tract them. `x` does the latter.
