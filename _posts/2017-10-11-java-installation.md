@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Java Installation on Ubuntu 16.04
+title: Java Installation and Environment Setting on Ubuntu 16.04
 meta: This post helps install Java under Linux environment.
 comments: true
 mathjax: true

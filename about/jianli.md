@@ -39,7 +39,7 @@ $\boldsymbol{\Large{\cdot}}$ 发表文章: 甲氨蝶呤诱导色素沉着绒毛�
 
 ## 学历
 **计算机科学, 理学硕士**<br>
-<span style="color:#97acd5">09/2015 - 05/2017</span><br>
+<span style="color:#97acd5">09/2015 - 10/2017</span><br>
 <span style="color:#97acd5">罗格斯大学-新布朗斯维克分校 &nbsp; GPA 3.7/4.0</span><br>
 <span style="color:#97acd5">新泽西州新布朗斯维克市, 美国</span><br>
 $\boldsymbol{\Large{\cdot}}$ 毕业论文:使用改进 k-平均算法方法自动定位下丘脑核<br>
