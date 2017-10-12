@@ -43,7 +43,7 @@ _$\boldsymbol{\Large{\cdot}}$ Publication: The Effect of Methotrexate on Synovio
 
 ## EDUCATION
 **M.Sc. in Computer Science**<br>
-<span style="color:#97acd5">09/2015 - 05/2017</span><br>
+<span style="color:#97acd5">09/2015 - 10/2017</span><br>
 <span style="color:#97acd5">Rutgers University – New Brunswick &nbsp; GPA 3.7/4.0</span><br>
 <span style="color:#97acd5">New Brunswick, NJ</span><br>
 _$\boldsymbol{\Large{\cdot}}$ Thesis: Localization of Subthalamic Nucleus with K-means Clustering<br>_
