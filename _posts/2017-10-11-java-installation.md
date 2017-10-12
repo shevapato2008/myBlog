@@ -157,6 +157,7 @@ $ sudo apt-get remove oracle-java7-installer
 + [Install Java (JRE Or JDK) On Ubuntu 16.04](https://www.atlantic.net/community/howto/install-java-jre-jdk-on-ubuntu-16-04/)
 + [How to Install Java on Ubuntu 16.04](https://www.rosehosting.com/blog/how-to-install-java-on-ubuntu-16-04/)
 + [Terry: Set Java Environment Variables](https://terry.im/wiki/terry/Set%2BJava%2BEnvironment%2BVariables.html)
++ [ubuntu三种配置java环境变量的方法](https://my.oschina.net/dyyweb/blog/634067)
 
 **More on Trouble Shooting**<br>
 + [AskUbuntu] [How to set JAVA_HOME for Java?](https://askubuntu.com/questions/175514/how-to-set-java-home-for-java)
