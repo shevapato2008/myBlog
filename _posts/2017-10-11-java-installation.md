@@ -116,7 +116,7 @@ You could modify one of the following 3 types of configuration files:
 + `/etc/profile` or `/etc/profile.d/*.sh`: also belong to system-wide configuration, the global initialization scripts that are equivalant to `~/.profile` for each user. The global scripts get executed before the user-specific scripts though. The main `/etc/profile` executes all the .sh scripts in `/etc/profile.d/` just before it exits.
 + `~/.bash_profile`, `~/.profile`, or `~/.bashrc`: session-wide configuration files, your own user's personal shell initialization scripts. Every user has one and can edit their file without affecting others. You may find their functional differences in these threads: [link1](https://askubuntu.com/questions/866161/setting-path-variable-in-etc-environment-vs-profile), [link2](https://serverfault.com/questions/261802/what-are-the-functional-differences-between-profile-bash-profile-and-bashrc "What are the functional differences between .profile .bash_profile and .bashrc?"), [link3](https://superuser.com/questions/789448/choosing-between-bashrc-profile-bash-profile-etc "[superuser] Choosing between .bashrc, .profile, .bash_profile, etc").
 
-After modifying the configuration file, you need to source it to let it take effect. Take `/etc/profile` as an example.
+After modifying the configuration file, you need to `source` it to let it take effect. Take `/etc/profile` as an example.
 ```shell
 $ source /etc/profile
 ```
@@ -138,7 +138,7 @@ $ sudo apt-get install oracle-java7-set-default
 ```
 If you've already installed `oracle-java8-set-default` or `oracle-java9-set-default`, they will be automatically removed when installing oracle-java7-set-default (and the environment variables will be set for Oracle Java 7 instead).
 
-That’s it. You have successfully installed Java JDK on your Ubuntu 16.04. You can now install JAVA based software such as Tomcat, GitBucket, GlassFish 4 and many more.
+That’s it. You have successfully installed Java JDK on your Ubuntu 16.04. You can now install Java based software such as Tomcat, GitBucket, GlassFish 4 and many more.
 
 <br><br>
 
