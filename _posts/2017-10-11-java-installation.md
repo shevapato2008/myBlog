@@ -101,31 +101,36 @@ As shown above, java 9 has been switched to java 7.
 ---
 Since many programs nowadays need a JAVA_HOME environment variable to work properly, we will need to find the appropriate path to make these changes. With the following command, you can view all java installs and their paths.
 
-**Method 1: Manual Setup**
-```shell
-$ sudo update-alternatives --config java
-```
-To edit the environment file, you can open `/etc/environment` using any text editor like `nano` or `gedit`.
-```shell
-$ sudo nano /etc/environment
-$ sudo gedit /etc/environment
-```
-Add the following line:
-```
-export JAVA_HOME="/usr/lib/jvm/java-9-oracle"
-```
-The java path could be different. Then use `source` to load the variables, by running the following command.
-```shell
-$ source /etc/environment
-```
-The check the variable.
-```shell
-echo $JAVA_HOME
-```
-**Note**:<br>
-Usually most linux systems source /etc/environment by default. If your sytem does not do that add the following line to `~/.bashrc`.
+**Modify a Configuration File Manually**
 
-**Method 2: Automatic Setup**
+Take java 8 as an example. Add the following commands to a configuration file using any text editor like `vi`, `vim`, `nano`, or `gedit`.
+```shell
+# Set Environment Variables
+export JAVA_HOME=/usr/lib/jvm/java-8-oracle
+export JRE_HOME=$JAVA_HOME/jre
+export CLASSPATH=.:$JAVA_HOME/lib/tools.jar:$JAVA_HOME/lib/dt.jar:$JRE_HOME/lib
+export PATH=$JAVA_HOME/bin:$PATH
+```
+You could modify one of the following 3 types of configuration files:
++ `/etc/environment`: a system-wide configuration file
++ `/etc/profile` or `/etc/profile.d/*.sh`: also belong to system-wide configuration, the global initialization scripts that are equivalant to `~/.profile` for each user. The global scripts get executed before the user-specific scripts though. The main `/etc/profile` executes all the .sh scripts in `/etc/profile.d/` just before it exits.
++ `~/.bash_profile`, `~/.profile`, or `~/.bashrc`: session-wide configuration files, your own user's personal shell initialization scripts. Every user has one and can edit their file without affecting others. You may find their functional differences in these threads: [link1](https://askubuntu.com/questions/866161/setting-path-variable-in-etc-environment-vs-profile), [link2](https://serverfault.com/questions/261802/what-are-the-functional-differences-between-profile-bash-profile-and-bashrc "What are the functional differences between .profile .bash_profile and .bashrc?"), [link3](https://superuser.com/questions/789448/choosing-between-bashrc-profile-bash-profile-etc "[superuser] Choosing between .bashrc, .profile, .bash_profile, etc").
+
+After modifying the configuration file, you need to source it to let it take effect. Take `/etc/profile` as an example.
+```shell
+$ source /etc/profile
+```
+
+If you want to add a path (e.g. `/your/additional/path`) to your `PATH` variable for your current user only and not for all users of your computer, you normally put it at the end of `~/.profile` like in one of those two examples:
+```shell
+PATH="/your/additional/path:$PATH"
+PATH="$PATH:/your/additional/path"
+```
+The **path priorities** are descending from left to right, so the first path has the highest priority. If you add your path on the left of $PATH, it will have the highest priority and executables in that location will override all others. If you add your path on the right, it will have the lowest priority and executables from the other locations will be preferred.
+
+However, if you need to set that environment variable for all users, I would still not recommend touching `/etc/environment` but creating a file with the file name ending in .sh in `/etc/profile.d/`. The `/etc/profile` script and all scripts in `/etc/profile.d` are the global equivalent of each user's personal `~/.profile` and executed as regular shell scripts by all shells during their initialization.
+
+**Automatic Setup**
 
 To automatically set up the Java 7 environment variables, you can install the following package:
 ```shell
@@ -151,6 +156,7 @@ $ sudo apt-get remove oracle-java7-installer
 + [Install Oracle Java 7 in Ubuntu or Linux Mint via PPA Repository](http://www.webupd8.org/2012/01/install-oracle-java-jdk-7-in-ubuntu-via.html)
 + [Install Java (JRE Or JDK) On Ubuntu 16.04](https://www.atlantic.net/community/howto/install-java-jre-jdk-on-ubuntu-16-04/)
 + [How to Install Java on Ubuntu 16.04](https://www.rosehosting.com/blog/how-to-install-java-on-ubuntu-16-04/)
++ [Terry: Set Java Environment Variables](https://terry.im/wiki/terry/Set%2BJava%2BEnvironment%2BVariables.html)
 
 **More on Trouble Shooting**<br>
 + [AskUbuntu] [How to set JAVA_HOME for Java?](https://askubuntu.com/questions/175514/how-to-set-java-home-for-java)
