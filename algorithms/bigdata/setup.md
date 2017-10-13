@@ -88,11 +88,18 @@ If something like above appears as an output, that means you have successfully d
 
 <br>
 
-## Further Test Hadoop Ecosystem in Docker
+## Further Test Hadoop and MapReduce in Docker Container
 ---
-Use WordCount as an example. Run the following code in docker.
+Run WordCount as an example.
 
-Copy and paste the following code in terminal.
+First, we need to setup the Java and Hadoop environment variables.
+```shell
+root@hadoop-master:~# export JAVA_HOME=/usr/java/default
+root@hadoop-master:~# export PATH=${JAVA_HOME}/bin:${PATH}
+root@hadoop-master:~# export HADOOP_CLASSPATH=/usr/lib/jvm/java-7-openjdk-amd64/lib/tools.jar
+```
+
+Copy and paste the following code in terminal (still in container).
 ```shell
 echo "
 import java.io.IOException;
@@ -157,12 +164,26 @@ public class WordCount {
 }
 " > WordCount.java
 ```
-
+You will see `WordCount.java` file appears in the folder.
+```shell
+root@hadoop-master:~# hadoop com.sun.tools.javac.Main WordCount.java
+root@hadoop-master:~# jar cf wc.jar WordCount*.class
+root@hadoop-master:~# mkdir input
+root@hadoop-master:~# echo "Hello Docker" > input/file1.txt
+root@hadoop-master:~# echo "Hello Hadoop" > input/file2.txt
+root@hadoop-master:~# hdfs dfs -mkdir -p input
+root@hadoop-master:~# hdfs dfs -put ./input/* input
+root@hadoop-master:~# hdfs dfs -ls input
+root@hadoop-master:~# hdfs dfs -rm -r output # do not have to remove output folder if you are running it for the first time
+root@hadoop-master:~# hadoop jar wc.jar WordCount input output
+root@hadoop-master:~# hdfs dfs -cat output/* # check the output of WordCount MapReduce program
 ```
-root@hadoop-master:~# ls
-WordCount.java  hdfs  run-wordcount.sh  start-hadoop.sh
+The outcome should appear like below.
 ```
-
+Hello   2
+Docker	1
+Hadoop	1
+```
 
 
 <br><br>
