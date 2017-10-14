@@ -185,5 +185,25 @@ Docker	1
 Hadoop	1
 ```
 
+<br>
+
+## Synchronizing using Docker Volume
+---
+
+Download docker image joway/hadoop-cluster.
+```shell
+$ sudo docker pull joway/hadoop-cluster
+$ git clone https://github.com/joway/hadoop-cluster-docker
+$ sudo docker network create --driver=bridge hadoop
+$ cd hadoop-cluster-docker
+$ sudo ./start-container.sh 5
+```
+It has the docker volume function which enables the user to transfer files to the docker containers via the `~/src` local folder. After starting the docker containers, you will find the shared folder `src` both in your local machine and your docker containers. Note that we also increase the number of docker containers to 5: 1 master and 4 slaves. We can also adjust the number using something like the following command.
+```shell
+$ sudo ./resize-cluster.sh 10
+```
+
+To learn more about dock volume, please refer to the following link.<br>
+[https://docs.docker.com/engine/admin/volumes/volumes/](https://docs.docker.com/engine/admin/volumes/volumes/)
 
 <br><br>
