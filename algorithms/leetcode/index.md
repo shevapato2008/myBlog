@@ -41,4 +41,12 @@ This is LeetCode homepage.
 [$144$. Binary Tree Preorder Traversal]({{site.baseurl}}/algorithms/leetcode/144) &nbsp; <span style="color:#F0AD4E;">[Medium]</span><br>
 [$145$. Binary Tree Postorder Traversal]({{site.baseurl}}/algorithms/leetcode/145) &nbsp; <span style="color:red;">[Hard]</span><br>
 [$094$. Binary Tree Inorder Traversal]({{site.baseurl}}/algorithms/leetcode/94) &nbsp; <span style="color:#F0AD4E;">[Medium]</span><br>
+[$104$. Maximum Depth of Binary Tree]({{site.baseurl}}/algorithms/leetcode/104) &nbsp; <span style="color:green;">[Easy]</span><br>
+[$111$. Minimum Depth of Binary Tree]({{site.baseurl}}/algorithms/leetcode/111) &nbsp; <span style="color:green;">[Easy]</span><br>
+[$110$. Balanced Binary Tree]({{site.baseurl}}/algorithms/leetcode/110) &nbsp; <span style="color:green;">[Easy]</span><br>
+[$236$. Lowest Common Ancestor of a Binary Tree]({{site.baseurl}}/algorithms/leetcode/236) &nbsp; <span style="color:#F0AD4E;">[Medium]</span><br>
+[$124$. Binary Tree Maximum Path Sum]({{site.baseurl}}/algorithms/leetcode/124) &nbsp; <span style="color:red;">[Hard]</span><br>
+[$226$. Invert Binary Tree]({{site.baseurl}}/algorithms/leetcode/226) &nbsp; <span style="color:green;">[Easy]</span><br>
+[$102$. Binary Tree Level Order Traversal]({{site.baseurl}}/algorithms/leetcode/102) &nbsp; <span style="color:green;">[Easy]</span><br>
+
 <br><br>
