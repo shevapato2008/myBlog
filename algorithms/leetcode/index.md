@@ -7,7 +7,6 @@ This is LeetCode homepage.
 
 ## 1. String
 ---
-
 [$028$. Implement strStr()]({{site.baseurl}}/algorithms/leetcode/28) &nbsp; <span style="color:green;">[Easy]</span><br>
 [$242$. Valid Anagram]({{site.baseurl}}/algorithms/leetcode/242) &nbsp; <span style="color:green;">[Easy]</span><br>
 [$344$. Reverse String]({{site.baseurl}}/algorithms/leetcode/344) &nbsp; <span style="color:green;">[Easy]</span><br>
@@ -20,7 +19,6 @@ This is LeetCode homepage.
 
 ## 2. Binary Search
 ---
-
 [$074$. Search a 2D Matrix]({{site.baseurl}}/algorithms/leetcode/74) &nbsp; <span style="color:#F0AD4E;">[Medium]</span><br>
 [$240$. Search a 2D Matrix II]({{site.baseurl}}/algorithms/leetcode/240) &nbsp; <span style="color:#F0AD4E;">[Medium]</span><br>
 [$035$. Search Insert Position]({{site.baseurl}}/algorithms/leetcode/35) &nbsp; <span style="color:green;">[Easy]</span><br>
@@ -58,5 +56,21 @@ This is LeetCode homepage.
 [$096$. Unique Binary Search Trees]({{site.baseurl}}/algorithms/leetcode/96) &nbsp; <span style="color:#F0AD4E;">[Medium]</span><br>
 [$095$. Unique Binary Search Trees II]({{site.baseurl}}/algorithms/leetcode/95) &nbsp; <span style="color:#F0AD4E;">[Medium]</span><br>
 [$235$. Lowest Common Ancestor of a Binary Search Tree]({{site.baseurl}}/algorithms/leetcode/235) &nbsp; <span style="color:green;">[Easy]</span><br>
+
+## 4. Dynamic Programming
+---
+[$120$. Triangle]({{site.baseurl}}/algorithms/leetcode/120) &nbsp; <span style="color:#F0AD4E;">[Medium]</span><br>
+
+<br>
+
+## 5. Linked List
+---
+[$083$. Remove Duplicates from Sorted List]({{site.baseurl}}/algorithms/leetcode/83) &nbsp; <span style="color:green;">[Easy]</span><br>
+[$082$. Remove Duplicates from Sorted List II]({{site.baseurl}}/algorithms/leetcode/82) &nbsp; <span style="color:#F0AD4E;">[Medium]</span><br>
+[$206$. Reverse Linked List]({{site.baseurl}}/algorithms/leetcode/206) &nbsp; <span style="color:green;">[Easy]</span><br>
+[$092$. Reverse Linked List II]({{site.baseurl}}/algorithms/leetcode/92) &nbsp; <span style="color:#F0AD4E;">[Medium]</span><br>
+[$086$. Partition List]({{site.baseurl}}/algorithms/leetcode/86) &nbsp; <span style="color:#F0AD4E;">[Medium]</span><br>
+
+<br>
 
 <br><br>
