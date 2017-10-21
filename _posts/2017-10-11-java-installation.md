@@ -4,6 +4,7 @@ title: Java Installation and Environment Setting on Ubuntu 16.04
 meta: This post helps install Java under Linux environment.
 comments: true
 mathjax: true
+published: false
 ---
 
 There are basically two standard types of installation: JRE (Java Runtime Environment) and JDK (Java Development Kit).
