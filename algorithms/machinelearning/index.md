@@ -71,4 +71,10 @@ This is machine learning homepage.
   </span>
 </div>
 
+<br>
+
+## Environment Setup
+---
+[TensorFlow GPU Setup Under Linux Environment]({% post_url 2017-07-19-tensorflow-env-setup %})
+
 <br><br>
