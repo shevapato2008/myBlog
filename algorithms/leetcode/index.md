@@ -70,6 +70,11 @@ This is LeetCode homepage.
 [$206$. Reverse Linked List]({{site.baseurl}}/algorithms/leetcode/206) &nbsp; <span style="color:green;">[Easy]</span><br>
 [$092$. Reverse Linked List II]({{site.baseurl}}/algorithms/leetcode/92) &nbsp; <span style="color:#F0AD4E;">[Medium]</span><br>
 [$086$. Partition List]({{site.baseurl}}/algorithms/leetcode/86) &nbsp; <span style="color:#F0AD4E;">[Medium]</span><br>
+[$147$. Insertion Sort List]({{site.baseurl}}/algorithms/leetcode/147) &nbsp; <span style="color:#F0AD4E;">[Medium]</span><br>
+[$148$. Sort List]({{site.baseurl}}/algorithms/leetcode/148) &nbsp; <span style="color:#F0AD4E;">[Medium]</span><br>
+[$143$. Reorder List]({{site.baseurl}}/algorithms/leetcode/143) &nbsp; <span style="color:#F0AD4E;">[Medium]</span><br>
+[$019$. Remove Nth Node From End of List]({{site.baseurl}}/algorithms/leetcode/19) &nbsp; <span style="color:#F0AD4E;">[Medium]</span><br>
+[$141$. Linked List Cycle]({{site.baseurl}}/algorithms/leetcode/141) &nbsp; <span style="color:green;">[Easy]</span><br>
 
 <br>
 
