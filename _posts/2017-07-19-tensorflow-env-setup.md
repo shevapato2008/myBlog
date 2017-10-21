@@ -6,7 +6,9 @@ comments: true
 mathjax: true
 ---
 
-This article gives the detailed instruction for tensorflow gpu installation. In order to use TensorFlow with GPU support you must have a Nvidia graphic card with a minimum compute capability of 3.0. After several unsuccessfull attemps, I finally managed to find the right combination for my `GTX 1060 6gb`: `Ubuntu 16.04` + `CUDA 8.0` + `cuDNN v6` + `Tensorflow 1.3`. Lets get started with the installation.
+This article gives the detailed instruction for tensorflow gpu installation. In order to use TensorFlow with GPU support you must have an NVIDIA graphic card with a minimum compute capability of 3.0. After several unsuccessfull attemps, I finally managed to find the right combination for my `GTX 1060 6gb`: `Ubuntu 16.04` + `CUDA 8.0` + `cuDNN v6` + `Tensorflow 1.3`. Lets get started with the installation.
+
+<br>
 
 ## Step 1: Update/Install NVIDIA drivers
 ---
@@ -21,7 +23,7 @@ Go to `Software & Updates` to verify the version of NVIDIA graphics driver.
 
 <br>
 
-## Step 2: Intall and test CUDA v8.0
+## Step 2: Intall and test CUDA 8.0
 ---
 The NVIDIA® CUDA® Toolkit provides a development environment for creating high performance GPU-accelerated applications. To use TensorFlow with NVIDIA GPUs, the first step is to install the CUDA Toolkit by following the official documentation. You may download it from its official website: [https://developer.nvidia.com/cuda-downloads](https://developer.nvidia.com/cuda-downloads)
 
@@ -31,12 +33,18 @@ $ sudo dpkg -i cuda-repo-ubuntu1604-8-0-local-ga2_8.0.61-1_amd64.deb
 $ sudo apt-get update
 $ sudo apt-get install cuda
 ```
+
+Note: If you have already installed cuda 9.0, you can still install cuda 8.0 using the following command.
+```shell
+$ sudo apt-get install cuda-8-0
+```
+
 After installation, you can set the environment variables for CUDA Toolkit by attaching the following PATHs to the end your `~/.bashrc` file.
 ```shell
 export PATH=/usr/local/cuda-8.0/bin${PATH:+:${PATH}}
 export LD_LIBRARY_PATH=/usr/local/cuda-8.0/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
 ```
-`${PATH:+:${PATH}}` and `${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}` are just a trick to avoid the possibility of adding an extra colon `:`.
+The structure like `${PATH:+:${PATH}}` and `${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}` is just a trick to avoid the possibility of adding an extra colon `:`.
 Type the following command to let the change take effect.
 ```shell
 $ source ~/.bashrc
@@ -57,6 +65,11 @@ If successful, a new window will popup running n-body simulation.
 The NVIDIA CUDA® Deep Neural Network library (cuDNN) is a GPU-accelerated library of primitives for deep neural networks.
 
 Once the CUDA Toolkit is installed, download cuDNN v6 Library (cuDNN v6 is recommended for TF v1.3) for Linux and install by following the official documentation. (Note: You will need to register for the [Accelerated Computing Developer Program](https://developer.nvidia.com/developer-program)).
+
+You can get cuDNN v6.0 directly using the following command.
+```shell
+wget http://developer.download.nvidia.com/compute/redist/cudnn/v6.0/cudnn-8.0-linux-x64-v6.0.tgz
+```
 
 Once downloaded, navigate to the directory containing cuDNN:
 ```shell
