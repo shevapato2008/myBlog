@@ -51,7 +51,6 @@ This is LeetCode homepage.
 [$298$. Binary Tree Longest Consecutive Sequence]({{site.baseurl}}/algorithms/leetcode/298) &nbsp; <span style="color:#F0AD4E;">[Medium]</span><br>
 [$173$. Binary Search Tree Iterator]({{site.baseurl}}/algorithms/leetcode/173) &nbsp; <span style="color:#F0AD4E;">[Medium]</span><br>
 [$285$. Inorder Successor in BST]({{site.baseurl}}/algorithms/leetcode/285) &nbsp; <span style="color:#F0AD4E;">[Medium]</span><br>
-[$109$. Convert Sorted List to Binary Search Tree]({{site.baseurl}}/algorithms/leetcode/109) &nbsp; <span style="color:#F0AD4E;">[Medium]</span><br>
 [$108$. Convert Sorted Array to Binary Search Tree]({{site.baseurl}}/algorithms/leetcode/108) &nbsp; <span style="color:green;">[Easy]</span><br>
 [$096$. Unique Binary Search Trees]({{site.baseurl}}/algorithms/leetcode/96) &nbsp; <span style="color:#F0AD4E;">[Medium]</span><br>
 [$095$. Unique Binary Search Trees II]({{site.baseurl}}/algorithms/leetcode/95) &nbsp; <span style="color:#F0AD4E;">[Medium]</span><br>
@@ -75,6 +74,12 @@ This is LeetCode homepage.
 [$143$. Reorder List]({{site.baseurl}}/algorithms/leetcode/143) &nbsp; <span style="color:#F0AD4E;">[Medium]</span><br>
 [$019$. Remove Nth Node From End of List]({{site.baseurl}}/algorithms/leetcode/19) &nbsp; <span style="color:#F0AD4E;">[Medium]</span><br>
 [$141$. Linked List Cycle]({{site.baseurl}}/algorithms/leetcode/141) &nbsp; <span style="color:green;">[Easy]</span><br>
+[$142$. Linked List Cycle II]({{site.baseurl}}/algorithms/leetcode/142) &nbsp; <span style="color:#F0AD4E;">[Medium]</span><br>
+[$021$. Merge Two Sorted Lists]({{site.baseurl}}/algorithms/leetcode/21) &nbsp; <span style="color:green;">[Easy]</span><br>
+[$023$. Merge k Sorted Lists]({{site.baseurl}}/algorithms/leetcode/23) &nbsp; <span style="color:red;">[Hard]</span><br>
+[$109$. Convert Sorted List to Binary Search Tree]({{site.baseurl}}/algorithms/leetcode/109) &nbsp; <span style="color:#F0AD4E;">[Medium]</span><br>
+[$114$. Flatten Binary Tree to Linked List]({{site.baseurl}}/algorithms/leetcode/114) &nbsp; <span style="color:#F0AD4E;">[Medium]</span><br>
+[$002$. Add Two Numbers]({{site.baseurl}}/algorithms/leetcode/2) &nbsp; <span style="color:#F0AD4E;">[Medium]</span><br>
 
 <br>
 
