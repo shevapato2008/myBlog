@@ -4,6 +4,7 @@ title: $\LaTeX$ in MarkDown
 meta: This post introduces some simple $\LaTeX$ syntax in Markdown environment.
 comments: true
 mathjax: true
+published: true
 ---
 
 This post introduces some simple $\LaTeX$ syntax in Markdown environment.
