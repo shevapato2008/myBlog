@@ -90,7 +90,29 @@ This is LeetCode homepage.
 [$001$. Two Sum]({{site.baseurl}}/algorithms/leetcode/1) &nbsp; <span style="color:green;">[Easy]</span><br>
 [$015$. 3Sum]({{site.baseurl}}/algorithms/leetcode/15) &nbsp; <span style="color:#F0AD4E;">[Medium]</span><br>
 [$016$. 3Sum Closest]({{site.baseurl}}/algorithms/leetcode/16) &nbsp; <span style="color:#F0AD4E;">[Medium]</span><br>
+[$628$. Maximum Product of Three Numbers]({{site.baseurl}}/algorithms/leetcode/628) &nbsp; <span style="color:green;">[Easy]</span><br>
 
 <br>
+
+## 7. Data Structure
+---
+
+<br>
+
+## 8. Graph & Search
+---
+
+<br>
+
+## 9. Math & Bit Manipulation
+---
+[$043$. Multiply Strings]({{site.baseurl}}/algorithms/leetcode/43) &nbsp; <span style="color:#F0AD4E;">[Medium]</span><br>
+
+
+<br>
+
+
+
+
 
 <br><br>
