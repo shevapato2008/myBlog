@@ -83,4 +83,14 @@ This is LeetCode homepage.
 
 <br>
 
+## 6. Arrays
+---
+[$088$. Merge Sorted Array]({{site.baseurl}}/algorithms/leetcode/88) &nbsp; <span style="color:green;">[Easy]</span><br>
+[$053$. Maximum Subarray]({{site.baseurl}}/algorithms/leetcode/53) &nbsp; <span style="color:green;">[Easy]</span><br>
+[$001$. Two Sum]({{site.baseurl}}/algorithms/leetcode/1) &nbsp; <span style="color:green;">[Easy]</span><br>
+[$015$. 3Sum]({{site.baseurl}}/algorithms/leetcode/15) &nbsp; <span style="color:#F0AD4E;">[Medium]</span><br>
+[$016$. 3Sum Closest]({{site.baseurl}}/algorithms/leetcode/16) &nbsp; <span style="color:#F0AD4E;">[Medium]</span><br>
+
+<br>
+
 <br><br>
