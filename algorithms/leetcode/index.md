@@ -90,6 +90,11 @@ This is LeetCode homepage.
 [$001$. Two Sum]({{site.baseurl}}/algorithms/leetcode/1) &nbsp; <span style="color:green;">[Easy]</span><br>
 [$015$. 3Sum]({{site.baseurl}}/algorithms/leetcode/15) &nbsp; <span style="color:#F0AD4E;">[Medium]</span><br>
 [$016$. 3Sum Closest]({{site.baseurl}}/algorithms/leetcode/16) &nbsp; <span style="color:#F0AD4E;">[Medium]</span><br>
+[$018$. 4Sum]({{site.baseurl}}/algorithms/leetcode/18) &nbsp; <span style="color:#F0AD4E;">[Medium]</span><br>
+[$075$. Sort Colors]({{site.baseurl}}/algorithms/leetcode/75) &nbsp; <span style="color:#F0AD4E;">[Medium]</span><br>
+[$054$. Spiral Matrix]({{site.baseurl}}/algorithms/leetcode/54) &nbsp; <span style="color:#F0AD4E;">[Medium]</span><br>
+[$059$. Spiral Matrix II]({{site.baseurl}}/algorithms/leetcode/59) &nbsp; <span style="color:#F0AD4E;">[Medium]</span><br>
+[$215$. Kth Largest Element in an Array]({{site.baseurl}}/algorithms/leetcode/215) &nbsp; <span style="color:#F0AD4E;">[Medium]</span><br>
 [$628$. Maximum Product of Three Numbers]({{site.baseurl}}/algorithms/leetcode/628) &nbsp; <span style="color:green;">[Easy]</span><br>
 
 <br>
