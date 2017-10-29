@@ -95,6 +95,9 @@ This is LeetCode homepage.
 [$054$. Spiral Matrix]({{site.baseurl}}/algorithms/leetcode/54) &nbsp; <span style="color:#F0AD4E;">[Medium]</span><br>
 [$059$. Spiral Matrix II]({{site.baseurl}}/algorithms/leetcode/59) &nbsp; <span style="color:#F0AD4E;">[Medium]</span><br>
 [$215$. Kth Largest Element in an Array]({{site.baseurl}}/algorithms/leetcode/215) &nbsp; <span style="color:#F0AD4E;">[Medium]</span><br>
+[$347$. Top K Frequent Elements]({{site.baseurl}}/algorithms/leetcode/347) &nbsp; <span style="color:#F0AD4E;">[Medium]</span><br>
+[$378$. Kth Smallest Element in a Sorted Matrix]({{site.baseurl}}/algorithms/leetcode/378) &nbsp; <span style="color:#F0AD4E;">[Medium]</span><br>
+[$349$. Intersection of Two Arrays]({{site.baseurl}}/algorithms/leetcode/349) &nbsp; <span style="color:green;">[Easy]</span><br>
 [$628$. Maximum Product of Three Numbers]({{site.baseurl}}/algorithms/leetcode/628) &nbsp; <span style="color:green;">[Easy]</span><br>
 
 <br>
