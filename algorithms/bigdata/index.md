@@ -19,4 +19,11 @@ This is big data homepage.
 #### Java
 + Example: [Word Count]({{site.baseurl}}/algorithms/bigdata/wc_java) &nbsp; <a class="icon-text" href="https://github.com/shevapato2008/HadoopMapReduce_Java/tree/master/WordCount" title="Github Repository"><i class="mastheadicon icomoon-github1"></i></a>
 
+#### Python
++ Example: [Rating Counter]({{site.baseurl}}/algorithms/bigdata/ratingcounter_python) &nbsp; <a class="icon-text" href="https://github.com/shevapato2008/HadoopMapReduce_Python/tree/master/1.%20Rating%20Counter" title="Github Repository"><i class="mastheadicon icomoon-github1"></i></a>
++ Example: [Friends by Age]({{site.baseurl}}/algorithms/bigdata/friendsbyage_python) &nbsp; <a class="icon-text" href="https://github.com/shevapato2008/HadoopMapReduce_Python/tree/master/2.%20Friends%20By%20Age" title="Github Repository"><i class="mastheadicon icomoon-github1"></i></a>
++ Example: [Minimum Temperature by Location]({{site.baseurl}}/algorithms/bigdata/mintemploc_python) &nbsp; <a class="icon-text" href="https://github.com/shevapato2008/HadoopMapReduce_Python/tree/master/3.%20Minimum%20Temperature%20By%20Location" title="Github Repository"><i class="mastheadicon icomoon-github1"></i></a>
++ Example: [Maximum Temperature by Location]({{site.baseurl}}/algorithms/bigdata/maxtemploc_python) &nbsp; <a class="icon-text" href="https://github.com/shevapato2008/HadoopMapReduce_Python/tree/master/4.%20Maximum%20Temperature%20By%20Location" title="Github Repository"><i class="mastheadicon icomoon-github1"></i></a>
++ Example: [Word Count]({{site.baseurl}}/algorithms/bigdata/wc_python) &nbsp; <a class="icon-text" href="https://github.com/shevapato2008/HadoopMapReduce_Python/tree/master/5.%20Word%20Count" title="Github Repository"><i class="mastheadicon icomoon-github1"></i></a>
+
 <br><br>
