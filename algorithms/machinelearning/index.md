@@ -8,29 +8,68 @@ This is machine learning homepage.
 
 ## Python
 ---
-[Python Basics]({{site.baseurl}}/algorithms/machinelearning/python_basics/ "Python Basics") <br>
+### Basics
++ Complete Python Bootcamp <span style="color:#97acd5">by Jose Marcial Portilla</span><br>
+[[ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/tree/master/)] &nbsp;
+[[pdf]({{site.baseurl}}/algorithms/machinelearning/python/PythonBasics.pdf)]
++ [Tutorial](https://www.tutorialspoint.com/python/) &nbsp; <span style="color:#97acd5">tutorialspoint.com</span><br>
 
 ### NumPy
-+ Quickstart Tutorial &nbsp; [[html](https://docs.scipy.org/doc/numpy-dev/user/quickstart.html)]<br>
++ [Tutorial](https://docs.scipy.org/doc/numpy-dev/user/quickstart.html) &nbsp; <span style="color:#97acd5">scipy.org</span>
++ [User Guide](https://docs.scipy.org/doc/numpy/user/index.html) &nbsp; <span style="color:#97acd5">scipy.org</span>
++ [Reference](https://docs.scipy.org/doc/numpy/reference/index.html#reference) &nbsp; <span style="color:#97acd5">scipy.org</span>
 
 ### SciPy
-+ Tutorial &nbsp; [[html](https://docs.scipy.org/doc/scipy/reference/tutorial/)]
++ [Tutorial](https://docs.scipy.org/doc/scipy/reference/tutorial/) &nbsp; <span style="color:#97acd5">scipy.org</span>
++ [Reference](https://docs.scipy.org/doc/scipy/reference/) &nbsp; <span style="color:#97acd5">scipy.org</span>
 
 ### Pandas
-+ [10 Minutes to Pandas]({{site.baseurl}}/algorithms/machinelearning/10-minutes-to-pandas "10 Minutes to Pandas") &nbsp;
++ 10 Minutes to Pandas <span style="color:#97acd5">pydata.org</span><br>
 [[html](https://pandas.pydata.org/pandas-docs/stable/10min.html)] &nbsp;
 [[ipynb](http://nbviewer.jupyter.org/github/shevapato2008/PandasTutorial/blob/master/10%20minutes%20to%20pandas.ipynb)]
-+ Pandas Cookbook &nbsp;
++ Pandas Cookbook <span style="color:#97acd5">pydata.org</span><br>
 [[html](https://pandas.pydata.org/pandas-docs/stable/cookbook.html)] &nbsp;
-[[ipynb]({{site.baseurl}}/algorithms/machinelearning/pandas-cookbook)]<br>
+[[ipynb]({{site.baseurl}}/algorithms/machinelearning/pandas-cookbook)]
++ [Tutorial](http://pandas.pydata.org/pandas-docs/stable/tutorials.html#) &nbsp; <span style="color:#97acd5">pydata.org</span>
 
 ### Matplotlib
-+ Pyplot Tutorial &nbsp; [[html](https://matplotlib.org/users/pyplot_tutorial.html "Matplotlib Pyplot Tutorial")]
++ [Pyplot Tutorial](https://matplotlib.org/users/pyplot_tutorial.html) &nbsp; <span style="color:#97acd5">matplotlib.org</span>
+
+<br>
+
+## Algorithms
+---
+### Supervised Learning
++ Generalized Linear Models
+  - Linear Regression
+  - Logistic Regression &nbsp;
+    [[wikipedia](https://en.wikipedia.org/wiki/Logistic_regression)] &nbsp;
+    [[sklearn](http://scikit-learn.org/stable/modules/linear_model.html#logistic-regression)]
+
++ Support Vector Machines
++ Naive Bayes
++ Decision Tree
++ Ensemble Methods
+  - Random Forest
+  - Ada Boosting
+
+
+### Unsupervised Learning
++ Clustering
+  - K-Means Clustering
+  - Hierarchical Clustering
+  - DBSCAN
++ Density Estimation
+
+
+### Deep Learning
++ Convolutional Neural Network
++ Recurrent Neural Network
 
 
 <br>
 
-## Online Course
+## Online Courses
 ---
 
 <div style="display: flex; align-items: center;">
@@ -55,8 +94,36 @@ This is machine learning homepage.
 
 <br>
 
-## Textbook
+## Books
 ---
+### Theory
+<div style="display: flex; align-items: center;">
+  <img src="{{site.baseurl}}/algorithms/machinelearning/book/image/prml.png" alt="pdsh cover" width="150" height="195" style="vertical-align: middle; border: 0; margin: 10px 30px 10px 0px;">
+  <span>
+    <p>
+      Pattern Recognition and Machine Learning (2006)<br>
+      &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; by Christopher Bishop<br>
+      [<a href="http://www.springer.com/us/book/9780387310732">html</a>]&nbsp;
+      [<a href="https://github.com/PRML/PRMLT">code</a>]&nbsp;
+      [<a href="{{site.baseurl}}/algorithms/machinelearning/book/prml.pdf">pdf</a>]&nbsp;
+      [<a href="https://www.microsoft.com/en-us/research/wp-content/uploads/2016/05/prml-errata-3rd-20110921.pdf">errata</a>]
+    </p>
+  </span>
+</div>
+
+### Practice
+<div style="display: flex; align-items: center;">
+  <img src="{{site.baseurl}}/algorithms/machinelearning/book/image/hmlsktf.png" alt="pdsh cover" width="150" height="195" style="vertical-align: middle; border: 0; margin: 10px 30px 10px 0px;">
+  <span>
+    <p>
+      Hands-On Machine Learning with Scikit-Learn and TensorFlow (2017)<br>
+      &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; by Aurélien Géron<br>
+      [<a href="http://shop.oreilly.com/product/0636920052289.do">html</a>]&nbsp;
+      [<a href="https://github.com/ageron/handson-ml">code</a>]&nbsp;
+      [<a href="{{site.baseurl}}/algorithms/machinelearning/book/handson-machine-learning-with-scikit-learn-and-tensorflow.pdf">pdf</a>]
+    </p>
+  </span>
+</div>
 
 <div style="display: flex; align-items: center;">
   <img src="{{site.baseurl}}/algorithms/machinelearning/book/image/pdsh.jpg" alt="pdsh cover" width="150" height="195" style="vertical-align: middle; border: 0; margin: 10px 30px 10px 0px;">
@@ -65,8 +132,21 @@ This is machine learning homepage.
       Python Data Science Handbook (2016)<br>
       &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; by Jake VanderPlas<br>
       [<a href="http://shop.oreilly.com/product/0636920034919.do">html</a>]&nbsp;
-      [<a href="https://github.com/shevapato2008/PythonDataScienceHandbook">ipynb</a>]&nbsp;
+      [<a href="https://github.com/jakevdp/PythonDataScienceHandbook">code</a>]&nbsp;
       [<a href="{{site.baseurl}}/algorithms/machinelearning/book/python-data-science-handbook.pdf">pdf</a>]
+    </p>
+  </span>
+</div>
+
+<div style="display: flex; align-items: center;">
+  <img src="{{site.baseurl}}/algorithms/machinelearning/book/image/mlia.png" alt="pdsh cover" width="150" height="195" style="vertical-align: middle; border: 0; margin: 10px 30px 10px 0px;">
+  <span>
+    <p>
+      Machine Learning in Action (2012)<br>
+      &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; by Peter Harrington<br>
+      [<a href="https://www.manning.com/books/machine-learning-in-action">html</a>]&nbsp;
+      [<a href="https://github.com/pbharrin/machinelearninginaction">code</a>]&nbsp;
+      [<a href="{{site.baseurl}}/algorithms/machinelearning/book/machine-learning-in-action.pdf">pdf</a>]
     </p>
   </span>
 </div>
