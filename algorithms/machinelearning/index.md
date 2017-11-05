@@ -35,23 +35,46 @@ This is machine learning homepage.
 ### Matplotlib
 + [Pyplot Tutorial](https://matplotlib.org/users/pyplot_tutorial.html) &nbsp; <span style="color:#97acd5">matplotlib.org</span>
 
+### Scikit-Learn
++ [Tutorials v0.19.1](http://scikit-learn.org/stable/tutorial/index.html) &nbsp; <span style="color:#97acd5">scikit-learn.org</span>
++ [User Guide v0.19.1](http://scikit-learn.org/stable/user_guide.html) &nbsp; <span style="color:#97acd5">scikit-learn.org</span>
+
+
 <br>
 
 ## Algorithms
 ---
 ### Supervised Learning
 + Generalized Linear Models
-  - Linear Regression
-  - Logistic Regression &nbsp;
+  - Linear Regression &nbsp;
+    [[wikipedia](https://en.wikipedia.org/wiki/Linear_regression)] &nbsp;
+    [[sklearn](http://scikit-learn.org/stable/modules/linear_model.html#ordinary-least-squares)]
+  - Ridge Regression &nbsp;
+    [[wikipedia](https://en.wikipedia.org/wiki/Tikhonov_regularization "Tikhonov Regularization")] &nbsp;
+    [[sklearn](http://scikit-learn.org/stable/modules/linear_model.html#ridge-regression)]
+  - Lasso Regression &nbsp;
+    [[wikipedia](https://en.wikipedia.org/wiki/Tikhonov_regularization "Tikhonov Regularization")] &nbsp;
+    [[sklearn](http://scikit-learn.org/stable/modules/linear_model.html#lasso)]
+  - [Logistic Regression]({{site.baseurl}}/algorithms/machinelearning/algorithms/logisticregression) &nbsp;
     [[wikipedia](https://en.wikipedia.org/wiki/Logistic_regression)] &nbsp;
     [[sklearn](http://scikit-learn.org/stable/modules/linear_model.html#logistic-regression)]
 
-+ Support Vector Machines
++ [Support Vector Machines]({{site.baseurl}}/algorithms/machinelearning/algorithms/svm) &nbsp;
+  [[wikipedia](https://en.wikipedia.org/wiki/Support_vector_machine)] &nbsp;
+  [[sklearn](http://scikit-learn.org/stable/modules/svm.html)]
 + Naive Bayes
-+ Decision Tree
-+ Ensemble Methods
-  - Random Forest
-  - Ada Boosting
++ [Decision Tree]({{site.baseurl}}/algorithms/machinelearning/algorithms/decisiontree) &nbsp;
+  [[wikipedia](https://en.wikipedia.org/wiki/Decision_tree)] &nbsp;
+  [[sklearn](http://scikit-learn.org/stable/modules/tree.html)]
++ Ensemble Learning &nbsp;
+  [[wikipedia](https://en.wikipedia.org/wiki/Ensemble_learning)] &nbsp;
+  [[sklearn](http://scikit-learn.org/stable/modules/ensemble.html)]
+  - [Bootstrap Aggregating (Bagging)]({{site.baseurl}}/algorithms/machinelearning/algorithms/bagging) &nbsp;
+    [[wikipedia](https://en.wikipedia.org/wiki/Bootstrap_aggregating)] &nbsp;
+    [[sklearn](http://scikit-learn.org/stable/modules/ensemble.html#bagging)]
+  - [Boosting]({{site.baseurl}}/algorithms/machinelearning/algorithms/boosting) &nbsp;
+    [[wikipedia](https://en.wikipedia.org/wiki/Boosting_(machine_learning))] &nbsp;
+    [[sklearn](http://scikit-learn.org/stable/modules/ensemble.html#adaboost "AdaBoost")]
 
 
 ### Unsupervised Learning
