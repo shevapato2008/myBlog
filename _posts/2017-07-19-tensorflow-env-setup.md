@@ -1,6 +1,6 @@
 ---
 layout: post
-title: TensorFlow GPU Setup Under Linux Environment
+title: "TensorFlow GPU Setup: Ubuntu 16.04 + CUDA 8.0 + cuDNN v6 + Tensorflow 1.3"
 meta: This post helps set up the TensorFlow GPU version under Ubuntu 16.04 environment.
 comments: true
 mathjax: true
