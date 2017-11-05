@@ -191,6 +191,6 @@ This is machine learning homepage.
 
 ## Environment Setup
 ---
-[TensorFlow GPU Setup Under Linux Environment]({% post_url myBlog/2017-07-19-tensorflow-env-setup %})
+[TensorFlow GPU Setup: Ubuntu 16.04 + CUDA 8.0 + cuDNN v6 + Tensorflow 1.3]({{site.baseurl}}/algorithms/machinelearning/environment/tensorflow-gpu)
 
 <br><br>
