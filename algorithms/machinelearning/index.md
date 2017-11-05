@@ -191,6 +191,6 @@ This is machine learning homepage.
 
 ## Environment Setup
 ---
-[TensorFlow GPU Setup Under Linux Environment]({% post_url 2017-07-19-tensorflow-env-setup %})
+[TensorFlow GPU Setup Under Linux Environment]({% post_url myBlog/2017-07-19-tensorflow-env-setup %})
 
 <br><br>
