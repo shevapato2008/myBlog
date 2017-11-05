@@ -82,13 +82,26 @@ This is machine learning homepage.
   - K-Means Clustering
   - Hierarchical Clustering
   - DBSCAN
++ Gaussian Mixture Model
 + Density Estimation
+  - Histogram
+  - Kernel Density Estimation
 
 
 ### Deep Learning
 + Convolutional Neural Network
 + Recurrent Neural Network
 
+
+### Recommender System
++ Collaborative Filtering
++ Content-Based Filtering
+
+
+### Natural Language Processing
++ Latent Dirichlet Allocation (LDA)
++ Hidden Markov Model (HMM)
++ Probabilistic Latent Semantic Analysis (PLSA)
 
 <br>
 
