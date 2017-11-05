@@ -4,6 +4,7 @@ title: TensorFlow GPU Setup Under Linux Environment
 meta: This post helps set up the TensorFlow GPU version under Ubuntu 16.04 environment.
 comments: true
 mathjax: true
+published: true
 ---
 
 This article gives the detailed instruction for tensorflow gpu installation. In order to use TensorFlow with GPU support you must have an NVIDIA graphic card with a minimum compute capability of 3.0. After several unsuccessfull attemps, I finally managed to find the right combination for my `GTX 1060 6gb`: `Ubuntu 16.04` + `CUDA 8.0` + `cuDNN v6` + `Tensorflow 1.3`. Lets get started with the installation.
@@ -177,6 +178,7 @@ Hello, TensorFlow!
 
 ## Step 6: Use TensorFlow in Jupyter Notebook
 ---
+**1. Check the Availability of Jupyter in TensorFlow Environment**<br>
 Check if you have already installed Jupyter within the tensorflow environment. Type the following command after activating the tensorflow environment.
 ```shell
 (tensorflow1.3-gpu-py2.7) [..]$ which jupyter
@@ -186,6 +188,33 @@ The result `<anaconda_home>/envs/<conda env name>/bin/jupyter` means that jupyte
 If not installed, type the following command.
 ```shell
 (tensorflow1.3-gpu-py2.7) [..]$ pip install jupyter
+```
+
+**2. Kernels for Different Environments**<br>
+Use the following command to check the available kernels for your Jupyter notebook.
+```shell
+$ jupyter kernelspec list
+```
+It should output something like below.
+```
+Available kernels:
+    babel           /Users/grant/Library/Jupyter/kernels/babel
+    bash            /Users/grant/Library/Jupyter/kernels/bash
+    coffeescript    /Users/grant/Library/Jupyter/kernels/coffeescript
+    javascript      /Users/grant/Library/Jupyter/kernels/javascript
+    jskernel        /Users/grant/Library/Jupyter/kernels/jskernel
+    python2         /Users/grant/Library/Jupyter/kernels/python2
+    python3         /usr/local/share/jupyter/kernels/python3
+```
+If the list does not contain the TensorFlow environment. Just add it using the following template.
+```shell
+$ source activate myenv
+$ python -m ipykernel install --user --name myenv --display-name "Python (myenv)"
+```
+For my case, I added my `tensorflow1.3-gpu-py2.7` kernel environment to Jupyter as follows.
+```shell
+$ source activate tensorflow1.3-gpu-py2.7
+(tensorflow1.3-gpu-py2.7) [..]$ python -m ipykernel install --user --name tensorflow1.3-gpu-py2.7 --display-name "Python tensorflow1.3-gpu-py2.7"
 ```
 
 <br>
@@ -216,6 +245,7 @@ conda remove --name [Environment Name] --all
 + [YouTube] [Installing the GPU version of TensorFlow for making use of your CUDA GPU](https://www.youtube.com/watch?v=io6Ajf5XkaM)
 + [TensorFlow Official] [The URL of the TensorFlow Python package](https://www.tensorflow.org/install/install_linux#the_url_of_the_tensorflow_python_package)
 + [conda.io] [Managing Conda Environments](https://conda.io/docs/using/envs.html)
++ [conda.io] [Kernels for different environments](http://ipython.readthedocs.io/en/stable/install/kernel_install.html#kernels-for-different-environments)
 
 **More on Trouble Shooting**<br>
 + [StackOverflow] [Trouble with TensorFlow in Jupyter Notebook](https://stackoverflow.com/questions/37061089/trouble-with-tensorflow-in-jupyter-notebook)
