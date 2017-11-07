@@ -21,7 +21,37 @@ Logistic regression was developed by statistician David Cox in 1958. The binary 
 ---
 #### Binary Classification
 The goal of logistic regression is to model the probability of a random variable $Y$ being 0 or 1 given experimental data.
-Consider a generalized linear model function parameterized by $\theta$,
+
+Consider a generalized linear model function (logistic function) parameterized by $\theta$,
+
+$$
+\begin{equation}
+\begin{split}
+h_{\theta}(x) = \frac{1}{1 + e^{- \theta^{T} x}}
+\end{split}
+\end{equation}
+$$
+
+This can be considered as a probability of $y = 1$ given $x$ and $\theta$, i.e.
+
+$$
+\begin{equation}
+\begin{split}
+h_{\theta}(x) = Pr(y = 1 | x; \theta)
+\end{split}
+\end{equation}
+$$
+
+In this line, we can model the probability that $y$ is $0$ or $1$ with Bernoulli distribution.
+
+$$
+\begin{equation}
+\begin{split}
+Pr(y | x; \theta) = h_{\theta}(x)^{y}(1 - h_{\theta}(x))^{(1-y)}
+\end{split}
+\end{equation}
+$$
+
 
 <br>
 
@@ -35,9 +65,9 @@ Reference:<br>
 ### Pros & Cons
 ---
 #### Pros
-+ Input variables can be any form: numerical or categorical
++ Input variables can be of any form: numerical or categorical
 + Easy to compute<br>
-linear combination of parameters $\beta$ and input X, i.e. $X^{T}\beta$, has low computational complexity
+linear combination of parameters $\theta$ and input $x$, i.e. $\theta^{T} x$, has low computational complexity
 + Easy to interpret<br>
 from a probability point of view
 
