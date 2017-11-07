@@ -20,6 +20,8 @@ Logistic regression was developed by statistician David Cox in 1958. The binary 
 ### Algorithms
 ---
 #### Binary Classification
+The goal of logistic regression is to model the probability of a random variable $Y$ being 0 or 1 given experimental data.
+Consider a generalized linear model function parameterized by $\theta$,
 
 <br>
 
