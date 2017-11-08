@@ -25,5 +25,7 @@ This is big data homepage.
 + Example: [Minimum Temperature by Location]({{site.baseurl}}/algorithms/bigdata/mintemploc_python) &nbsp; <a class="icon-text" href="https://github.com/shevapato2008/HadoopMapReduce_Python/tree/master/3.%20Minimum%20Temperature%20By%20Location" title="Github Repository"><i class="mastheadicon icomoon-github1"></i></a>
 + Example: [Maximum Temperature by Location]({{site.baseurl}}/algorithms/bigdata/maxtemploc_python) &nbsp; <a class="icon-text" href="https://github.com/shevapato2008/HadoopMapReduce_Python/tree/master/4.%20Maximum%20Temperature%20By%20Location" title="Github Repository"><i class="mastheadicon icomoon-github1"></i></a>
 + Example: [Word Count]({{site.baseurl}}/algorithms/bigdata/wc_python) &nbsp; <a class="icon-text" href="https://github.com/shevapato2008/HadoopMapReduce_Python/tree/master/5.%20Word%20Count" title="Github Repository"><i class="mastheadicon icomoon-github1"></i></a>
++ Example: [Total Spent by Customer]({{site.baseurl}}/algorithms/bigdata/totalspent) &nbsp; <a class="icon-text" href="https://github.com/shevapato2008/HadoopMapReduce_Python/tree/master/6.%20Total%20Spent%20by%20Customer" title="Github Repository"><i class="mastheadicon icomoon-github1"></i></a>
+
 
 <br><br>
