@@ -107,7 +107,18 @@ This is machine learning homepage.
 
 ## Online Courses
 ---
+### General Machine Learning
+<div style="display: flex; align-items: center;">
+  <a href="{{site.baseurl}}/algorithms/machinelearning/course/ml_andrewng">
+    <img src="{{site.baseurl}}/algorithms/machinelearning/course/ml_andrewng/image/cover.png" alt="course cover" width="200" height="100" style="vertical-align: middle; border: 0; margin: 10px 30px 10px 0px;">
+  </a>
+  <span>
+    <a href="{{site.baseurl}}/algorithms/machinelearning/course/ml_andrewng">Machine Learning</a>
+    <br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; by Andrew Ng, Stanford University
+  </span>
+</div>
 
+### Deep Learning
 <div style="display: flex; align-items: center;">
   <a href="{{site.baseurl}}/algorithms/machinelearning/nnml">
     <img src="{{site.baseurl}}/algorithms/machinelearning/nnml/image/nnml_hinton.jpg" alt="nnml cover" width="200" height="100" style="vertical-align: middle; border: 0; margin: 10px 30px 10px 0px;">
