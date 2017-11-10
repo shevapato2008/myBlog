@@ -20,24 +20,24 @@ mathjax: true
 &nbsp; [[ipynb](http://nbviewer.jupyter.org/github/shevapato2008/IBM_ML0120EN/blob/master/ML0120EN-1.1-Exercise-TensorFlowHelloWorld.ipynb)]
 + Exercise: Linear Regression with TensorFlow
 &nbsp; [[ipynb](http://nbviewer.jupyter.org/github/shevapato2008/IBM_ML0120EN/blob/master/ML0120EN-1.2-Exercise-LinearRegression.ipynb)]
-+ [Review Questions]({{site.baseurl}}/algorithms/machinelearning/dltf/quizzes/quiz01)
++ [Review Questions]({{site.baseurl}}/algorithms/machinelearning/course/dltf/quizzes/quiz01)
 
 <br>
 
 ### Module $\boldsymbol{2}$ - Convolutional Networks
-+ Introduction to Convolutional Networks &nbsp; [[slides]({{site.baseurl}}/algorithms/machinelearning/dltf/2-1 "Introduction to Convolutional Networks")]
++ Introduction to Convolutional Networks &nbsp; [[slides]({{site.baseurl}}/algorithms/machinelearning/course/dltf/2-1 "Introduction to Convolutional Networks")]
 + Review: Understanding Convolutions &nbsp; [[ipynb](http://nbviewer.jupyter.org/github/shevapato2008/IBM_ML0120EN/blob/master/ML0120EN-2.1-Review-UnderstandingConvolutions.ipynb)]
 + Review: CNN with MNIST Dataset &nbsp; [[ipynb](http://nbviewer.jupyter.org/github/shevapato2008/IBM_ML0120EN/blob/master/ML0120EN-2.2-Review-CNN-MNIST-Dataset.ipynb)]
 + Exercise: Convolution on Images Using TensorFlow &nbsp; [[ipynb](http://nbviewer.jupyter.org/github/shevapato2008/IBM_ML0120EN/blob/master/ML0120EN-2.1-Exercise-ConvolutiononImagesusingTensorFlow.ipynb)]
-+ [Review Questions]({{site.baseurl}}/algorithms/machinelearning/dltf/quizzes/quiz02)
++ [Review Questions]({{site.baseurl}}/algorithms/machinelearning/course/dltf/quizzes/quiz02)
 
 <br>
 
 ### Module $\boldsymbol{3}$ - Recurrent Neural Networks
-+ The Sequential Problem &nbsp; [[slides]({{site.baseurl}}/algorithms/machinelearning/dltf/3-1 "The Sequential Problem")]
-+ The Recurrent Neural Network Model &nbsp; [[slides]({{site.baseurl}}/algorithms/machinelearning/dltf/3-2 "The Recurrent Neural Network Model")]
-+ The Long Short-Term Memory Model &nbsp; [[slides]({{site.baseurl}}/algorithms/machinelearning/dltf/3-3 "The Long Short-Term Memory Model")]
-+ Applying Recurrent Networks to Language Modelling &nbsp; [[slides]({{site.baseurl}}/algorithms/machinelearning/dltf/3-4 "Applying Recurrent Networks to Language Modelling")]
++ The Sequential Problem &nbsp; [[slides]({{site.baseurl}}/algorithms/machinelearning/course/dltf/3-1 "The Sequential Problem")]
++ The Recurrent Neural Network Model &nbsp; [[slides]({{site.baseurl}}/algorithms/machinelearning/course/dltf/3-2 "The Recurrent Neural Network Model")]
++ The Long Short-Term Memory Model &nbsp; [[slides]({{site.baseurl}}/algorithms/machinelearning/course/dltf/3-3 "The Long Short-Term Memory Model")]
++ Applying Recurrent Networks to Language Modelling &nbsp; [[slides]({{site.baseurl}}/algorithms/machinelearning/course/dltf/3-4 "Applying Recurrent Networks to Language Modelling")]
 
 
 <br><br>

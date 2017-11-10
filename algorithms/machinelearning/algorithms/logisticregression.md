@@ -161,4 +161,12 @@ from a probability point of view
 Reference:<br>
 [[Quora] What are the pros and cons of using logistic regression with one binary outcome and several binary predictors?](https://www.quora.com/What-are-the-pros-and-cons-of-using-logistic-regression-with-one-binary-outcome-and-several-binary-predictors)
 
+<br>
+
+### Reference
+---
++ [Logistic Regression (Wikipedia)](https://en.wikipedia.org/wiki/Logistic_regression)
++ [Logistic Regression (SciKit-Learn)](http://scikit-learn.org/stable/modules/linear_model.html#logistic-regression)
++ [Lecture Notes on Logistic Regression (Machine Learning by Andrew Ng)]({{site.baseurl}}/algorithms/machinelearning/course/ml_andrewng/slides/6.pdf)
+
 <br><br>
