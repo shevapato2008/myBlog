@@ -5,11 +5,18 @@ comments: true
 mathjax: false
 ---
 
-# {{page.title}}
+# Machine Learning
+by Professor Andrew Ng, Stanford University
 
 <br>
 
-## Lectures
+## Video Lectures
+[https://pan.baidu.com/s/1nuFcdip](https://pan.baidu.com/s/1nuFcdip)<br>
+Password: ui3s
+
+<br>
+
+## Notes
 
 + Lecture 1 - Introduction &nbsp;
 [[Slides]({{site.baseurl}}/algorithms/machinelearning/course/ml_andrewng/slides/1.pdf)]
