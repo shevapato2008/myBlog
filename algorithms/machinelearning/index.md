@@ -116,6 +116,16 @@ This is machine learning homepage.
   </span>
 </div>
 
+<div style="display: flex; align-items: center;">
+  <a href="{{site.baseurl}}/algorithms/machinelearning/course/cpsc540">
+    <img src="{{site.baseurl}}/algorithms/machinelearning/course/cpsc540/image/cover.png" alt="course cover" width="200" height="100" style="vertical-align: middle; border: 0; margin: 10px 30px 10px 0px;">
+  </a>
+  <span>
+    <a href="{{site.baseurl}}/algorithms/machinelearning/course/cpsc540">UBC CPSC540: Machine Learning</a>
+    <br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; by Nando de Freitas, University of Oxford
+  </span>
+</div>
+
 ### Deep Learning
 <div style="display: flex; align-items: center;">
   <a href="{{site.baseurl}}/algorithms/machinelearning/nnml">
