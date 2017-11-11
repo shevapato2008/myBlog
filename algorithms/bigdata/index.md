@@ -6,16 +6,58 @@ mathjax: true
 
 This is big data homepage.
 
-## Basics
+## Hadoop / MapReduce
 ---
-#### Docker
-+ [Setup Hadoop Ecosystem Using Docker for Ubuntu 16.04]({{site.baseurl}}/algorithms/bigdata/setup)
-+ Docker Command Cheat Sheets [[EN](https://github.com/shevapato2008/docker-cheat-sheet)] [[CN](https://github.com/shevapato2008/docker-cheat-sheet/tree/master/zh-cn)]
+### 1. Hadoop Ecosystem
+#### Hadoop
++ [Apache® Hadoop® Homepage](http://hadoop.apache.org/) &nbsp; <span style="color:#97acd5">hadoop.apache.org</span>
++ [Tutorial](http://www.tutorialspoint.com/hadoop/) &nbsp; <span style="color:#97acd5">tutorialspoint.com</span>
++ [Tutorial](https://www.edureka.co/blog/hadoop-tutorial/) &nbsp; <span style="color:#97acd5">edureka.co/blog/</span>
+
+#### Hadoop Distributed File System (HDFS™)
+A distributed file system that provides high-throughput access to application data.
++ [HDFS Users Guide](http://hadoop.apache.org/docs/current/hadoop-project-dist/hadoop-hdfs/HdfsUserGuide.html)
+
+#### MapReduce
+A YARN-based system for parallel processing of large data sets.
++ [Tutorial](https://hadoop.apache.org/docs/current/hadoop-mapreduce-client/hadoop-mapreduce-client-core/MapReduceTutorial.html) &nbsp; <span style="color:#97acd5">hadoop.apache.org</span>
++ [Tutorial](http://www.tutorialspoint.com/map_reduce/) &nbsp; <span style="color:#97acd5">tutorialspoint.com</span>
++ [Tutorial](https://www.edureka.co/blog/mapreduce-tutorial/) &nbsp; <span style="color:#97acd5">edureka.co/blog/</span>
+
+#### Yarn
+A framework for job scheduling and cluster resource management.
++ [Apache Hadoop YARN Homepage](http://hadoop.apache.org/docs/current/hadoop-yarn/hadoop-yarn-site/YARN.html)
++ [Tutorial](https://www.edureka.co/blog/apache-hadoop-2-0-and-yarn/) &nbsp; <span style="color:#97acd5">edureka.co/blog/</span>
+
+#### Cassandra™
+A scalable multi-master database with no single points of failure.
++ [Apache Cassandra™ Homepage](http://cassandra.apache.org/)
+
+#### HBase
+ A scalable, distributed database that supports structured data storage for large tables.
++ [Apache HBase™ Homepage](http://hbase.apache.org/)
++ [Apache HBase™ Reference Guide](http://hbase.apache.org/book.html)
+
+#### Hive
+A data warehouse infrastructure that provides data summarization and ad hoc querying.
++ [Apache Hive™ Homepage](http://hive.apache.org/)
++ [Getting Started Guide](https://cwiki.apache.org/confluence/display/Hive/GettingStarted)
+
+#### Mahout
+A Scalable machine learning and data mining library.
++ [Apache Mahout™ Homepage](http://mahout.apache.org/)
+
+#### Pig
+A high-level data-flow language and execution framework for parallel computation.
++ [Apache Pig™ Homepage](http://pig.apache.org/)
+
+#### ZooKeeper
+A high-performance coordination service for distributed applications.
++ [Apache ZooKeeper™ Homepage](http://zookeeper.apache.org/)
 
 <br>
 
-## Hadoop / MapReduce
----
+### 2. Examples & Projects
 #### Java
 + Example: [Word Count]({{site.baseurl}}/algorithms/bigdata/wc_java) &nbsp; <a class="icon-text" href="https://github.com/shevapato2008/HadoopMapReduce_Java/tree/master/WordCount" title="Github Repository"><i class="mastheadicon icomoon-github1"></i></a>
 
@@ -31,5 +73,13 @@ This is big data homepage.
 + Example: [Most Popular Superhero]({{site.baseurl}}/algorithms/bigdata/mostpophero_python) &nbsp; <a class="icon-text" href="https://github.com/shevapato2008/HadoopMapReduce_Python/tree/master/9.%20Most%20Popular%20Superhero" title="Github Repository"><i class="mastheadicon icomoon-github1"></i></a>
 + Example: [Degrees of Separation (BFS)]({{site.baseurl}}/algorithms/bigdata/degsep_python) &nbsp; <a class="icon-text" href="https://github.com/shevapato2008/HadoopMapReduce_Python/tree/master/10.%20Degrees%20of%20Separation_Breadth-First%20Search" title="Github Repository"><i class="mastheadicon icomoon-github1"></i></a>
 + Project: [Movie Similarities]({{site.baseurl}}/algorithms/bigdata/moviesimil_python) &nbsp; <a class="icon-text" href="https://github.com/shevapato2008/HadoopMapReduce_Python/tree/master/11.%20Movie%20Similarities" title="Github Repository"><i class="mastheadicon icomoon-github1"></i></a>
+
+<br>
+
+## Environment Setup
+---
+#### Docker
++ [Setup Hadoop Ecosystem Using Docker for Ubuntu 16.04]({{site.baseurl}}/algorithms/bigdata/setup)
++ Docker Command Cheat Sheets [[EN](https://github.com/shevapato2008/docker-cheat-sheet)] [[CN](https://github.com/shevapato2008/docker-cheat-sheet/tree/master/zh-cn)]
 
 <br><br>
