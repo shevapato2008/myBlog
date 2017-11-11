@@ -9,7 +9,7 @@ This is big data homepage.
 ## Hadoop / MapReduce
 ---
 ### 1. Hadoop Ecosystem
-#### Hadoop
+#### <span style="color:red">Hadoop Overview</span>
 + [Apache® Hadoop® Homepage](http://hadoop.apache.org/) &nbsp; <span style="color:#97acd5">hadoop.apache.org</span>
 + [Tutorial](http://www.tutorialspoint.com/hadoop/) &nbsp; <span style="color:#97acd5">tutorialspoint.com</span>
 + [Tutorial](https://www.edureka.co/blog/hadoop-tutorial/) &nbsp; <span style="color:#97acd5">edureka.co/blog/</span>
@@ -18,13 +18,13 @@ This is big data homepage.
 A distributed file system that provides high-throughput access to application data.
 + [HDFS Users Guide](http://hadoop.apache.org/docs/current/hadoop-project-dist/hadoop-hdfs/HdfsUserGuide.html)
 
-#### MapReduce
+#### <span style="color:red">MapReduce</span>
 A YARN-based system for parallel processing of large data sets.
 + [Tutorial](https://hadoop.apache.org/docs/current/hadoop-mapreduce-client/hadoop-mapreduce-client-core/MapReduceTutorial.html) &nbsp; <span style="color:#97acd5">hadoop.apache.org</span>
 + [Tutorial](http://www.tutorialspoint.com/map_reduce/) &nbsp; <span style="color:#97acd5">tutorialspoint.com</span>
 + [Tutorial](https://www.edureka.co/blog/mapreduce-tutorial/) &nbsp; <span style="color:#97acd5">edureka.co/blog/</span>
 
-#### Yarn
+#### <span style="color:red">Yarn</span>
 A framework for job scheduling and cluster resource management.
 + [Apache Hadoop YARN Homepage](http://hadoop.apache.org/docs/current/hadoop-yarn/hadoop-yarn-site/YARN.html)
 + [Tutorial](https://www.edureka.co/blog/apache-hadoop-2-0-and-yarn/) &nbsp; <span style="color:#97acd5">edureka.co/blog/</span>
@@ -50,6 +50,12 @@ A Scalable machine learning and data mining library.
 #### Pig
 A high-level data-flow language and execution framework for parallel computation.
 + [Apache Pig™ Homepage](http://pig.apache.org/)
+
+#### <span style="color:red">Spark</span>
+A fast and general compute engine for Hadoop data. Spark provides a simple and expressive programming model that supports a wide range of applications, including ETL, machine learning, stream processing, and graph computation.
++ [Apache Spark™ Homepage](http://spark.apache.org/)
++ [Tutorial](https://www.tutorialspoint.com/apache_spark/) &nbsp; <span style="color:#97acd5">tutorialspoint.com</span>
++ [Tutorial](https://www.edureka.co/blog/spark-tutorial/) &nbsp; <span style="color:#97acd5">edureka.co/blog/</span>
 
 #### ZooKeeper
 A high-performance coordination service for distributed applications.
