@@ -21,7 +21,7 @@ A distributed file system that provides high-throughput access to application da
 #### <span style="color:red">MapReduce</span>
 A YARN-based system for parallel processing of large data sets.
 + [Tutorial](https://hadoop.apache.org/docs/current/hadoop-mapreduce-client/hadoop-mapreduce-client-core/MapReduceTutorial.html) &nbsp; <span style="color:#97acd5">hadoop.apache.org</span>
-+ [Tutorial](http://www.tutorialspoint.com/map_reduce/) &nbsp; <span style="color:#97acd5">tutorialspoint.com</span>
++ [Tutorial](http://www.tutorialspoint.com/map_reduce/) &nbsp; <span style="color:#97acd5">tutorialspoint.com</span> &nbsp; [[pdf]({{site.baseurl}}/algorithms/bigdata/assets/books/mapreduce_tutorialspoint.pdf)]
 + [Tutorial](https://www.edureka.co/blog/mapreduce-tutorial/) &nbsp; <span style="color:#97acd5">edureka.co/blog/</span>
 
 #### <span style="color:red">Yarn</span>
