@@ -21,7 +21,7 @@ A distributed file system that provides high-throughput access to application da
 #### <span style="color:red">MapReduce</span>
 A YARN-based system for parallel processing of large data sets.
 + [Tutorial](https://hadoop.apache.org/docs/current/hadoop-mapreduce-client/hadoop-mapreduce-client-core/MapReduceTutorial.html) &nbsp; <span style="color:#97acd5">hadoop.apache.org</span>
-+ [Tutorial](http://www.tutorialspoint.com/map_reduce/) &nbsp; <span style="color:#97acd5">tutorialspoint.com</span> &nbsp; [[pdf]({{site.baseurl}}/algorithms/bigdata/assets/books/mapreduce_tutorialspoint.pdf)]
++ [Tutorial](http://www.tutorialspoint.com/map_reduce/) &nbsp; <span style="color:#97acd5">tutorialspoint.com</span> &nbsp; [[pdf]({{site.baseurl}}/algorithms/bigdata/assets/books/mapreduce_tutorialspoint.pdf)] &nbsp; [[note]({{site.baseurl}}/algorithms/bigdata/assets/books/mapreduce_tutorialspoint_summary.pdf)]
 + [Tutorial](https://www.edureka.co/blog/mapreduce-tutorial/) &nbsp; <span style="color:#97acd5">edureka.co/blog/</span>
 
 #### <span style="color:red">Yarn</span>
@@ -54,7 +54,7 @@ A high-level data-flow language and execution framework for parallel computation
 #### <span style="color:red">Spark</span>
 A fast and general compute engine for Hadoop data. Spark provides a simple and expressive programming model that supports a wide range of applications, including ETL, machine learning, stream processing, and graph computation.
 + [Apache Spark™ Homepage](http://spark.apache.org/)
-+ [Tutorial](https://www.tutorialspoint.com/apache_spark/) &nbsp; <span style="color:#97acd5">tutorialspoint.com</span>
++ [Tutorial](https://www.tutorialspoint.com/apache_spark/) &nbsp; <span style="color:#97acd5">tutorialspoint.com</span> &nbsp; [[pdf]({{site.baseurl}}/algorithms/bigdata/assets/books/spark_tutorialspoint.pdf)] &nbsp; [[note]({{site.baseurl}}/algorithms/bigdata/assets/books/spark_tutorialspoint_summary.pdf)]
 + [Tutorial](https://www.edureka.co/blog/spark-tutorial/) &nbsp; <span style="color:#97acd5">edureka.co/blog/</span>
 
 #### ZooKeeper
