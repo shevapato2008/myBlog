@@ -122,7 +122,7 @@ This is machine learning homepage.
   </a>
   <span>
     <a href="{{site.baseurl}}/algorithms/machinelearning/course/cpsc540">UBC CPSC540: Machine Learning</a>
-    <br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; by Nando de Freitas, University of Oxford
+    <br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; by Nando de Freitas, University of British Columbia
   </span>
 </div>
 
@@ -134,6 +134,16 @@ This is machine learning homepage.
   <span>
     <a href="{{site.baseurl}}/algorithms/machinelearning/nnml">Neural Networks for Machine Learning</a>
     <br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; by Geoffrey Hinton, University of Toronto
+  </span>
+</div>
+
+<div style="display: flex; align-items: center;">
+  <a href="{{site.baseurl}}/algorithms/machinelearning/course/dl_defreitas">
+    <img src="{{site.baseurl}}/algorithms/machinelearning/course/dl_defreitas/image/cover.png" alt="course cover" width="200" height="100" style="vertical-align: middle; border: 0; margin: 10px 30px 10px 0px;">
+  </a>
+  <span>
+    <a href="{{site.baseurl}}/algorithms/machinelearning/course/dl_defreitas">Oxford 2014 - 2015: Deep Learning</a>
+    <br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; by Nando de Freitas, University of Oxford
   </span>
 </div>
 
