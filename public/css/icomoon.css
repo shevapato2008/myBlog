@@ -45,68 +45,116 @@ i.icomoon {
   color: white;
 }
 
-.icomoon-position:before {
+.icomoon-linux2:before {
   content: "\e900";
 }
-.icomoon-pin2:before {
+.icomoon-position:before {
   content: "\e901";
 }
-.icomoon-mail-envelope-open:before {
+.icomoon-pin2:before {
   content: "\e902";
 }
-.icomoon-mail-envelope-open2:before {
+.icomoon-mail-envelope-open:before {
   content: "\e903";
 }
-.icomoon-mail-envelope:before {
+.icomoon-mail-envelope-open2:before {
   content: "\e904";
 }
-.icomoon-mail-envelope2:before {
+.icomoon-mail-envelope:before {
   content: "\e905";
 }
+.icomoon-mail-envelope2:before {
+  content: "\e906";
+}
 .icomoon-location:before {
-  content: "\e906";
-}
-.icomoon-map:before {
-  content: "\e906";
-}
-.icomoon-compass:before {
-  content: "\e906";
-}
-.icomoon-direction:before {
-  content: "\e906";
-}
-.icomoon-location2:before {
-  content: "\e908";
-}
-.icomoon-map-marker:before {
-  content: "\e908";
-}
-.icomoon-marker:before {
-  content: "\e908";
-}
-.icomoon-pin:before {
-  content: "\e908";
-}
-.icomoon-lock-stroke:before {
-  content: "\e90c";
-}
-.icomoon-lock-fill:before {
-  content: "\e90d";
-}
-.icomoon-unlock-stroke:before {
-  content: "\e90e";
-}
-.icomoon-unlock-fill:before {
-  content: "\e90f";
-}
-.icomoon-tag-stroke:before {
-  content: "\e910";
-}
-.icomoon-tag-fill:before {
-  content: "\e911";
+  content: "\e907";
 }
 .icomoon-quill:before {
-  content: "\e907";
+  content: "\e908";
+}
+.icomoon-location2:before {
+  content: "\e909";
+}
+.icomoon-user-circle-o:before {
+  content: "\e90a";
+}
+.icomoon-user-circle:before {
+  content: "\e90b";
+}
+.icomoon-map-signs:before {
+  content: "\e90c";
+}
+.icomoon-lock-stroke:before {
+  content: "\e90d";
+}
+.icomoon-lock-fill:before {
+  content: "\e90e";
+}
+.icomoon-unlock-stroke:before {
+  content: "\e90f";
+}
+.icomoon-unlock-fill:before {
+  content: "\e910";
+}
+.icomoon-tag-stroke:before {
+  content: "\e911";
+}
+.icomoon-tag-fill:before {
+  content: "\e912";
+}
+.icomoon-wechat:before {
+  content: "\e913";
+}
+.icomoon-twitter-square:before {
+  content: "\e914";
+}
+.icomoon-brand4:before {
+  content: "\e915";
+}
+.icomoon-brand5:before {
+  content: "\e916";
+}
+.icomoon-brand2:before {
+  content: "\e917";
+}
+.icomoon-brand:before {
+  content: "\e918";
+}
+.icomoon-brand3:before {
+  content: "\e919";
+}
+.icomoon-algorithm:before {
+  content: "\e91a";
+}
+.icomoon-blog1:before {
+  content: "\e91b";
+}
+.icomoon-blog2:before {
+  content: "\e91c";
+}
+.icomoon-blog3:before {
+  content: "\e91d";
+}
+.icomoon-blog4:before {
+  content: "\e91e";
+}
+.icomoon-blog5:before {
+  content: "\e91f";
+}
+.icomoon-github1:before {
+  content: "\e920";
+}
+.icomoon-github2:before {
+  content: "\e921";
+}
+.icomoon-github3:before {
+  content: "\e922";
+}
+.icomoon-glasses:before {
+  content: "\e923";
+}
+.icomoon-home:before {
+  content: "\e924";
 }
 .icomoon-envelop:before {
   content: "\e945";
@@ -138,85 +186,47 @@ i.icomoon {
 .icomoon-linkedin22:before {
   content: "\eaca";
 }
-.icomoon-user-circle-o:before {
-  content: "\e909";
+.icomoon-soccer:before {
+  content: "\e925";
 }
-.icomoon-user-circle:before {
-  content: "\e90a";
+.icomoon-data:before {
+  content: "\e926";
 }
-.icomoon-map-signs:before {
-  content: "\e90b";
+.icomoon-soccer-ball:before {
+  content: "\e927";
 }
-.icomoon-wechat:before {
-  content: "\e912";
+.icomoon-soccer-court:before {
+  content: "\e928";
 }
-.icomoon-twitter-square:before {
-  content: "\e913";
+.icomoon-soccer-court2:before {
+  content: "\e929";
 }
-.icomoon-brand4:before {
-  content: "\e914";
-  color: #dc4e41;
+.icomoon-storage:before {
+  content: "\e1db";
 }
-.icomoon-brand5:before {
-  content: "\e915";
-  color: #7bb32e;
+.icomoon-database3:before {
+  content: "\e92a";
 }
-.icomoon-brand2:before {
-  content: "\e916";
-  color: #1da1f2;
+.icomoon-linux:before {
+  content: "\f17c";
 }
-.icomoon-twitter:before {
-  content: "\e916";
-  color: #1da1f2;
+.icomoon-database:before {
+  content: "\f1c0";
 }
-.icomoon-brand:before {
-  content: "\e917";
-  color: #0077b5;
+.icomoon-futbol-o:before {
+  content: "\f1e3";
 }
-.icomoon-linkedin:before {
-  content: "\e917";
-  color: #0077b5;
+.icomoon-soccer-ball-o:before {
+  content: "\f1e3";
 }
-.icomoon-brand3:before {
-  content: "\e918";
-  color: #d14836;
+.icomoon-database4:before {
+  content: "\e92b";
 }
-.icomoon-gmail:before {
-  content: "\e918";
-  color: #d14836;
+.icomoon-database5:before {
+  content: "\f096";
 }
-.icomoon-algorithm:before {
-  content: "\e919";
-}
-.icomoon-blog1:before {
-  content: "\e91a";
-}
-.icomoon-blog2:before {
-  content: "\e91b";
-}
-.icomoon-blog3:before {
-  content: "\e91c";
-}
-.icomoon-blog4:before {
-  content: "\e91d";
-}
-.icomoon-blog5:before {
-  content: "\e91e";
-}
-.icomoon-github1:before {
-  content: "\e91f";
-}
-.icomoon-github2:before {
-  content: "\e920";
-}
-.icomoon-github3:before {
-  content: "\e921";
-}
-.icomoon-glasses:before {
-  content: "\e922";
-}
-.icomoon-home:before {
-  content: "\e923";
+.icomoon-database2:before {
+  content: "\e964";
 }
 
 
