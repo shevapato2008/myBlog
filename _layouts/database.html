@@ -1,0 +1,31 @@
+---
+layout: default
+comments: false
+mathjax: true
+---
+
+<h1>Database</h1>
+
+<header>
+  <nav>
+    <ul class="nav-alg">
+      <li>
+        <a href="{{site.baseurl}}/database/sql/" {% if page.url contains 'database/sql' %}class="current"{% endif %}>
+          SQL
+        </a>
+      </li>
+      <li>
+        <a href="{{site.baseurl}}/database/nosql/" {% if page.url contains 'database/nosql' %}class="current"{% endif %}>
+          NoSQL
+        </a>
+      </li>
+    </ul>
+  </nav>
+</header>
+
+<br>
+
+{{content}}
+
+<!-- Comment Area -->
+{% include comment.html %}
