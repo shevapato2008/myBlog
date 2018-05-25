@@ -13,6 +13,10 @@ This is SQL homepage.
     - [INSERT INTO](https://www.w3schools.com/sql/sql_insert.asp)
     - [Null Values](https://www.w3schools.com/sql/sql_null_values.asp)
     - [UPDATE](https://www.w3schools.com/sql/sql_update.asp)
+    - [BETWEEN](https://www.w3schools.com/sql/sql_between.asp)
+    - [FULL OUTER JOIN](https://www.w3schools.com/sql/sql_join_full.asp)
+    - [SELF JOIN](https://www.w3schools.com/sql/sql_join_self.asp)
+    - [UNION](https://www.w3schools.com/sql/sql_union.asp)
     - [GROUP BY](https://www.w3schools.com/sql/sql_groupby.asp)
     - [HAVING](https://www.w3schools.com/sql/sql_having.asp)
 
