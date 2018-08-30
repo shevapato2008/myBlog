@@ -10,6 +10,11 @@ mathjax: true
   <nav>
     <ul class="nav-alg">
       <li>
+        <a href="{{site.baseurl}}/algorithms/languages/" {% if page.url contains 'algorithms/languages' %}class="current"{% endif %}>
+          Languages
+        </a>
+      </li>
+      <li>
         <a href="{{site.baseurl}}/algorithms/leetcode/" {% if page.url contains 'algorithms/leetcode' %}class="current"{% endif %}>
           LeetCode
         </a>
