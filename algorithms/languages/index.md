@@ -24,7 +24,12 @@ This is languages homepage.
 [[pdf]({{site.baseurl}}/algorithms/machinelearning/python/PythonBasics.pdf)]
 + [Tutorial](https://www.tutorialspoint.com/python/) &nbsp; <span style="color:#97acd5">tutorialspoint.com</span><br>
 
+<br>
 
+## Tools
+---
+### GNU Debugger (GDB)
++ [GDB手册中文版.pdf]({{ site.baseurl }}/algorithms/languages/books/GDB手册中文版.pdf)
 
 
 <br><br>
